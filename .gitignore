@@ -70,6 +70,7 @@ thumbs.db
 
 # Folders to ignore
 .idea
+.idea/
 .hg
 .svn
 .CVS
