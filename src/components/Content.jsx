@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
 
 export default function Content() {
