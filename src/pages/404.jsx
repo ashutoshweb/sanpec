@@ -13,7 +13,7 @@ export default function NotFound() {
       </Head>
       <div className="flex">
         <Link href="/" aria-label="Home">
-          <Logo className="h-10 w-auto" />
+          {/* <Logo className="h-10 w-auto" /> */}
         </Link>
       </div>
       <p className="mt-20 text-sm font-medium text-gray-700">404</p>
