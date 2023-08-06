@@ -20,7 +20,7 @@ const navigation = [
     current: true,
     children: [
       { id: 2, name: 'Engineering', href: '#', current: true },
-      { id: 3, name: 'Human Resources', href: '#', current: false },
+      { id: 121, name: 'Human Resources', href: '#', current: false },
       { id: 4, name: 'Customer Success', href: '#', current: false },
     ],
   },

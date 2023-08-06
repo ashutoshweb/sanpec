@@ -27,6 +27,7 @@ export function SideNavRow({ classNames, selected, setSelected, item }) {
               )}
               aria-hidden="true"
             />
+
           </Disclosure.Button>
           <Disclosure.Panel as="ul" className="mt-1 px-2">
             {item.children.map((subItem) => (
@@ -39,6 +40,7 @@ export function SideNavRow({ classNames, selected, setSelected, item }) {
                       : 'text-gray-400 hover:text-white hover:bg-gray-800',
                     'block rounded-md py-2 pr-2 pl-9 text-sm leading-6 text-gray-700'
                   )}
+                  onClick={() => setSelected(subItem.name)}
                 >
                   {subItem.name}
                 </a>
