@@ -29,7 +29,7 @@ export function SideNavRow({ classNames, selected, setSelected, item }) {
             />
 
           </Disclosure.Button>
-          <Disclosure.Panel as="ul" className="mt-1 px-2">
+          <Disclosure.Panel as="ul" className="mt-1 pl-8">
             {item.children.map((subItem) => (
               <li key={subItem.name}>
                 <a
@@ -38,7 +38,7 @@ export function SideNavRow({ classNames, selected, setSelected, item }) {
                     subItem.current
                       ? 'bg-gray-800 text-white'
                       : 'text-gray-400 hover:text-white hover:bg-gray-800',
-                    'block rounded-md py-2 pr-2 pl-9 text-sm leading-6 text-gray-700'
+                    'flex items-center w-full text-left group gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold'
                   )}
                   onClick={() => setSelected(subItem.name)}
                 >
