@@ -1,9 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
 
-export default function Content() {
+export function Content() {
     return (
-        <div className="relative isolate overflow-hidden bg-white py-24 sm:py-32">
+        <div className="relative isolate overflow-hidden bg-white py-24 sm:py-4">
             <div
                 className="absolute -top-80 left-[max(6rem,33%)] -z-10 transform-gpu blur-3xl sm:left-1/2 md:top-20 lg:ml-20 xl:top-3 xl:ml-56"
                 aria-hidden="true"
@@ -16,7 +16,7 @@ export default function Content() {
                     }}
                 />
             </div>
-            <div id="#" className="mx-auto max-w-7xl px-6 lg:px-8">
+            <div id="#" className="mx-auto max-w-7xl px-0">
                 <div className="mx-auto max-w-2xl lg:mx-0">
                     {/* <p className="text-lg font-semibold leading-8 tracking-tight text-indigo-600">Deploy faster</p> */}
                     <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">The Journey Of Excellence</h1>
@@ -107,3 +107,5 @@ export default function Content() {
         </div>
     )
 }
+
+export default Content;

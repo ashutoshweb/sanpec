@@ -16,7 +16,6 @@ export function SideNavRow({ classNames, selected, setSelected, item }) {
                 : 'text-gray-400 hover:text-white hover:bg-gray-800',
               'flex items-center w-full text-left group gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold'
             )}
-            onClick={() => setSelected(item.name)}
           >
             <item.icon className="h-6 w-6 shrink-0" aria-hidden="true" />
             {item.name}

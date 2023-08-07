@@ -39,6 +39,23 @@ export function Sidebar({ navigation, children }) {
         updateNav(newNav)
     }, [selected])
 
+    const LookUpComponent = () => {
+        let component = null
+        nav.forEach((item) => {
+            if (item.current) {
+                component = item.component
+            }
+            item.children?.forEach((child) => {
+                if (child.current) {
+                    component = child.component
+                }
+            })
+        })
+        return component
+    }
+    console.log("LookUpComponent:",)
+    const Test = LookUpComponent();
+
     return (
         <>
             <div>
@@ -161,9 +178,9 @@ export function Sidebar({ navigation, children }) {
                     </button>
                     <div className="flex-1 text-sm font-semibold leading-6 text-white">{selected}</div>
                 </div>
-                <main className="py-10 lg:pl-72">
-                    <div className="px-4 sm:px-6 lg:px-8">
-                        <Content />
+                <main className="lg:pl-72">
+                    <div className="h-full">
+                        {Test && <Test />}
                     </div>
                 </main>
             </div>
