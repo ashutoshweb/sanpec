@@ -4,7 +4,7 @@ import {
     Bars3Icon,
     XMarkIcon,
 } from '@heroicons/react/24/outline'
-import Content from '@/components/Content'
+import Content from '@/components/DEContent'
 import { SidebarLink } from '@/components/SideNav/SideBarLink'
 import { SideNavRow } from '@/components/SideNav/SideNavRow'
 import Link from 'next/link'
@@ -13,9 +13,9 @@ export function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
 
-export function Sidebar({ navigation, children }) {
+export function Sidebar({ navigation, firstSelected }) {
     const [sidebarOpen, setSidebarOpen] = useState(false)
-    const [selected, setSelected] = useState(navigation[0].name)
+    const [selected, setSelected] = useState(firstSelected)
     console.log("selected:", selected)
     const [nav, updateNav] = useState(navigation)
 
