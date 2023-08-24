@@ -1,6 +1,6 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
-import {Sidebar} from "@/components/SideNav/Sidebar";
-import Content from "@/components/Content";
+import { Sidebar } from "@/components/SideNav/Sidebar";
+import Content from "@/components/DEContent";
 import {
     CalendarIcon,
     ChartPieIcon,

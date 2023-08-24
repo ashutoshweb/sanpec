@@ -1,3 +1,5 @@
+import DEContent from "@/components/DEContent";
+import MOContent from "@/components/MOContent";
 import { Sidebar } from "@/components/SideNav/Sidebar";
 import {
   Bars3Icon,
@@ -9,18 +11,16 @@ import {
   UsersIcon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
-import Content from '@/components/Content'
 
 const navigation = [
   {
     id: 1,
     name: 'Transmission and Distribution',
     href: '#',
-    component: Content,
     icon: HomeIcon,
     current: true,
     children: [
-      { id: 2, name: 'Design and Engineering', href: '#', current: true },
+      { id: 2, name: 'Design and Engineering', href: '#', current: true, component: DEContent, },
       { id: 3, name: 'Asset Management', href: '#', current: false },
       { id: 5, name: 'Tower Testing', href: '#', current: false },
       { id: 6, name: 'Material Take-off', href: '#', current: false },
@@ -34,7 +34,7 @@ const navigation = [
     icon: UsersIcon,
     current: false,
     children: [
-      { id: 6, name: 'Vendor Audit', href: '#', current: false },
+      { id: 6, name: 'Vendor Audit', href: '#', current: false, component: MOContent, },
       { id: 7, name: 'Source Inspection', href: '#', current: false },
       { id: 8, name: 'Quality Controls', href: '#', current: false },
       { id: 9, name: 'Lean Manufacturing', href: '#', current: false },
@@ -57,7 +57,7 @@ const navigation = [
     name: 'Constructability Review',
     href: '#info',
     icon: CalendarIcon,
-    current: false ,
+    current: false,
     children: [
       { id: 161, name: 'IFC Package', href: '#', current: false },
       { id: 171, name: 'Construction Support', href: '#', current: false },
@@ -80,7 +80,8 @@ const navigation = [
       { id: 162, name: 'Business Excellence  ', href: '#', current: false },
     ]
   },
-  { id: 14,
+  {
+    id: 14,
     name: 'Renewables',
     href: '#contact',
     icon: ChartPieIcon,
@@ -90,15 +91,13 @@ const navigation = [
       { id: 163, name: 'Wind And Solar', href: '#', current: false },
       { id: 163, name: 'Smart Grid', href: '#', current: false },
     ]
-
   },
 ]
 
 const Power = () => {
   return (
     <div>
-      <Sidebar navigation={navigation} >
-        <Content />
+      <Sidebar navigation={navigation} firstSelected={navigation[0]?.children[0]?.name}>
       </Sidebar>
     </div>
   )
