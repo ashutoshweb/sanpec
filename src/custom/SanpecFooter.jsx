@@ -103,7 +103,7 @@ export default function SanpecFooter() {
                             alt="Company name"
                         />
                         <p className="text-sm leading-6 text-gray-300">
-                            Bringing Engineering Excellence for power grids.
+                            Bringing Engineering Excellence for electric grids.
                         </p>
                         <div className="flex space-x-6">
                             {navigation.social.map((item) => (

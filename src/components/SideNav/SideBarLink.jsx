@@ -17,7 +17,7 @@ export function SidebarLink({ item, selected, setSelected }) {
                 <a
                     href={item.href}
                     className={classNames(
-                        selected === item.name ? 'bg-gray-800 text-white' : 'text-gray-400 hover:text-white hover:bg-gray-800',
+                        selected === item.name ? 'bg-gray-800 text-white' : 'text-gray-400 hover:text-white hover:bg-indigo-800',
                         'flex items-center w-full text-left group gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold'
                     )}
                     onClick={() => setSelected(item.name)}

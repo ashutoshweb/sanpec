@@ -11,8 +11,9 @@ import logoTuple from '@/images/logos/tuple.svg'
 
 export function HeroSanpec() {
   return (
-    <Container className="pb-16 pt-20 text-center lg:pt-32">
-      <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
+    <div className="">
+        <div className="pb-16 pt-20 text-center lg:pt-32  bg-[url('https://cdn.firespring.com/images/35938bbc-24cf-4889-8219-1635aaa6edb6.jpeg')] ">
+      <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl ">
         Bringing{' '}
         <span className="relative whitespace-nowrap text-blue-600">
           <svg
@@ -45,6 +46,7 @@ export function HeroSanpec() {
           <span className="ml-3">Watch video</span>
         </Button>
       </div>
+        </div>
       <div className="mt-36 lg:mt-44">
         <p className="font-display text-base text-slate-900">
           Trusted by these six companies so far
@@ -80,6 +82,6 @@ export function HeroSanpec() {
           ))}
         </ul>
       </div>
-    </Container>
+    </div>
   )
 }

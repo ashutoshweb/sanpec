@@ -2,8 +2,8 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
 export function ContentHeader({ title }) {
     return (
-        <div className="bg-indigo-100">
-            <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:justify-between lg:px-8">
+        <div className="bg-indigo-500">
+            <div className="mx-auto max-w-7xl px-6 py-24 sm:py-24 lg:flex lg:items-center lg:justify-between lg:px-8">
                 <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                     {title}
                 </h2>

@@ -12,8 +12,8 @@ export function SideNavRow({ classNames, selected, setSelected, item }) {
           <Disclosure.Button
             className={classNames(
               selected === item.name
-                ? 'bg-gray-800 text-white'
-                : 'text-gray-400 hover:text-white hover:bg-gray-800',
+                ? 'bg-indigo-800 text-white'
+                : 'text-black-400 hover:text-white hover:bg-indigo-800',
               'flex items-center w-full text-left group gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold'
             )}
           >
@@ -35,8 +35,8 @@ export function SideNavRow({ classNames, selected, setSelected, item }) {
                   href={subItem.href}
                   className={classNames(
                     subItem.current
-                      ? 'bg-gray-800 text-white'
-                      : 'text-gray-400 hover:text-white hover:bg-gray-800',
+                      ? 'bg-indigo-800 text-white'
+                      : 'text-black-400 hover:text-white hover:bg-indigo-400',
                     'flex items-center w-full text-left group gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold'
                   )}
                   onClick={() => setSelected(subItem.name)}

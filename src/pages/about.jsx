@@ -1,6 +1,7 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
 import { Sidebar } from "@/components/SideNav/Sidebar";
-import Content from "@/components/DEContent";
+import VisionMission from "@/components/VisionMission";
+import Excellence from "@/components/Excellence";
 import {
     CalendarIcon,
     ChartPieIcon,
@@ -9,6 +10,7 @@ import {
     HomeIcon,
     UsersIcon
 } from "@heroicons/react/24/outline";
+
 
 const features = [
     {
@@ -32,10 +34,12 @@ const features = [
 const navigation = [
     {
         id: 1,
-        name: 'The Journey Of Excellence',
-        href: '#',
+        name: 'The Journey of Excellence',
+
         icon: HomeIcon,
         current: true,
+        component: Excellence
+
     },
     {
         id: 5,
@@ -43,8 +47,14 @@ const navigation = [
         href: '#business',
         icon: UsersIcon,
         current: false,
+        children: [
+            { id: 6, name: 'GraphQL API', href: '#', current: false },
+            { id: 7, name: 'iOS App', href: '#', current: false },
+            { id: 8, name: 'Android App', href: '#', current: false },
+            { id: 9, name: 'New Customer Portal', href: '#', current: false },
+        ],
     },
-    { id: 10, name: 'Vision & Mission', href: '#vision', icon: FolderIcon, current: false },
+    { id: 10, name: 'Vision & Mission', href: '#vision', icon: FolderIcon, current: false, component: VisionMission, },
     { id: 11, name: 'The Sanpec Edge', href: '#info', icon: CalendarIcon, current: false },
     { id: 12, name: 'Core Values', href: '#core', icon: DocumentDuplicateIcon, current: false },
     { id: 13, name: 'Social Impact', href: '#social', icon: ChartPieIcon, current: false },
