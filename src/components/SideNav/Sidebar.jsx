@@ -128,7 +128,7 @@ export function Sidebar({ navigation, firstSelected }) {
                 </Transition.Root>
 
                 {/* Static sidebar for desktop */}
-                <div className="hidden lg:fixed lg:inset-y-0 lg:z-0 lg:flex lg:w-72 lg:flex-col">
+                <div className="hidden lg:fixed lg:inset-y-32 lg:z-0 lg:flex lg:w-72 lg:flex-col">
                     {/* Sidebar component, swap this element with another sidebar if you like */}
                     <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-white px-6">
                         <div className="flex h-16 shrink-0 items-center">
@@ -171,7 +171,7 @@ export function Sidebar({ navigation, firstSelected }) {
                     </div>
                 </div>
 
-                <div className="sticky top-0 z-40 flex items-center gap-x-6 bg-gray-900 px-4 py-4 shadow-sm sm:px-6 lg:hidden">
+                <div className="sticky top-0 z-5 flex items-center gap-x-6 bg-indigo-900 px-4 py-4 shadow-sm sm:px-6 lg:hidden">
                     <button type="button" className="-m-2.5 p-2.5 text-gray-400 lg:hidden" onClick={() => setSidebarOpen(true)}>
                         <span className="sr-only">Open sidebar</span>
                         <Bars3Icon className="h-6 w-6" aria-hidden="true" />
