@@ -1,12 +1,15 @@
 import Head from 'next/head'
 
 import { Faqs } from '@/components/Faqs'
-import { MainFeatures } from '@/custom/MainFeatures'
+
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
 import Events from "../custom/Events";
 import {CTARegister} from "@/custom/CTARegister";
-import {HeroSanpec} from "@/custom/HeroSanpec";
+import {HeroBaldrige} from "@/custom/HeroBaldrige1";
+import Footer from '@/components/baldrige/Footer';
+import { MainFeatures } from '@/components/baldrige/MainFeatures';
+
 
 
 export default function Home() {
@@ -19,7 +22,7 @@ export default function Home() {
           content="Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited."
         />
       </Head>
-      <HeroSanpec />
+      <HeroBaldrige />
       <MainFeatures />
         <Events/>
         <CTARegister/>
@@ -28,6 +31,7 @@ export default function Home() {
       <Testimonials />
 
       <Faqs />
+      <Footer/>
     </>
   )
 }

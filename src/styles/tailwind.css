@@ -1,7 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@900&display=swap');
 
 #__next {
   min-height: 100%;
+}
+
+a:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px rgb(29 78 216); 
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+a:hover:after { transform: scaleX(1); }
+
+a.from-left:after {
+  transform-origin: left;
+}
+
+a.from-right:after {
+  transform-origin: right;
 }

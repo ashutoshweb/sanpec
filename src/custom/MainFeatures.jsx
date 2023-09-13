@@ -14,19 +14,19 @@ import envision from '@/custom-images/ENVISION1.png'
 
 const features = [
   {
-    title: 'Management',
+    title: 'Change Management',
     description:
-      "Detailed project schedules to meet construction demands, assists in vendor selections and evaluations, and helps negotiate the best pricing and delivery schedules from vendors.",
+      "Driving change success by preparing, equipping and supporting individuals to thrive through change.",
     image: hydrogen,
   },
   {
-    title: 'Logistics',
+    title: 'Disaster Management',
     description:
-      "follow up logistics planning from vendors, perform inspection of material upon arrival at port and yards, help to track bundling/packaging lists and BOL for tower components.",
+      "Business continuity management (BCM) and disaster recovery planning",
     image: screenshotExpenses,
   },
   {
-    title: 'Testing',
+    title: 'Sustainability',
     description:
       "Testing and inspection of steel pole, lattice towers, substation support structures, insulators, conductors, OPGW, guy wires, shield wires and hardware assembly",
     image: envision,
@@ -56,17 +56,17 @@ export function MainFeatures() {
     <section
       id="features"
       aria-label="Features for running your books"
-      className="relative overflow-hidden bg-blue-600 pb-28 pt-20 sm:py-32"
+      className="relative overflow-hidden  bg-[#151949]  pb-28 pt-20 sm:py-32"
     >
-      <Image
-        className="absolute left-1/2 top-1/2 max-w-none translate-x-[-44%] translate-y-[-42%]"
+      <div
+        className="absolute left-1/2 top-1/2 max-w-none translate-x-[-44%] translate-y-[-42%]  bg-[#151949] "
         src={backgroundImage}
         alt=""
         width={2245}
         height={1636}
         unoptimized
       />
-      <Container className="relative">
+      <Container className="relative bg-[#151949] ">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
             Everything you need in power sector.

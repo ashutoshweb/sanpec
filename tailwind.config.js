@@ -25,6 +25,9 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        arial: ["Arial"],
+        poppins: ['Poppins', 'sans-serif'],
+        roberto:['Roboto', 'sans-serif'],
         display: ['Lexend', ...defaultTheme.fontFamily.sans],
       },
       maxWidth: {

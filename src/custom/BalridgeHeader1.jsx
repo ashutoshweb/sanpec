@@ -18,7 +18,7 @@ const navigation = [
 ]
 
 const company = [
-    { name: 'About', href: '/about' },
+    { name: 'Services', href: '/about' },
     { name: 'Power', href: '/power'},
     { name: 'Sustainability', href: '/sustainability'},
     { name: 'Projects', href: '/projects'},
@@ -27,18 +27,18 @@ const company = [
 
 const products = [
     {
-        name: 'Analytics',
+        name: 'Change Management',
         description: 'Get a better understanding where your traffic is coming from',
-        href: '#',
+        href: '/changemanagement',
         icon: ChartPieIcon,
     },
     {
-        name: 'Engagement',
+        name: 'Disaster Management',
         description: 'Speak directly to your customers with our engagement tool',
         href: '#',
         icon: CursorArrowRaysIcon,
     },
-    { name: 'Security', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
+    { name: 'Sustainable Energy', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
     {
         name: 'Integrations',
         description: 'Your customers’ data will be safe and secure',
@@ -58,26 +58,26 @@ function classNames(...classes) {
 
 const backgroundStyle = {backgroundColor :'#151949'};
 
-
+//bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500
 
 
 export  function BalridgeHeader1() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
-        <header className="relative isolate z-10 bg-indigo-800">
+        <header className="relative isolate z-10 bg-[#151949]    font-poppins ">
 
             <nav className="mx-auto  flex max-w-7xl items-center justify-between pt-6 lg:px-8" aria-label="Global">
                 <div className="flex lg:flex-1">
                     <a href="#" className="-m-1.5 p-1.5">
                         <span className="sr-only">Your Company</span>
-                        <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+                        <img className="h-8 w-auto" src="https://higherlogicdownload.s3.amazonaws.com/BALDRIGEFOUNDATION/feca4eb6-6fe8-4830-acc6-5649178a00da/UploadedImages/BF_GlobeMainLG_2.png" alt="" />
                     </a>
                 </div>
                 <div className="flex lg:hidden">
                     <button
                         type="button"
-                        className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+                        className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
                         onClick={() => setMobileMenuOpen(true)}
                     >
                         <span className="sr-only">Open main menu</span>
@@ -86,11 +86,11 @@ export  function BalridgeHeader1() {
                 </div>
                 <div className="hidden lg:flex lg:gap-x-12">
                     {navigation.map((item) => (
-                        <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-white">
+                        <a key={item.name} href={item.href} className="text-base capitalize font-semibold leading-6 text-white">
                             {item.name}
                         </a>
                     ))}
-                    <a href="#" className="text-sm font-semibold leading-6 text-white">
+                    <a href="#" className="text-base font-semibold leading-6 text-white">
                         Log in <span aria-hidden="true">&rarr;</span>
                     </a>
                 </div>
@@ -101,8 +101,8 @@ export  function BalridgeHeader1() {
 
                 <Popover.Group className="hidden lg:flex lg:gap-x-12">
                     <Popover>
-                        <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-white">
-                            About
+                        <Popover.Button className="flex items-center gap-x-1  font-semibold leading-6 text-white">
+                            Services
                             <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
                         </Popover.Button>
 
@@ -115,10 +115,10 @@ export  function BalridgeHeader1() {
                             leaveFrom="opacity-100 translate-y-0"
                             leaveTo="opacity-0 -translate-y-1"
                         >
-                            <Popover.Panel className="absolute inset-x-0 top-0 -z-10 bg-white pt-14 shadow-lg ring-1 ring-gray-900/5">
-                                <div className="mx-auto grid max-w-7xl grid-cols-4 gap-x-4 px-6 py-10 lg:px-8 xl:gap-x-8">
+                            <Popover.Panel className="absolute inset-x-0 top-10 -z-10  mt-6 pt-14 shadow-lg ring-1 ring-gray-900/5">
+                                <div className="mx-auto grid  grid-cols-4 gap-x-4 px-6 py-10 lg:px-8 xl:gap-x-8 bg-white">
                                     {products.map((item) => (
-                                        <div key={item.name} className="group relative rounded-lg p-6 text-sm leading-6 hover:bg-gray-50">
+                                        <div key={item.name} className="group relative rounded-lg p-6 text-sm leading-6 hover:bg-gray-200">
                                             <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                                                 <item.icon className="h-6 w-6 text-gray-600 group-hover:text-indigo-600" aria-hidden="true" />
                                             </div>
@@ -126,7 +126,7 @@ export  function BalridgeHeader1() {
                                                 {item.name}
                                                 <span className="absolute inset-0" />
                                             </a>
-                                            <p className="mt-1 text-gray-600">{item.description}</p>
+                                            <p className="mt-1 text-[#151949]">{item.description}</p>
                                         </div>
                                     ))}
                                 </div>
@@ -137,7 +137,7 @@ export  function BalridgeHeader1() {
                                                 <a
                                                     key={item.name}
                                                     href={item.href}
-                                                    className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100"
+                                                    className="flex items-center justify-center gap-x-2.5 p-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-100"
                                                 >
                                                     <item.icon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
                                                     {item.description}
@@ -152,9 +152,10 @@ export  function BalridgeHeader1() {
 
 
                         {company.map((item) => (
-                            <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-white transition-all duration-150 border-b-2 border-transparent hover:border-yellow-500 " >
+                            <a key={item.name} href={item.href} className="text-base font-semibold leading-6 text-white from-left " >
                                 {item.name}
                             </a>
+                            
                         ))}
 
 
