@@ -15,10 +15,10 @@ import envision from '@/custom-images/ENVISION1.png'
 const features = [
   {
     title: 'Baldrige global community',
-    
-    content2:['CIGRE’s engine room is its global community. Across the world thousands of power system professionals are taking time out from their jobs in the industry and volunteering their time to collaboratively share their knowledge and experiences for the greater good of the industry.This unique community is underpinned by a global network of 61 CIGRE organisations referred to as the National Committees, or NCs. These on the ground organisations have an in-depth understanding of the local conditions in over 90 countries. NCs also nominate their best local talent for the 250+ Working Groups participating in CIGRE’s global knowledge programme.', 
-    'This unique community is underpinned by a global network of 61 CIGRE organisations referred to as the National Committees, or NCs. These on the ground organisations have an in-depth understanding of the local conditions in over 90 countries. NCs also nominate their best local talent for the 250+ Working Groups participating in CIGRE’s global knowledge programme.',
-    'This wide geographic spread, combined with a variety of established experts, experienced practitioners and young professionals, enables CIGRE to offer the most diverse range of power system perspectives and experiences available from any organisation. CIGRE’s community of professionals give their time and energy with an authentic desire to draw upon, share and build technical expertise, ensuring that the knowledge needed to meet the challenges of the power system is accessible to everyone.'],
+
+    content2: ['CIGRE’s engine room is its global community. Across the world thousands of power system professionals are taking time out from their jobs in the industry and volunteering their time to collaboratively share their knowledge and experiences for the greater good of the industry.This unique community is underpinned by a global network of 61 CIGRE organisations referred to as the National Committees, or NCs. These on the ground organisations have an in-depth understanding of the local conditions in over 90 countries. NCs also nominate their best local talent for the 250+ Working Groups participating in CIGRE’s global knowledge programme.',
+      'This unique community is underpinned by a global network of 61 CIGRE organisations referred to as the National Committees, or NCs. These on the ground organisations have an in-depth understanding of the local conditions in over 90 countries. NCs also nominate their best local talent for the 250+ Working Groups participating in CIGRE’s global knowledge programme.',
+      'This wide geographic spread, combined with a variety of established experts, experienced practitioners and young professionals, enables CIGRE to offer the most diverse range of power system perspectives and experiences available from any organisation. CIGRE’s community of professionals give their time and energy with an authentic desire to draw upon, share and build technical expertise, ensuring that the knowledge needed to meet the challenges of the power system is accessible to everyone.'],
     description:
       "A collaborative global community sharing knowledge and expertise",
     image: hydrogen,
@@ -26,10 +26,10 @@ const features = [
 
   {
     title: 'Baldrige global community',
-    
-    content2:['CIGRE’s engine room is its global community. Across the world thousands of power system professionals are taking time out from their jobs in the industry and volunteering their time to collaboratively share their knowledge and experiences for the greater good of the industry.This unique community is underpinned by a global network of 61 CIGRE organisations referred to as the National Committees, or NCs. These on the ground organisations have an in-depth understanding of the local conditions in over 90 countries. NCs also nominate their best local talent for the 250+ Working Groups participating in CIGRE’s global knowledge programme.', 
-    'This unique community is underpinned by a global network of 61 CIGRE organisations referred to as the National Committees, or NCs. These on the ground organisations have an in-depth understanding of the local conditions in over 90 countries. NCs also nominate their best local talent for the 250+ Working Groups participating in CIGRE’s global knowledge programme.',
-    'This wide geographic spread, combined with a variety of established experts, experienced practitioners and young professionals, enables CIGRE to offer the most diverse range of power system perspectives and experiences available from any organisation. CIGRE’s community of professionals give their time and energy with an authentic desire to draw upon, share and build technical expertise, ensuring that the knowledge needed to meet the challenges of the power system is accessible to everyone.'],
+
+    content2: ['CIGRE’s engine room is its global community. Across the world thousands of power system professionals are taking time out from their jobs in the industry and volunteering their time to collaboratively share their knowledge and experiences for the greater good of the industry.This unique community is underpinned by a global network of 61 CIGRE organisations referred to as the National Committees, or NCs. These on the ground organisations have an in-depth understanding of the local conditions in over 90 countries. NCs also nominate their best local talent for the 250+ Working Groups participating in CIGRE’s global knowledge programme.',
+      'This unique community is underpinned by a global network of 61 CIGRE organisations referred to as the National Committees, or NCs. These on the ground organisations have an in-depth understanding of the local conditions in over 90 countries. NCs also nominate their best local talent for the 250+ Working Groups participating in CIGRE’s global knowledge programme.',
+      'This wide geographic spread, combined with a variety of established experts, experienced practitioners and young professionals, enables CIGRE to offer the most diverse range of power system perspectives and experiences available from any organisation. CIGRE’s community of professionals give their time and energy with an authentic desire to draw upon, share and build technical expertise, ensuring that the knowledge needed to meet the challenges of the power system is accessible to everyone.'],
     description:
       "A collaborative global community sharing knowledge and expertise",
     image: hydrogen,
@@ -37,10 +37,10 @@ const features = [
 
   {
     title: 'Baldrige global community',
-    
-    content2:['CIGRE’s engine room is its global community. Across the world thousands of power system professionals are taking time out from their jobs in the industry and volunteering their time to collaboratively share their knowledge and experiences for the greater good of the industry.This unique community is underpinned by a global network of 61 CIGRE organisations referred to as the National Committees, or NCs. These on the ground organisations have an in-depth understanding of the local conditions in over 90 countries. NCs also nominate their best local talent for the 250+ Working Groups participating in CIGRE’s global knowledge programme.', 
-    'This unique community is underpinned by a global network of 61 CIGRE organisations referred to as the National Committees, or NCs. These on the ground organisations have an in-depth understanding of the local conditions in over 90 countries. NCs also nominate their best local talent for the 250+ Working Groups participating in CIGRE’s global knowledge programme.',
-    'This wide geographic spread, combined with a variety of established experts, experienced practitioners and young professionals, enables CIGRE to offer the most diverse range of power system perspectives and experiences available from any organisation. CIGRE’s community of professionals give their time and energy with an authentic desire to draw upon, share and build technical expertise, ensuring that the knowledge needed to meet the challenges of the power system is accessible to everyone.'],
+
+    content2: ['CIGRE’s engine room is its global community. Across the world thousands of power system professionals are taking time out from their jobs in the industry and volunteering their time to collaboratively share their knowledge and experiences for the greater good of the industry.This unique community is underpinned by a global network of 61 CIGRE organisations referred to as the National Committees, or NCs. These on the ground organisations have an in-depth understanding of the local conditions in over 90 countries. NCs also nominate their best local talent for the 250+ Working Groups participating in CIGRE’s global knowledge programme.',
+      'This unique community is underpinned by a global network of 61 CIGRE organisations referred to as the National Committees, or NCs. These on the ground organisations have an in-depth understanding of the local conditions in over 90 countries. NCs also nominate their best local talent for the 250+ Working Groups participating in CIGRE’s global knowledge programme.',
+      'This wide geographic spread, combined with a variety of established experts, experienced practitioners and young professionals, enables CIGRE to offer the most diverse range of power system perspectives and experiences available from any organisation. CIGRE’s community of professionals give their time and energy with an authentic desire to draw upon, share and build technical expertise, ensuring that the knowledge needed to meet the challenges of the power system is accessible to everyone.'],
     description:
       "A collaborative global community sharing knowledge and expertise",
     image: hydrogen,
@@ -48,10 +48,10 @@ const features = [
 
   {
     title: 'Baldrige global community',
-    
-    content2:['CIGRE’s engine room is its global community. Across the world thousands of power system professionals are taking time out from their jobs in the industry and volunteering their time to collaboratively share their knowledge and experiences for the greater good of the industry.This unique community is underpinned by a global network of 61 CIGRE organisations referred to as the National Committees, or NCs. These on the ground organisations have an in-depth understanding of the local conditions in over 90 countries. NCs also nominate their best local talent for the 250+ Working Groups participating in CIGRE’s global knowledge programme.', 
-    'This unique community is underpinned by a global network of 61 CIGRE organisations referred to as the National Committees, or NCs. These on the ground organisations have an in-depth understanding of the local conditions in over 90 countries. NCs also nominate their best local talent for the 250+ Working Groups participating in CIGRE’s global knowledge programme.',
-    'This wide geographic spread, combined with a variety of established experts, experienced practitioners and young professionals, enables CIGRE to offer the most diverse range of power system perspectives and experiences available from any organisation. CIGRE’s community of professionals give their time and energy with an authentic desire to draw upon, share and build technical expertise, ensuring that the knowledge needed to meet the challenges of the power system is accessible to everyone.'],
+
+    content2: ['CIGRE’s engine room is its global community. Across the world thousands of power system professionals are taking time out from their jobs in the industry and volunteering their time to collaboratively share their knowledge and experiences for the greater good of the industry.This unique community is underpinned by a global network of 61 CIGRE organisations referred to as the National Committees, or NCs. These on the ground organisations have an in-depth understanding of the local conditions in over 90 countries. NCs also nominate their best local talent for the 250+ Working Groups participating in CIGRE’s global knowledge programme.',
+      'This unique community is underpinned by a global network of 61 CIGRE organisations referred to as the National Committees, or NCs. These on the ground organisations have an in-depth understanding of the local conditions in over 90 countries. NCs also nominate their best local talent for the 250+ Working Groups participating in CIGRE’s global knowledge programme.',
+      'This wide geographic spread, combined with a variety of established experts, experienced practitioners and young professionals, enables CIGRE to offer the most diverse range of power system perspectives and experiences available from any organisation. CIGRE’s community of professionals give their time and energy with an authentic desire to draw upon, share and build technical expertise, ensuring that the knowledge needed to meet the challenges of the power system is accessible to everyone.'],
     description:
       "A collaborative global community sharing knowledge and expertise",
     image: hydrogen,
@@ -59,25 +59,25 @@ const features = [
 
   {
     title: 'Knowledge Programme',
-    
-    content2:['CIGRE operates the world’s foremost power system knowledge development programme of work. At its foundation is CIGRE’s unique structure and the wide spectrum of domains covered.', 
-    'The CIGRE knowledge programme is driven by key strategic themes defined by the experts of the CIGRE leadership, with the input of the community. These are based around the key drivers affecting the industry and are updated as strategic changes occur.',
-    'Strategic themes are fed into 16 consistent domains of work, each led by a dedicated Study Committee. The domains are broadly grouped by four key global power system areas – equipment, technologies, systems, new materials and IT.'],
+
+    content2: ['CIGRE operates the world’s foremost power system knowledge development programme of work. At its foundation is CIGRE’s unique structure and the wide spectrum of domains covered.',
+      'The CIGRE knowledge programme is driven by key strategic themes defined by the experts of the CIGRE leadership, with the input of the community. These are based around the key drivers affecting the industry and are updated as strategic changes occur.',
+      'Strategic themes are fed into 16 consistent domains of work, each led by a dedicated Study Committee. The domains are broadly grouped by four key global power system areas – equipment, technologies, systems, new materials and IT.'],
     description:
       "The world's foremost power system knowledge development programme",
     image: hydrogen,
   },
   {
     title: 'Disaster Management',
-    content2:['Ashu', 
-    'Das'],
+    content2: ['Ashu',
+      'Das'],
     description:
       "Business continuity management (BCM) and disaster recovery planning",
     image: screenshotExpenses,
   },
   {
     title: 'Sustainability',
-    content2:['Ashu', 'Das'],
+    content2: ['Ashu', 'Das'],
     description:
       "Testing and inspection of steel pole, lattice towers, substation support structures, insulators, conductors, OPGW, guy wires, shield wires and hardware assembly",
     image: envision,
@@ -133,7 +133,7 @@ export function MainFeatures() {
         >
           {({ selectedIndex }) => (
             <>
-              <div className="-mx-4 flex overflow-x-auto pb-4 sm:mx-0 sm:overflow-visible sm:pb-0 lg:col-span-5">
+              <div className="-mx-4 flex overflow-x-auto pb-4 sm:mx-0 sm:overflow-visible sm:pb-0 lg:col-span-5 overflow-scroll" style={{ maxHeight: "40rem", height: '40rem', 'overflow': 'scroll' }}>
                 <Tab.List className="relative z-10 flex gap-x-4 whitespace-nowrap px-4 sm:mx-auto sm:px-0 lg:mx-0 lg:block lg:gap-x-0 lg:gap-y-1 lg:whitespace-normal">
                   {features.map((feature, featureIndex) => (
                     <div
@@ -184,22 +184,19 @@ export function MainFeatures() {
                     <div className="m-5 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 ">
                       <div
                         className="max-w-3xl"
-                        
                         alt=""
-                       
-                        
                       >
                         <div class="group relative m-5">
                           <h3 class="mt-5 text-lg font-semibold leading-6 text-[#151949] group-hover:text-gray-600">
-                            
-                              <span class="absolute inset-0">
-                                </span>
-                                
-                               {feature.description}
-                               
-                                </h3>
-                                {feature.content2.map((content) => (<p className='m-3'>{content}</p> ))}
-                                  </div>
+
+                            <span class="absolute inset-0">
+                            </span>
+
+                            {feature.description}
+
+                          </h3>
+                          {feature.content2.map((content) => (<p className='m-3'>{content}</p>))}
+                        </div>
                       </div>
                     </div>
                   </Tab.Panel>
