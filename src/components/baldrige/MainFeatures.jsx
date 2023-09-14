@@ -23,40 +23,6 @@ const features = [
       "A collaborative global community sharing knowledge and expertise",
     image: hydrogen,
   },
-
-  {
-    title: 'Baldrige global community',
-    
-    content2:['CIGRE’s engine room is its global community. Across the world thousands of power system professionals are taking time out from their jobs in the industry and volunteering their time to collaboratively share their knowledge and experiences for the greater good of the industry.This unique community is underpinned by a global network of 61 CIGRE organisations referred to as the National Committees, or NCs. These on the ground organisations have an in-depth understanding of the local conditions in over 90 countries. NCs also nominate their best local talent for the 250+ Working Groups participating in CIGRE’s global knowledge programme.', 
-    'This unique community is underpinned by a global network of 61 CIGRE organisations referred to as the National Committees, or NCs. These on the ground organisations have an in-depth understanding of the local conditions in over 90 countries. NCs also nominate their best local talent for the 250+ Working Groups participating in CIGRE’s global knowledge programme.',
-    'This wide geographic spread, combined with a variety of established experts, experienced practitioners and young professionals, enables CIGRE to offer the most diverse range of power system perspectives and experiences available from any organisation. CIGRE’s community of professionals give their time and energy with an authentic desire to draw upon, share and build technical expertise, ensuring that the knowledge needed to meet the challenges of the power system is accessible to everyone.'],
-    description:
-      "A collaborative global community sharing knowledge and expertise",
-    image: hydrogen,
-  },
-
-  {
-    title: 'Baldrige global community',
-    
-    content2:['CIGRE’s engine room is its global community. Across the world thousands of power system professionals are taking time out from their jobs in the industry and volunteering their time to collaboratively share their knowledge and experiences for the greater good of the industry.This unique community is underpinned by a global network of 61 CIGRE organisations referred to as the National Committees, or NCs. These on the ground organisations have an in-depth understanding of the local conditions in over 90 countries. NCs also nominate their best local talent for the 250+ Working Groups participating in CIGRE’s global knowledge programme.', 
-    'This unique community is underpinned by a global network of 61 CIGRE organisations referred to as the National Committees, or NCs. These on the ground organisations have an in-depth understanding of the local conditions in over 90 countries. NCs also nominate their best local talent for the 250+ Working Groups participating in CIGRE’s global knowledge programme.',
-    'This wide geographic spread, combined with a variety of established experts, experienced practitioners and young professionals, enables CIGRE to offer the most diverse range of power system perspectives and experiences available from any organisation. CIGRE’s community of professionals give their time and energy with an authentic desire to draw upon, share and build technical expertise, ensuring that the knowledge needed to meet the challenges of the power system is accessible to everyone.'],
-    description:
-      "A collaborative global community sharing knowledge and expertise",
-    image: hydrogen,
-  },
-
-  {
-    title: 'Baldrige global community',
-    
-    content2:['CIGRE’s engine room is its global community. Across the world thousands of power system professionals are taking time out from their jobs in the industry and volunteering their time to collaboratively share their knowledge and experiences for the greater good of the industry.This unique community is underpinned by a global network of 61 CIGRE organisations referred to as the National Committees, or NCs. These on the ground organisations have an in-depth understanding of the local conditions in over 90 countries. NCs also nominate their best local talent for the 250+ Working Groups participating in CIGRE’s global knowledge programme.', 
-    'This unique community is underpinned by a global network of 61 CIGRE organisations referred to as the National Committees, or NCs. These on the ground organisations have an in-depth understanding of the local conditions in over 90 countries. NCs also nominate their best local talent for the 250+ Working Groups participating in CIGRE’s global knowledge programme.',
-    'This wide geographic spread, combined with a variety of established experts, experienced practitioners and young professionals, enables CIGRE to offer the most diverse range of power system perspectives and experiences available from any organisation. CIGRE’s community of professionals give their time and energy with an authentic desire to draw upon, share and build technical expertise, ensuring that the knowledge needed to meet the challenges of the power system is accessible to everyone.'],
-    description:
-      "A collaborative global community sharing knowledge and expertise",
-    image: hydrogen,
-  },
-
   {
     title: 'Knowledge Programme',
     
@@ -120,7 +86,7 @@ export function MainFeatures() {
       <Container className="relative bg-[#151949] ">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need in power sector.
+            Everything you need for your  business.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
             We excel at all these and give you the best the industry provides.
@@ -198,7 +164,7 @@ export function MainFeatures() {
                                {feature.description}
                                
                                 </h3>
-                                {feature.content2.map((content) => (<p className='m-3'>{content}</p> ))}
+                                {feature.content2.map((content,index) => (<p key= {index}className='m-3'>{content}</p> ))}
                                   </div>
                       </div>
                     </div>

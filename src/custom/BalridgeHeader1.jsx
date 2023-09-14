@@ -11,18 +11,16 @@ import {
 import {ChevronDownIcon, PhoneIcon, PlayCircleIcon, RectangleGroupIcon} from '@heroicons/react/20/solid';
 
 const navigation = [
-  {name: 'Product', href: '#'},
-  {name: 'Features', href: '#'},
-  {name: 'Marketplace', href: '#'},
-  {name: 'Company', href: '#'},
+  {name: 'PRODUCT', href: '#'},
+  {name: 'FEATURES', href: '#'},
+  {name: 'COMPANY', href: '#'},
 ];
 
 const company = [
-  {name: 'Services', href: '/about'},
-  {name: 'Power', href: '/power'},
-  {name: 'Sustainability', href: '/sustainability'},
-  {name: 'Projects', href: '/projects'},
-  {name: 'Research', href: '/research'},
+  {name: 'POWER', href: '/power'},
+  {name: 'SUSTAIABILITY', href: '/sustainability'},
+  {name: 'PROJECTS', href: '/projects'},
+  {name: 'RESEARCH', href: '/research'},
 ];
 
 const products = [
@@ -108,7 +106,7 @@ export function BalridgeHeader1() {
             <Popover.Group className="hidden lg:flex lg:gap-x-12">
               <Popover>
                 <Popover.Button className="flex items-center gap-x-1  font-semibold leading-6 text-white">
-                  Services
+                  SERVICES
                   <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true"/>
                 </Popover.Button>
 
