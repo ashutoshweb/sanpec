@@ -18,7 +18,7 @@ const navigation = [
 ]
 
 const company = [
-    { name: 'Services', href: '/about' },
+    { name: 'SERVICES', href: '/about' },
     { name: 'Power', href: '/power'},
     { name: 'Sustainability', href: '/sustainability'},
     { name: 'Projects', href: '/projects'},
@@ -30,20 +30,20 @@ const products = [
         name: 'Change Management',
         description: 'Get a better understanding where your traffic is coming from',
         href: '/changemanagement',
-        icon: ChartPieIcon,
+        
     },
     {
         name: 'Disaster Management',
         description: 'Speak directly to your customers with our engagement tool',
         href: '#',
-        icon: CursorArrowRaysIcon,
+        
     },
     { name: 'Sustainable Energy', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
     {
         name: 'Integrations',
         description: 'Your customers’ data will be safe and secure',
         href: '#',
-        icon: SquaresPlusIcon,
+       
     },
 ]
 const callsToAction = [
@@ -119,9 +119,7 @@ export  function BalridgeHeader1() {
                                 <div className="mx-auto grid  grid-cols-4 gap-x-4 px-6 py-10 lg:px-8 xl:gap-x-8 bg-white">
                                     {products.map((item) => (
                                         <div key={item.name} className="group relative rounded-lg p-6 text-sm leading-6 hover:bg-gray-200">
-                                            <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                                                <item.icon className="h-6 w-6 text-gray-600 group-hover:text-indigo-600" aria-hidden="true" />
-                                            </div>
+                                           
                                             <a href={item.href} className="mt-6 block font-semibold text-gray-900">
                                                 {item.name}
                                                 <span className="absolute inset-0" />
