@@ -1,5 +1,6 @@
-import { Footer } from '@/components/Footer'
+
 import { BalridgeHeader1 } from '@/components/baldrige/BalridgeHeader1'
+import Footer from './Footer';
 
 
 
@@ -12,6 +13,8 @@ export function Layout({ children }) {
       <main>{children}</main>
 
       <Footer/>
+
+     
     </>
   )
 }
