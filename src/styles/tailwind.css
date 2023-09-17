@@ -8,19 +8,19 @@
   min-height: 100%;
 }
 
-a:after {
+.anime-href:after {
   display:block;
   content: '';
   border-bottom: solid 3px rgb(29 78 216); 
   transform: scaleX(0);  
   transition: transform 250ms ease-in-out;
 }
-a:hover:after { transform: scaleX(1); }
+.anime-href:hover:after { transform: scaleX(1); }
 
-a.from-left:after {
+.anime-href.from-left:after {
   transform-origin: left;
 }
 
-a.from-right:after {
+.anime-href.from-right:after {
   transform-origin: right;
 }

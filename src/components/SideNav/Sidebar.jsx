@@ -131,15 +131,7 @@ export function Sidebar({ navigation, firstSelected }) {
                 <div className="hidden lg:fixed lg:inset-y-32 lg:z-0 lg:flex lg:w-72 lg:flex-col">
                     {/* Sidebar component, swap this element with another sidebar if you like */}
                     <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-white px-6">
-                        <div className="flex h-16 shrink-0 items-center">
-                            <Link href="/">
-                                <img
-                                    className="h-8 w-auto"
-                                    src="https://cdn.firespring.com/images/e2e5a88a-f06b-43b7-9f5e-556a83a3d522.png"
-                                    alt="Your Company"
-                                />
-                            </Link>
-                        </div>
+                        
                         <nav className="flex flex-1 flex-col">
                             <ul role="list" className="flex flex-1 flex-col gap-y-7">
                                 <li>
