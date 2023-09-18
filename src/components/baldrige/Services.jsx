@@ -13,11 +13,13 @@ import hydrogen from '@/custom-images/Hydrogen-production-plants_.jpg'
 import envision from '@/custom-images/ENVISION1.png'
 import { BalridgeHeader1 } from '@/components/baldrige/BalridgeHeader1'
 import DEContent from '../DEContent'
-import Footer from './Footer'
-import Power from '@/pages/power'
+import KnowledgeFeature from './features/Knowledge'
+import AboutBaldrige from '@/pages/aboutus'
+
+
 import Events from '@/custom/Events'
-import AboutBaldrige from '@/pages/AboutUs';
-import AboutUs from './AboutUs'
+
+import CommunityFeature from './features/community';
 
 let name = 'Ashu'
 
@@ -76,10 +78,10 @@ const features = [
 ]
 
 const compMap = {
-  0: <AboutUs/>,
-  1: <Events />,
-  2: <DEContent />,
-  3: <Events />,
+  0: <CommunityFeature/>,
+  1: <KnowledgeFeature />,
+  2: <AboutBaldrige />,
+  3: <Events />
 }
 
 export function Services() {
@@ -133,8 +135,8 @@ export function Services() {
               <div
                 className="-mx-4 flex overflow-scroll overflow-x-auto pb-4 sm:mx-0 sm:overflow-visible  sm:pb-0 lg:col-span-5"
                 style={{
-                  maxHeight: '50rem',
-                  height: '50rem',
+                  maxHeight: '70rem',
+                  height: '70rem',
                   overflow: 'scroll',
                 }}
               >
@@ -145,8 +147,8 @@ export function Services() {
                       className={clsx(
                         'group relative rounded-full px-4 py-1 lg:rounded-l-xl lg:rounded-r-none lg:p-6',
                         selectedIndex === featureIndex
-                          ? 'bg-gray-800/100 lg:ring-1 lg:ring-inset'
-                          : 'hover:bg-white/10 lg:hover:bg-white/5'
+                          ? ' bg-gradient-to-r from-indigo-500/10 via-purple-500 to-blue-500/10 lg:ring-1 lg:ring-inset'
+                          : 'hover:bg-white/10 lg:hover:bg-white/10'
                       )}
                     >
                       <h3>
@@ -176,15 +178,15 @@ export function Services() {
                   ))}
                 </Tab.List>
               </div>
-              <Tab.Panels className="lg:col-span-7 border-white border-2 " style={{
+              <Tab.Panels className="lg:col-span-7 bg-white border-white border-2 " style={{
                   minHeight: '50rem',
-                  height: '50rem',
+                  height: '70rem',
                   overflow: 'scroll',
                  
                  
                 }}>
                 {features.map((feature) => (
-                  <div flex w-100 className='border-white border-2'>
+                  <div flex w-100 className='border-white  border-2'>
                     <Tab.Panel key={feature.title} unmount={false}>
                    
                         {compMap[selectedIndex]}

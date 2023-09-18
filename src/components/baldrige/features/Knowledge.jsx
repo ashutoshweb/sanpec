@@ -26,32 +26,38 @@ const stats = [
 const values = [
   {
     name: 'Be world-class.',
-    description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.',
+    description:
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.',
     icon: RocketLaunchIcon,
   },
   {
     name: 'Take responsibility.',
-    description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
+    description:
+      'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
     icon: HandRaisedIcon,
   },
   {
     name: 'Be supportive.',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus voluptas blanditiis et.',
+    description:
+      'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus voluptas blanditiis et.',
     icon: UserGroupIcon,
   },
   {
     name: 'Always learning.',
-    description: 'Iure sed ab. Aperiam optio placeat dolor facere. Officiis pariatur eveniet atque et dolor.',
+    description:
+      'Iure sed ab. Aperiam optio placeat dolor facere. Officiis pariatur eveniet atque et dolor.',
     icon: AcademicCapIcon,
   },
   {
     name: 'Share everything you know.',
-    description: 'Laudantium tempora sint ut consectetur ratione. Ut illum ut rem numquam fuga delectus.',
+    description:
+      'Laudantium tempora sint ut consectetur ratione. Ut illum ut rem numquam fuga delectus.',
     icon: SparklesIcon,
   },
   {
     name: 'Enjoy downtime.',
-    description: 'Culpa dolorem voluptatem velit autem rerum qui et corrupti. Quibusdam quo placeat.',
+    description:
+      'Culpa dolorem voluptatem velit autem rerum qui et corrupti. Quibusdam quo placeat.',
     icon: SunIcon,
   },
 ]
@@ -163,14 +169,11 @@ const footerNavigation = {
   ],
 }
 
-export default function AboutUs() {
+export default function KnowledgeFeature() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="bg-white">
-     
-      
-
+    <div className="bg-white text-[#151949]">
       <main className="relative isolate">
         {/* Background */}
         <div
@@ -187,62 +190,97 @@ export default function AboutUs() {
         </div>
 
         {/* Header section */}
-        <div className="px-6 pt-14 lg:px-8">
-          <div className="mx-auto max-w-2xl pt-24 text-center sm:pt-40">
-            <h2 className="text-4xl font-bold tracking-tight text-[#151949] sm:text-6xl">We love creators</h2>
+        <div className="px-6  lg:px-8">
+          <div className="mx-auto max-w-2xl pt-10 text-center ">
+            <h2 className="text-4xl font-bold tracking-tight text-[#151949] sm:text-4xl">
+              Knowledge Program
+            </h2>
             <p className="mt-6 text-lg leading-8 text-[#151949]">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-              fugiat veniam occaecat fugiat aliqua.
+              The world's foremost power system knowledge development programme
             </p>
           </div>
         </div>
 
         {/* Content section */}
-        <div className="mx-auto mt-20 max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto mt-10 max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
+
+          <div>
+              <p className="mt-4">
+                <h3 className="text-2xl font-bold tracking-tight  sm:text-2xl">
+                Knowledge Program
+                </h3>
+              </p>
+
+              <p className="mt-4">
+              Baldrige operates the world’s foremost power system knowledge
+              development programme of work. At its foundation is CIGRE’s unique
+              structure and the wide spectrum of domains covered.
+              </p>
+            </div>
+
+            
+            <p className="mt-4">
+              <h3 className="text-2xl font-bold tracking-tight text-[#151949] sm:text-2xl">
+                A strategic response to challenges
+              </h3>
+            </p>
+
             <div className="grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-[#151949] lg:max-w-none lg:grid-cols-2">
               <div>
                 <p>
-                  Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet
-                  vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque
-                  erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
-                  semper sed amet vitae sed turpis id.
-                </p>
-                <p className="mt-8">
-                  Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie
-                  auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices
-                  hac adipiscing egestas.
+                  The wide geographic spread, combined with a variety of
+                  established experts, experienced practitioners and young
+                  professionals, enables Baldrige to offer the most diverse
+                  range of power system perspectives and experiences available
+                  from any organisation. Baldrige’s community of professionals
+                  give their time and energy with an authentic desire to draw
+                  upon, share and build technical expertise, ensuring that the
+                  knowledge needed to meet the challenges of the power system is
+                  accessible to everyone.
                 </p>
               </div>
               <div>
                 <p>
-                  Erat pellentesque dictumst ligula porttitor risus eget et eget. Ultricies tellus felis id dignissim
-                  eget. Est augue maecenas risus nulla ultrices congue nunc tortor. Enim et nesciunt doloremque nesciunt
-                  voluptate.
-                </p>
-                <p className="mt-8">
-                  Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie
-                  auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices
-                  hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
+                  <img
+                    alt="knowledge programme"
+                    src="https://www.cigre.org/userfiles/images/Knowledge_programme/CIGRE_Knowledge_programme_2.png"
+                  />
                 </p>
               </div>
             </div>
-            
+            <div>
+              <p className="mt-4">
+                <h3 className="text-2xl font-bold tracking-tight text-[#151949] sm:text-2xl">
+                  Domains of work
+                </h3>
+              </p>
+
+              <p className="mt-4">
+                Strategic themes are fed into 16 consistent domains of work,
+                each led by a dedicated Study Committee. The domains are broadly
+                grouped by four key global power system areas – equipment,
+                technologies, systems, new materials and IT.
+              </p>
+            </div>
+
+            <div>
+              <p className="mt-4">
+                <h3 className="text-2xl font-bold tracking-tight text-[#151949] sm:text-2xl">
+                A unique approach
+                </h3>
+              </p>
+
+              <p className="mt-4">
+              Baldrige’s uniquely dispersed but centrally coordinated way of working offers an integrated knowledge programme 
+              that accounts for the global drivers changing the power system, while ensuring that these are connected with the NCs real world, local situations.
+              </p>
+            </div>
           </div>
         </div>
 
-        
-
-       
-
-        
-
         {/* CTA section */}
-        
       </main>
-
-      
-      
     </div>
   )
 }

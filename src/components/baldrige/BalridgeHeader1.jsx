@@ -150,13 +150,13 @@ export function BalridgeHeader1() {
                           key={item.name}
                           className="group relative rounded-lg p-6 text-sm leading-6 hover:bg-gray-200"
                         >
-                          <a
+                          <Link
                             href={item.href}
                             className="mt-6 block font-semibold text-gray-900"
                           >
                             {item.name}
                             <span className="absolute inset-0" />
-                          </a>
+                          </Link>
                           <p className="mt-1 text-[#151949]">
                             {item.description}
                           </p>
