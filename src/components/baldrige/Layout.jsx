@@ -8,10 +8,7 @@ export function Layout({ children }) {
   return (
     <>
       <BalridgeHeader1 />
-
-
       <main>{children}</main>
-
       <Footer/>
 
      
