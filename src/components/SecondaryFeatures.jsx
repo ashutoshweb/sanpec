@@ -115,22 +115,22 @@ function Feature({ feature, isActive, className, ...props }) {
       <h3
         className={clsx(
           'mt-6 text-sm font-medium',
-          isActive ? 'text-blue-600' : 'text-slate-600'
+          isActive ? 'text-[#e8b44b]' : 'text-white'
         )}
       >
         {feature.name}
       </h3>
-      <p className="mt-2 font-display text-xl text-slate-900">
+      <p className="mt-2 font-display text-xl text-white">
         {feature.summary}
       </p>
-      <p className="mt-4 text-sm text-slate-600">{feature.description}</p>
+      <p className="mt-4 text-sm text-white">{feature.description}</p>
     </div>
   )
 }
 
 function FeaturesMobile() {
   return (
-    <div className="-mx-4 mt-20 flex flex-col gap-y-10 overflow-hidden px-4 sm:-mx-6 sm:px-6 lg:hidden">
+    <div className="-mx-4 mt-20 flex flex-col gap-y-10 overflow-hidden px-4 sm:-mx-6 sm:px-6 lg:hidden bg-[#151949]">
       {features.map((feature) => (
         <div key={feature.name}>
           <Feature feature={feature} className="mx-auto max-w-2xl" isActive />
@@ -156,7 +156,7 @@ function FeaturesDesktop() {
     <Tab.Group as="div" className="hidden lg:mt-20 lg:block">
       {({ selectedIndex }) => (
         <>
-          <Tab.List className="grid grid-cols-3 gap-x-8">
+          <Tab.List className="grid grid-cols-3 gap-x-8   ">
             {features.map((feature, featureIndex) => (
               <Feature
                 key={feature.name}
@@ -170,7 +170,7 @@ function FeaturesDesktop() {
                   ),
                 }}
                 isActive={featureIndex === selectedIndex}
-                className="relative"
+                className="relative bg-[#151949] rounded-2xl p-6 shadow-xl shadow-slate-900"
               />
             ))}
           </Tab.List>
@@ -211,7 +211,7 @@ export function SecondaryFeatures() {
     <section
       id="secondary-features"
       aria-label="Features for simplifying everyday business tasks"
-      className="pb-14 pt-20 sm:pb-20 sm:pt-32 lg:pb-32"
+      className="pb-14 pt-20 sm:pb-20 sm:pt-12 lg:pb-32"
     >
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
