@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState }  from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import {
@@ -202,7 +202,7 @@ export default function AboutBaldrige() {
             <div className="grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-white lg:max-w-none lg:grid-cols-2 text-xl">
               <div>
                 <p>
-                The Baldrige Foundation's Institute for Performance Excellence 
+                The Baldrige Foundation&apos;s Institute for Performance Excellence 
                 is a thought leader on performance excellence, leadership, and management.
                 </p>
                 <p className="mt-8">

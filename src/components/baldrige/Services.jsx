@@ -186,7 +186,7 @@ export function Services() {
                  
                 }}>
                 {features.map((feature) => (
-                  <div flex w-100 className='border-white  border-2'>
+                  <div key={feature.title} flex w-100 className='border-white  border-2'>
                     <Tab.Panel key={feature.title} unmount={false}>
                    
                         {compMap[selectedIndex]}
