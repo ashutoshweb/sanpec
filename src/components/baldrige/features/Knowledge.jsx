@@ -233,7 +233,7 @@ export default function KnowledgeFeature() {
                   established experts, experienced practitioners and young
                   professionals, enables Baldrige to offer the most diverse
                   range of power system perspectives and experiences available
-                  from any organisation. Baldrige's community of professionals
+                  from any organisation. Baldrige&apos;s community of professionals
                   give their time and energy with an authentic desire to draw
                   upon, share and build technical expertise, ensuring that the
                   knowledge needed to meet the challenges of the power system is
