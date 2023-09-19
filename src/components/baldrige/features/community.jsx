@@ -233,7 +233,7 @@ export default function CommunityFeature() {
                   />
                 </p>
                 <p className="mt-8">
-                  Baldrige's diverse culture offers a unique parallel career
+                  Baldrige&apos;s diverse culture offers a unique parallel career
                   path towards excellence in a chosen power system field.
                 </p>
               </div>
