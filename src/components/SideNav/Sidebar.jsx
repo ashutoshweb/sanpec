@@ -58,7 +58,7 @@ export function Sidebar({ navigation, firstSelected }) {
 
     return (
         <>
-            <div>
+            <div className="lg:flex">
                 <Transition.Root show={sidebarOpen} as={Fragment}>
                     <Dialog as="div" className="relative z-50 lg:hidden" onClose={setSidebarOpen}>
                         <Transition.Child
@@ -128,9 +128,9 @@ export function Sidebar({ navigation, firstSelected }) {
                 </Transition.Root>
 
                 {/* Static sidebar for desktop */}
-                <div className="hidden lg:fixed lg:inset-y-32 lg:z-0 lg:flex lg:w-72 lg:flex-col">
+                <div className="hidden lg:flex lg:h-[550px] lg:w-72 lg:my-3 overflow-y-auto">
                     {/* Sidebar component, swap this element with another sidebar if you like */}
-                    <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-white px-6">
+                    <div className="flex flex-col gap-y-5 bg-white px-6 overflow-y-auto">
                         
                         <nav className="flex flex-1 flex-col">
                             <ul role="list" className="flex flex-1 flex-col gap-y-7">
@@ -170,7 +170,7 @@ export function Sidebar({ navigation, firstSelected }) {
                     </button>
                     <div className="flex-1 text-sm font-semibold leading-6 text-white">{selected}</div>
                 </div>
-                <main className="lg:pl-72">
+                <main>
                     <div className="h-full">
                         {Test && <Test />}
                     </div>
