@@ -196,7 +196,7 @@ export default function KnowledgeFeature() {
               Knowledge Program
             </h2>
             <p className="mt-6 text-lg leading-8 text-[#151949]">
-              The world's foremost power system knowledge development programme
+              The world&apos;s foremost power system knowledge development programme
             </p>
           </div>
         </div>
@@ -233,7 +233,7 @@ export default function KnowledgeFeature() {
                   established experts, experienced practitioners and young
                   professionals, enables Baldrige to offer the most diverse
                   range of power system perspectives and experiences available
-                  from any organisation. Baldrige’s community of professionals
+                  from any organisation. Baldrige's community of professionals
                   give their time and energy with an authentic desire to draw
                   upon, share and build technical expertise, ensuring that the
                   knowledge needed to meet the challenges of the power system is
