@@ -25,35 +25,26 @@ const stats = [
 ]
 const values = [
   {
-    name: 'Be world-class.',
-    description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.',
+    name: 'Unwavering Commitment',
+    description: 'to Continuous Improvement and Organizational Performance Excellence.',
     icon: RocketLaunchIcon,
   },
   {
-    name: 'Take responsibility.',
-    description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
+    name: 'Trust',
+    description: 'through teamwork, open communication, transparency, diversity and inclusion.',
     icon: HandRaisedIcon,
   },
   {
-    name: 'Be supportive.',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus voluptas blanditiis et.',
+    name: 'Visionary Leadership',
+    description: 'focused on results and creating value for all partner organizations.',
     icon: UserGroupIcon,
   },
   {
-    name: 'Always learning.',
-    description: 'Iure sed ab. Aperiam optio placeat dolor facere. Officiis pariatur eveniet atque et dolor.',
+    name: 'Innovation',
+    description: 'aking creative risks to build a more agile organization that drives transformative change internally and in response to our partner organizations needs',
     icon: AcademicCapIcon,
   },
-  {
-    name: 'Share everything you know.',
-    description: 'Laudantium tempora sint ut consectetur ratione. Ut illum ut rem numquam fuga delectus.',
-    icon: SparklesIcon,
-  },
-  {
-    name: 'Enjoy downtime.',
-    description: 'Culpa dolorem voluptatem velit autem rerum qui et corrupti. Quibusdam quo placeat.',
-    icon: SunIcon,
-  },
+  
 ]
 const team = [
   {
@@ -189,7 +180,7 @@ export default function AboutBaldrige() {
         {/* Header section */}
         <div className="px-6 pt-5 lg:px-8">
           <div className="mx-auto max-w-2xl pt-24 text-center sm:pt-10">
-            <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Institute for Performance Excellence</h2>
+            <h2 className="text-4xl font-bold tracking-tight text-[#e8b44b] sm:text-6xl">Institute for Performance Excellence</h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
             Leadership | Performance Excellence | Quality | Innovation
             </p>
@@ -199,7 +190,7 @@ export default function AboutBaldrige() {
         {/* Content section */}
         <div className="mx-auto mt-20 max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
-            <div className="grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-white lg:max-w-none lg:grid-cols-2 text-xl">
+            <div className="grid max-w-xl grid-cols-1 gap-8 leading-7 text-white lg:max-w-none lg:grid-cols-2 text-xl">
               <div>
                 <p>
                 The Baldrige Foundation&apos;s Institute for Performance Excellence 
@@ -242,8 +233,39 @@ export default function AboutBaldrige() {
           />
         </div>
 
+        <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-12 lg:px-8">
+          <div className="mx-auto max-w-2xl lg:mx-0">
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Our Vison</h2>
+            <p className="mt-6 text-lg leading-8 text-white">
+            To be the global academic leader in the study, promotion, and practice of performance excellence, leadership, and management.
+            </p>
+          </div>
+          
+        </div>
+
+        <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-12 lg:px-8">
+          <div className="mx-auto max-w-2xl lg:mx-0">
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Our Mission</h2>
+            <p className="mt-6 text-lg leading-8 text-white">
+              To improve the practice of leadership and management in pursuit of performance excellence and its impact in an ever-changing world.
+            </p>
+          </div>
+          
+        </div>
+
+        <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-12 lg:px-8">
+          <div className="mx-auto max-w-2xl lg:mx-0">
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Purpose</h2>
+            <p className="mt-6 text-lg leading-8 text-white">
+            To help people and organizations learn and grow in the pursuit of performance excellence.
+            </p>
+          </div>
+          
+        </div>
+        
+
         {/* Values section */}
-        <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
+        <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-12 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Our values</h2>
             <p className="mt-6 text-lg leading-8 text-white">
@@ -251,10 +273,10 @@ export default function AboutBaldrige() {
               dolor cupiditate blanditiis.
             </p>
           </div>
-          <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 text-white sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-16">
+          <dl className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 text-white sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-16">
             {values.map((value) => (
               <div key={value.name} className="relative pl-9">
-                <dt className="inline font-semibold text-white">
+                <dt className="inline font-semibold text-[#e8b44b]">
                   <value.icon className="absolute left-1 top-1 h-5 w-5 text-indigo-500" aria-hidden="true" />
                   {value.name}
                 </dt>{' '}
@@ -289,7 +311,7 @@ export default function AboutBaldrige() {
         </div>
 
         {/* CTA section */}
-        <div className="relative isolate -z-10 mt-32 sm:mt-40">
+        <div className="relative isolate -z-10 mt-32 sm:mt-12">
           <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="mx-auto flex max-w-2xl flex-col gap-16 bg-white/5 px-6 py-16 ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20">
               <img

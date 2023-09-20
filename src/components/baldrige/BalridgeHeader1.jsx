@@ -24,10 +24,10 @@ const navigation = [
 ]
 
 const company = [
-  { name: 'POWER', href: '/power' },
-  { name: 'SUSTAIABILITY', href: '/sustainability' },
-  { name: 'PROJECTS', href: '/projects' },
-  { name: 'RESEARCH', href: '/research' },
+  { name: 'Power', href: '/power' },
+  { name: 'Sustainability', href: '/sustainability' },
+  { name: 'Projects', href: '/projects' },
+  { name: 'Research', href: '/research' },
 ]
 
 const products = [
@@ -50,7 +50,7 @@ const products = [
   {
     name: 'Integrations',
     description: 'Your customers’ data will be safe and secure',
-    href: '#',
+    href: '/integrations',
   },
 ]
 const callsToAction = [
@@ -76,15 +76,13 @@ export function BalridgeHeader1() {
         <div className="flex-1">
           <div className="3 mt-4 cursor-pointer p-1.5">
             <span className="sr-only">Your Company</span>
-            <Link  key="logo"
-                  href="/">
-            <img
-              className="h-20"
-              src="https://higherlogicdownload.s3.amazonaws.com/BALDRIGEFOUNDATION/feca4eb6-6fe8-4830-acc6-5649178a00da/UploadedImages/BF_GlobeMainLG_2.png"
-              alt=""
-            />
+            <Link key="logo" href="/">
+              <img
+                className="h-20"
+                src="https://higherlogicdownload.s3.amazonaws.com/BALDRIGEFOUNDATION/feca4eb6-6fe8-4830-acc6-5649178a00da/UploadedImages/BF_GlobeMainLG_2.png"
+                alt=""
+              />
             </Link>
-           
           </div>
         </div>
         <div>
@@ -107,7 +105,7 @@ export function BalridgeHeader1() {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="anime-href text-base font-semibold capitalize leading-6 text-white"
+                  className="anime-href text-base font-semibold  leading-6 text-[#e8b44b]"
                 >
                   {item.name}
                 </Link>
@@ -126,8 +124,8 @@ export function BalridgeHeader1() {
           >
             <Popover.Group className="hidden lg:flex lg:gap-x-12">
               <Popover>
-                <Popover.Button className="anime-href flex items-center gap-x-1  font-semibold leading-6 text-white">
-                  SERVICES
+                <Popover.Button className="anime-href flex items-center gap-x-1  text-xl font-semibold leading-6 text-white">
+                  Services
                   <ChevronDownIcon
                     className="h-5 w-5 flex-none text-gray-400"
                     aria-hidden="true"
@@ -148,40 +146,22 @@ export function BalridgeHeader1() {
                       {products.map((item) => (
                         <div
                           key={item.name}
-                          className="group relative rounded-lg p-6 text-sm leading-6 hover:bg-gray-200"
+                          className="group relative rounded-lg p-2 text-sm leading-6 hover:bg-gray-200 "
                         >
                           <Link
                             href={item.href}
-                            className="mt-6 block font-semibold text-gray-900"
+                            className="mt-6 block text-xl font-semibold hover:text-[#151949]  hover:text-2xl"
                           >
                             {item.name}
                             <span className="absolute inset-0" />
                           </Link>
-                          <p className="mt-1 text-[#151949]">
+                          <p className="mt-1 text-[#151949] text-base">
                             {item.description}
                           </p>
                         </div>
                       ))}
                     </div>
-                    <div className="bg-gray-50">
-                      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                        <div className="grid grid-cols-3 divide-x divide-gray-900/5 border-x border-gray-900/5">
-                          {callsToAction.map((item) => (
-                            <Link
-                              key={item.name}
-                              href={item.href}
-                              className="anime-href flex items-center justify-center gap-x-2.5 p-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-100"
-                            >
-                              <item.icon
-                                className="h-5 w-5 flex-none text-gray-400"
-                                aria-hidden="true"
-                              />
-                              {item.description}
-                            </Link>
-                          ))}
-                        </div>
-                      </div>
-                    </div>
+                    
                   </Popover.Panel>
                 </Transition>
               </Popover>
@@ -190,7 +170,7 @@ export function BalridgeHeader1() {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="anime-href from-left text-base font-semibold leading-6 text-white "
+                  className="anime-href from-left text-xl font-semibold leading-6 text-white "
                 >
                   {item.name}
                 </Link>

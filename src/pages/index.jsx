@@ -9,6 +9,7 @@ import {CTARegister} from "@/custom/CTARegister";
 import {HeroBaldrige} from "@/custom/HeroBaldrige1";
 import Footer from '@/components/baldrige/Footer';
 import { Services } from '@/components/baldrige/Services';
+import MobServices from '@/components/baldrige/MobServices';
 
 
 
@@ -27,7 +28,9 @@ export default function Home() {
       <SecondaryFeatures />
      
       <Services />
+      <MobServices/>
       <Events/>
+      <MobServices/>
         
       
 

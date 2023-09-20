@@ -11,7 +11,7 @@
 .anime-href:after {
   display:block;
   content: '';
-  border-bottom: solid 3px ; 
+  border-bottom: solid 6px ; 
   border-image: 
   linear-gradient(to right, rgba(99, 102, 241, 0.1), rgb(168, 85, 247), rgba(59, 130, 246, 0.1)) 0 0 100% 0;
   transform: scaleX(0);  

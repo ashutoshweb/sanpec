@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import Link from 'next/link'
 
 const navigation = [
   { name: 'Product', href: '#' },
@@ -94,9 +95,9 @@ export  function HeroBaldrige() {
           </div>
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-            Institute for Performance Excellence
+            Institute for Resilience and Sustainability
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-300">
+            <p className="mt-6 text-lg leading-8 text-[#e8b44b]">
             Leadership | Performance Excellence | Quality | Innovation
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
@@ -106,9 +107,9 @@ export  function HeroBaldrige() {
               >
                 Get started
               </a>
-              <a href="#" className="text-sm font-semibold leading-6 text-white">
+              <Link href="/aboutus" className="text-sm font-semibold leading-6 text-white">
                 Learn more <span aria-hidden="true">→</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

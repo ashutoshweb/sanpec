@@ -7,14 +7,16 @@ import { Container } from '@/components/Container'
 import screenshotContacts from '@/images/screenshots/contacts.png'
 import screenshotInventory from '@/images/screenshots/inventory.png'
 import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
+import baldrigeMain from '@/custom-images/baldrige-framework_home.jpeg'
+import awardBaldrige from '@/custom-images/Award_Artwork_home_Final.jpeg'
 
 const features = [
   {
-    name: 'Reporting',
-    summary: 'Stay on top of things with always up-to-date reporting features.',
+    name: 'Framework',
+    summary: 'Baldrige Excellence Framework',
     description:
-      'We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.',
-    image: screenshotProfitLoss,
+      'For more than 32 years, the Baldrige Excellence Framework® has empowered organizations to accomplish their missions, improve results, and become more competitive',
+    image: baldrigeMain,
     icon: function ReportingIcon() {
       let id = useId()
       return (
@@ -44,12 +46,11 @@ const features = [
     },
   },
   {
-    name: 'Inventory',
-    summary:
-      'Never lose track of what’s in stock with accurate inventory tracking.',
+    name: 'Awards',
+    summary: 'Improve Performance and Get World-Class Results.',
     description:
-      'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
-    image: screenshotInventory,
+      'The Malcolm Baldrige National Quality Award® is the highest level of national recognition for performance excellence that a U.S. organization can receive.',
+    image: awardBaldrige,
     icon: function InventoryIcon() {
       return (
         <>
@@ -77,7 +78,7 @@ const features = [
       'Organize all of your contacts, service providers, and invoices in one place.',
     description:
       'This also isn’t actually a feature, it’s just some friendly advice. We definitely recommend that you do this, you’ll feel really organized and professional.',
-    image: screenshotContacts,
+    image: baldrigeMain,
     icon: function ContactsIcon() {
       return (
         <>
@@ -99,13 +100,17 @@ const features = [
 function Feature({ feature, isActive, className, ...props }) {
   return (
     <div
-      className={clsx(className, !isActive && 'opacity-75 hover:opacity-100')}
+      className={clsx(
+        className,
+        !isActive &&
+          '  bg-gray-200   text-[#151949] opacity-75 hover:bg-[#2a3176] hover:text-white hover:opacity-100'
+      )}
       {...props}
     >
       <div
         className={clsx(
           'w-9 rounded-lg',
-          isActive ? 'bg-blue-600' : 'bg-slate-500'
+          isActive ? 'bg-blue-600' : 'bg-slate-500 '
         )}
       >
         <svg aria-hidden="true" className="h-9 w-9" fill="none">
@@ -115,22 +120,34 @@ function Feature({ feature, isActive, className, ...props }) {
       <h3
         className={clsx(
           'mt-6 text-sm font-medium',
-          isActive ? 'text-[#e8b44b]' : 'text-white'
+          isActive ? 'text-[#e8b44b]' : 'text-[#151949] hover:text-white'
         )}
       >
         {feature.name}
       </h3>
-      <p className="mt-2 font-display text-xl text-white">
+      <p
+        className={clsx(
+          'mt-2 font-display text-xl',
+          isActive ? 'text-white' : ' hover:text-white'
+        )}
+      >
         {feature.summary}
       </p>
-      <p className="mt-4 text-sm text-white">{feature.description}</p>
+      <p
+        className={clsx(
+          'mt-4 text-sm',
+          isActive ? 'text-white' : ' hover:text-white'
+        )}
+      >
+        {feature.description}
+      </p>
     </div>
   )
 }
 
 function FeaturesMobile() {
   return (
-    <div className="-mx-4 mt-20 flex flex-col gap-y-10 overflow-hidden px-4 sm:-mx-6 sm:px-6 lg:hidden bg-[#151949]">
+    <div className="-mx-4 mt-20 flex flex-col gap-y-10 overflow-hidden bg-[#151949] px-4 sm:-mx-6 sm:px-6 lg:hidden">
       {features.map((feature) => (
         <div key={feature.name}>
           <Feature feature={feature} className="mx-auto max-w-2xl" isActive />
@@ -170,11 +187,11 @@ function FeaturesDesktop() {
                   ),
                 }}
                 isActive={featureIndex === selectedIndex}
-                className="relative bg-[#151949] rounded-2xl p-6 shadow-xl shadow-slate-900"
+                className="relative rounded-2xl bg-[#151949] p-6 shadow-xl shadow-slate-900"
               />
             ))}
           </Tab.List>
-          <Tab.Panels className="relative mt-20 overflow-hidden rounded-4xl bg-slate-200 px-14 py-16 xl:px-16">
+          <Tab.Panels className="relative mt-12 overflow-hidden rounded-4xl bg-slate-200 px-14 py-12 xl:px-16">
             <div className="-mx-5 flex">
               {features.map((feature, featureIndex) => (
                 <Tab.Panel
