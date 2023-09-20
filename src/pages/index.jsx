@@ -21,7 +21,7 @@ export default function Home() {
         <title>Baldrige</title>
         <meta
           name="description"
-          content="Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited."
+          content="Sanpec: Bringing Engineering Excellence. Improving Power Grid Reliability"
         />
       </Head>
       <HeroBaldrige />
