@@ -30,9 +30,6 @@ export default function Home() {
       <Services />
       <MobServices/>
       <Events/>
-      <MobServices/>
-        
-      
 
       <Testimonials />
 
