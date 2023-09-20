@@ -239,21 +239,7 @@ export default function CommunityFeature() {
               </div>
             </div>
 
-            <dl className="mt-16 grid grid-cols-1 gap-x-8 gap-y-12 bg-[#151949] sm:mt-20 sm:grid-cols-2 sm:gap-y-16 lg:mt-28 lg:grid-cols-4 hidden lg:block">
-              {stats.map((stat, statIdx) => (
-                <div
-                  key={statIdx}
-                  className="flex flex-col-reverse gap-y-3 border-l border-white/20 pl-6"
-                >
-                  <dt className="text-base leading-7 text-gray-300">
-                    {stat.label}
-                  </dt>
-                  <dd className="text-3xl font-semibold tracking-tight text-white">
-                    {stat.value}
-                  </dd>
-                </div>
-              ))}
-            </dl>
+            
           </div>
         </div>
 
