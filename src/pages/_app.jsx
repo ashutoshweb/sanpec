@@ -1,4 +1,4 @@
-import { Layout as DefaultLayout } from '@/components/baldrige/Layout'
+import { Layout as DefaultLayout } from '@/components/sanpec/Layout'
 import 'focus-visible'
 import '@/styles/tailwind.css'
 
