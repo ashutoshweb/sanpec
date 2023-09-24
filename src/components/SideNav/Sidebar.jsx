@@ -58,7 +58,19 @@ export function Sidebar({ navigation, firstSelected }) {
 
     return (
         <>
-            <div className="lg:flex">
+            <div className="lg:flex bg-gray-900">
+            <div
+            className="absolute inset-x-0 top-4 -z-10 flex transform-gpu justify-center overflow-hidden blur-3xl"
+            aria-hidden="true"
+          >
+            <div
+              className="aspect-[1108/632] w-[69.25rem] flex-none bg-gradient-to-r from-[#80caff] to-[#4f46e5] opacity-25"
+              style={{
+                clipPath:
+                  'polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)',
+              }}
+            />
+          </div>
                 <Transition.Root show={sidebarOpen} as={Fragment}>
                     <Dialog as="div" className="relative z-50 lg:hidden" onClose={setSidebarOpen}>
                         <Transition.Child
@@ -128,29 +140,28 @@ export function Sidebar({ navigation, firstSelected }) {
                 </Transition.Root>
 
                 {/* Static sidebar for desktop */}
-                <div className="hidden lg:flex lg:h-[550px] lg:w-72 lg:my-3 overflow-y-auto">
+                <div className="hidden lg:flex lg:h-[550px] lg:w-72 lg:my-3 overflow-y-auto  font-poppins">
                     {/* Sidebar component, swap this element with another sidebar if you like */}
-                    <div className="flex flex-col gap-y-5 bg-white px-6 overflow-y-auto">
+                    <div className="flex flex-col gap-y-5 px-6 overflow-y-auto">
                         
                         <nav className="flex flex-1 flex-col">
                             <ul role="list" className="flex flex-1 flex-col gap-y-7">
                                 <li>
-                                    <ul role="list" className="-mx-2 space-y-1">
+                                    <ul role="list" className="-mx-2 space-y-2 ">
                                         {nav.map((item) => (
                                             <li key={item.name}>
                                                 {!item.children ? (
-                                                    <a
+                                                    <Link
                                                         href={item.href}
+                                                        
                                                         className={classNames(
-                                                            item.current ? 'bg-indigo-800 text-white' : 'text-black-400 hover:text-white hover:bg-indigo-800',
-                                                            'group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold'
+                                                            item.current ? ' text-[#e8b44b] bg-gray-800' : '  text-white  hover:text-[#554423] ',
+                                                            'group flex gap-x-3  p-2 text-lg leading-6 w-full font-semibold    relative rounded-2xl transition-colors hover:bg-gray-800/30'
                                                         )}
                                                         onClick={() => setSelected(item.name)}
 
-                                                    >
-                                                        <item.icon className="h-6 w-6 shrink-0" aria-hidden="true" />
-                                                        {item.name}
-                                                    </a>
+                                                    >    <span className="h-6 px-12 shrink-0" aria-hidden="true" >{item.name}</span>
+                                                    </Link>
                                                 ) : (
                                                     <SideNavRow classNames={classNames} selected={selected} setSelected={setSelected} item={item} />
                                                 )}
