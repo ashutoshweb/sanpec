@@ -13,10 +13,11 @@ export function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
 
-export function Sidebar({ navigation, firstSelected }) {
+export function Sidebar({ navigation, firstSelected, bgColor }) {
     const [sidebarOpen, setSidebarOpen] = useState(false)
     const [selected, setSelected] = useState(firstSelected)
     console.log("selected:", selected)
+    console.log("bgColor=", bgColor)
     const [nav, updateNav] = useState(navigation)
 
     useEffect(() => {
@@ -58,7 +59,7 @@ export function Sidebar({ navigation, firstSelected }) {
 
     return (
         <>
-            <div className="lg:flex bg-gray-900">
+            <div className={`lg:flex ${bgColor}` }>
             <div
             className="absolute inset-x-0 top-4 -z-10 flex transform-gpu justify-center overflow-hidden blur-3xl"
             aria-hidden="true"
@@ -140,7 +141,7 @@ export function Sidebar({ navigation, firstSelected }) {
                 </Transition.Root>
 
                 {/* Static sidebar for desktop */}
-                <div className="hidden lg:flex lg:h-[550px] lg:w-72 lg:my-3 overflow-y-auto  font-poppins">
+                <div className="hidden lg:flex lg:h-[550px] lg:w-72 lg:my-24 overflow-y-auto  font-poppins">
                     {/* Sidebar component, swap this element with another sidebar if you like */}
                     <div className="flex flex-col gap-y-5 px-6 overflow-y-auto">
                         

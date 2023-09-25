@@ -4,6 +4,7 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import sanpecBalrigeExcellence from '@/custom-images/Sanpec-Baldrige.jpeg'
 import sanpecExcellence from '@/custom-images/SanpecExcellence.jpeg'
+import WhySanpec from '../components/sanpec/why-sanpec'
 
 import {
   AcademicCapIcon,
@@ -14,6 +15,8 @@ import {
   SunIcon,
   UserGroupIcon,
 } from '@heroicons/react/20/solid'
+import { Faqs } from '@/components/Faqs'
+
 
 const sanpecImage = {
   image1: sanpecExcellence,
@@ -293,7 +296,7 @@ export default function AboutSanpec() {
 
         
 
-        <div className="mt-32 sm:mt-12 xl:mx-auto xl:max-w-7xl xl:px-8">
+        <div id='journey-of-excellence' className="mt-32 sm:mt-12 xl:mx-auto xl:max-w-7xl xl:px-8">
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl ">
             Journey Of Excellence
           </h2>
@@ -353,6 +356,9 @@ export default function AboutSanpec() {
           </dl>
         </div>
 
+        <WhySanpec/>
+        <Faqs/>
+
         {/* Values section 
           <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-12 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
@@ -385,8 +391,9 @@ export default function AboutSanpec() {
 
         
 
-        {/* Team section */}
-        <div className="">
+        
+{/* 
+<div className="">
           <div className="mx-auto mt-32 max-w-7xl p-12 px-6 sm:mt-40 lg:px-8">
             <div className="mx-auto max-w-2xl lg:mx-0">
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -420,7 +427,7 @@ export default function AboutSanpec() {
           </div>
         </div>
 
-        {/* CTA section */}
+        
         <div className="relative isolate mt-32 sm:mt-12">
           <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="mx-auto flex max-w-2xl flex-col gap-16 bg-white/5 px-6 py-16 ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20">
@@ -474,15 +481,20 @@ export default function AboutSanpec() {
               }}
             />
           </div>
-        </div>
-      </main>
+        </div> 
 
-      {/* Footer */}
-      <div className="relative mt-32 sm:mt-40" aria-labelledby="footer-heading">
+         <div className="relative mt-32 sm:mt-40" aria-labelledby="footer-heading">
         <div className="mx-auto max-w-7xl px-6 pb-8 lg:px-8">
           <div className="xl:grid xl:grid-cols-3 xl:gap-8"></div>
         </div>
       </div>
+        
+        */}
+        
+      </main>
+
+      
+     
     </div>
   )
 }

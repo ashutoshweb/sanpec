@@ -12,7 +12,7 @@ const faqs = [
     },
     {
       question: 'When was Sanpec founded?',
-      answer: '2000',
+      answer: '2009',
     },
     {
       question: 'Is my data safe?',
@@ -27,29 +27,9 @@ const faqs = [
         'Please call 602-XXX-XXXX',
     },
 
-    {
-      question:
-        'I found other companies called Sanpec, are you sure you can use this name?',
-      answer:
-        'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
-    },
+    
   ],
-  [
-    {
-      question: 'How do you generate reports?',
-      answer:
-        'You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.',
-    },
-    {
-      question: 'Can we expect more inventory features?',
-      answer: 'Send us an email.',
-    },
-    {
-      question: 'I lost my password, how do I get into my account?',
-      answer:
-        'Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.',
-    },
-  ],
+  
 ]
 
 export function Faqs() {

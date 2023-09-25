@@ -60,36 +60,8 @@ const tabs = [
       },
     ],
   },
-  {
-    name: 'Biodiversity',
-    comp: <EnvCompliance />,
-    features: [
-      {
-        name: 'Helpful around the home',
-        description:
-          "Our customers use Organize throughout the house to bring efficiency to many daily routines. Enjoy Organize in your workspace, kitchen, living room, entry way, garage, and more. We can't wait to see how you'll use it!",
-        imageSrc:
-          'https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-03.jpg',
-        imageAlt:
-          'Walnut organizer base with white polycarbonate trays in the kitchen with various kitchen utensils.',
-      },
-    ],
-  },
-  {
-    name: 'Included',
-    comp: <CommunityFeature />,
-    features: [
-      {
-        name: "Everything you'll need",
-        description:
-          'The Organize base set includes the pen, phone, small, and large trays to help you group all your essential items. Expand your set with the drink coaster and headphone stand add-ons.',
-        imageSrc:
-          'https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-04.jpg',
-        imageAlt:
-          'Walnut organizer system on black leather desk mat on top of white desk.',
-      },
-    ],
-  },
+  
+  
 ]
 
 function classNames(...classes) {

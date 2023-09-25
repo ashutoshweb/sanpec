@@ -48,7 +48,7 @@ export default function EnvCompliance() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="bg-white text-[#151949]">
+    <div className="bg-white text-[#151949] rounded-md">
       <main className="relative isolate">
         {/* Background */}
         <div

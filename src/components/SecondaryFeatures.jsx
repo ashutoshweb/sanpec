@@ -141,6 +141,15 @@ function Feature({ feature, isActive, className, ...props }) {
       >
         {feature.description}
       </p>
+
+      <p
+        className={clsx(
+          'mt-2 font-display text-xl ',
+          isActive ? 'text-white lg:block' : ' hover:text-white hidden'
+        )}
+      >
+        Learn more
+      </p>
     </div>
   )
 }

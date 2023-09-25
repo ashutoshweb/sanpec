@@ -13,7 +13,7 @@ const navigation = [
     id: 1,
     name: 'People',
     href: '#',
-    component: SanpecSustainability,
+    component: PeopleSustainable,
     icon: HomeIcon,
     current: true,
   },
@@ -25,22 +25,16 @@ const navigation = [
     icon: UsersIcon,
     current: false,
   },
-  {
-    id: 3,
-    name: 'Decarbonization',
-    href: '#',
-    component: PeopleSustainable,
-    icon: UsersIcon,
-    current: false,
-  },
+  
   
 
 ]
+const bgColor="bg-gray-900";
 
 const Sustainability = () => {
   return (
     <div>
-      <Sidebar navigation={navigation} >
+      <Sidebar navigation={navigation} firstSelected={navigation[0].name} bgColor={bgColor}>
       
         
         

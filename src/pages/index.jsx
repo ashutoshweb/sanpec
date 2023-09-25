@@ -10,6 +10,9 @@ import { Services } from '@/components/baldrige/Services';
 import MobServices from '@/components/baldrige/MobServices';
 import { HeroSanpec } from '@/components/sanpec/HeroSanpec';
 import Eventscarousel from '@/components/sanpec/Eventscarousel';
+import SanpecEvents from '@/components/sanpec/EventsSanpec';
+import SanpecFAQ from '@/components/sanpec/SanpecFAQ';
+import { SanpecSummaryBlog } from '@/components/sanpec/SummaryBlog';
 
 
 
@@ -29,10 +32,10 @@ export default function Home() {
       <SecondaryFeatures />
       <Services />
       <MobServices/>
-      <Events/>
+      <SanpecEvents/>
       
-
-      <Testimonials />
+      <SanpecSummaryBlog/>
+      
        
 
       <Faqs />

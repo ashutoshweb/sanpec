@@ -86,11 +86,11 @@ export  function HeroSanpec() {
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-32">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
-              Announcing our next round of funding.{' '}
-              <a href="#" className="font-semibold text-white">
+              Journey Of Excellence .{' '}
+              <Link href="/about-sanpec#journey-of-excellence" className="font-semibold text-white">
                 <span className="absolute inset-0" aria-hidden="true" />
                 Read more <span aria-hidden="true">&rarr;</span>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="text-center">
@@ -101,12 +101,12 @@ export  function HeroSanpec() {
             Leadership | Performance Excellence | Quality | Innovation
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a
-                href="#"
+              <Link
+                href="/about-sanpec#why-sanpec"
                 className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
               >
-                Get started
-              </a>
+                Why SANPEC ?
+              </Link>
               <Link href="/about-sanpec" className="text-sm font-semibold leading-6 text-white">
                 Learn more about us <span aria-hidden="true">→</span>
               </Link>

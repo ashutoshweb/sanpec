@@ -19,8 +19,8 @@ import Image from 'next/image'
 import baldrigeMain from '@/custom-images/baldrige-framework_home.jpeg'
 
 const navigation = [
-  { name: 'PRODUCT', href: '#' },
-  { name: 'FEATURES', href: '#' },
+  
+  { name: 'CONTACT US', href: '/contact-us' },
   { name: 'ABOUT US', href: '/about-sanpec' },
 ]
 
