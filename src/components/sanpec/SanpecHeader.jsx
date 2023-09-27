@@ -17,7 +17,9 @@ import {
 import Link from 'next/link'
 import Image from 'next/image'
 import baldrigeMain from '@/custom-images/baldrige-framework_home.jpeg'
+import sanpeclogoImage from '@/custom-images/SANPEC_Logo_transparent.png'
 
+const logoImage = sanpeclogoImage;
 const navigation = [
   
   { name: 'CONTACT US', href: '/contact-us' },
@@ -76,15 +78,15 @@ export function SanpecHeader() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="relative isolate z-10 bg-[#151949] font-poppins ">
+    <header className=" isolate z-20 bg-[#151949] font-poppins sticky top-0">
       <div className="container mx-auto flex">
         <div className="flex-1">
           <div className="3 mt-4 cursor-pointer p-1.5">
             <span className="sr-only">Your Company</span>
             <Link key="logo" href="/">
-              <img
-                className="h-20"
-                src="https://higherlogicdownload.s3.amazonaws.com/BALDRIGEFOUNDATION/feca4eb6-6fe8-4830-acc6-5649178a00da/UploadedImages/BF_GlobeMainLG_2.png"
+              <Image
+                className="h-20 w-20"
+                src={logoImage}
                 alt=""
               />
             </Link>
@@ -152,10 +154,18 @@ export function SanpecHeader() {
                         <div
                           key={item.name}
                           className="group relative rounded-lg p-2 text-sm leading-6 hover:bg-gray-200 "
+                          onClick={()=>{
+                            console.log("isOpen", mobileMenuOpen)
+                            setMobileMenuOpen(true);
+                          }}
                         >
                           <Link
                             href={item.href}
                             className="mt-6 block text-xl font-semibold hover:text-[#151949]  hover:text-2xl"
+                            onClick={()=>{
+                              console.log("isOpen ddff", mobileMenuOpen)
+                              setMobileMenuOpen(true);
+                            }}
                           >
                             {item.name}
                             <span className="absolute inset-0" />
@@ -189,7 +199,7 @@ export function SanpecHeader() {
             onClose={setMobileMenuOpen}
           >
             <div className="fixed inset-0 z-10" />
-            <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto  font-poppins  px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 bg-[#151949]">
+            <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full   font-poppins  px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 bg-[#151949]">
               <div className="flex items-center justify-between ">
                 <Link href="#" className="-m-1.5 p-1.5">
                   <span className="sr-only">Your Company</span>

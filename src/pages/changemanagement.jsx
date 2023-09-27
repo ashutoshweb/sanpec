@@ -8,6 +8,7 @@ import Research from "@/components/changemanagement/Reseearch";
 import Resources from "@/components/changemanagement/Resources";
 import Solutions from "@/components/changemanagement/Solutions";
 import Training from "@/components/changemanagement/Training";
+import ComingSoon from "@/components/common/ComingSoon";
 import {
   Bars3Icon,
   CalendarIcon,
@@ -27,13 +28,13 @@ const navigation = [
     icon: HomeIcon,
     current: true,
     children: [
-      { id: 2, name: 'Research and Best Practices', href: '#', current: true, component: Research, },
-      { id: 3, name: 'Training and Certification', href: '#', current: false, component: Training },
-      { id: 4, name: 'Tools and Resources', href: '#', current: false, component: Resources },
-      { id: 5, name: 'Consulting Services', href: '#', current: false, component: Consulting },
-      { id: 6, name: 'Community and Events', href: '#', current: false, component: Community },
-      { id: 7, name: 'Custom Solutions', href: '#', current: false, component: Solutions },
-      { id: 8, name: 'Thought Leadership', href: '#', current: false, component: Leadership },
+      { id: 2, name: 'Research and Best Practices', href: '#', current: true, component: ComingSoon, },
+      { id: 3, name: 'Training and Certification', href: '#', current: false, component: ComingSoon },
+      { id: 4, name: 'Tools and Resources', href: '#', current: false, component: ComingSoon },
+      { id: 5, name: 'Consulting Services', href: '#', current: false, component: ComingSoon },
+      { id: 6, name: 'Community and Events', href: '#', current: false, component: ComingSoon },
+      { id: 7, name: 'Custom Solutions', href: '#', current: false, component: ComingSoon },
+      { id: 8, name: 'Thought Leadership', href: '#', current: false, component: ComingSoon },
     ],
   },
   {
@@ -44,12 +45,12 @@ const navigation = [
     current: false,
     children: [
       { id: 10, name: 'Certification and Training', href: '#', current: false, component: MOContent, },
-      { id: 11, name: 'Professional Development', href: '#', current: false },
-      { id: 12, name: 'Standards and Best Practices', href: '#', current: false },
-      { id: 13, name: 'Research and Publications', href: '#', current: false },
-      { id: 14, name: 'Events and Conferences', href: '#', current: false },
-      { id: 15, name: 'Consulting ', href: '#', current: false },
-      { id: 16, name: 'Advocacy and Community', href: '#', current: false },
+      { id: 11, name: 'Professional Development', href: '#', current: false, component: ComingSoon },
+      { id: 12, name: 'Standards and Best Practices', href: '#', current: false, component: ComingSoon },
+      { id: 13, name: 'Research and Publications', href: '#', current: false, component: ComingSoon },
+      { id: 14, name: 'Events and Conferences', href: '#', current: false, component: ComingSoon },
+      { id: 15, name: 'Consulting ', href: '#', current: false, component: ComingSoon },
+      { id: 16, name: 'Advocacy and Community', href: '#', current: false, component: ComingSoon },
       
     ],
   },

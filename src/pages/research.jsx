@@ -13,11 +13,11 @@ const navigation = [
   },
 
 ]
-
+const bgColor='bg-gray-900'
 const Research = () => {
   return (
     <div>
-      <Sidebar navigation={navigation} >
+      <Sidebar navigation={navigation} bgColor={bgColor} >
         <ResearchContent />
       </Sidebar>
     </div>

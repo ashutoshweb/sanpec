@@ -4,7 +4,7 @@ import {
   ChevronRightIcon,
 } from '@heroicons/react/24/outline'
 
-export function SideNavRow({ classNames, selected, setSelected, item }) {
+export function SideNavRow({ classNames, selected, setSelected, item, sidebarOpen, setSidebarOpen }) {
   return (
     <Disclosure>
       {({ open }) => (
@@ -13,11 +13,11 @@ export function SideNavRow({ classNames, selected, setSelected, item }) {
             className={classNames(
               selected === item.name
                 ? 'bg-indigo-800 text-white'
-                : 'text-black-400 hover:text-white hover:bg-indigo-800',
-              'flex items-center w-full text-left group gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold'
+                : 'text-blue-900 hover:text-white hover:bg-indigo-800',
+              'flex items-center w-full text-left group gap-x-3 rounded-md p-2 lg:text-xl leading-6 font-semibold'
             )}
           >
-            <item.icon className="h-6 w-6 shrink-0" aria-hidden="true" />
+            
             {item.name}
             <ChevronRightIcon
               className={classNames(
@@ -36,10 +36,16 @@ export function SideNavRow({ classNames, selected, setSelected, item }) {
                   className={classNames(
                     subItem.current
                       ? 'bg-indigo-800 text-white'
-                      : 'text-black-400 hover:text-white hover:bg-indigo-400',
+                      : 'text-blue-900 hover:text-white hover:bg-blue-900',
                     'flex items-center w-full text-left group gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold'
                   )}
-                  onClick={() => setSelected(subItem.name)}
+                  onClick={() =>  {
+                    setSidebarOpen(false);
+                    setSelected(subItem.name);
+                   console.log("setSidebarOpen is not a function",setSidebarOpen, sidebarOpen );
+                  }
+                                  
+                                   }
                 >
                   {subItem.name}
                 </a>

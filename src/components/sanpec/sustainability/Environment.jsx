@@ -72,7 +72,7 @@ export default function EnvironmentSustainable() {
   return (
     <div className="bg-gray-900">
       {/* Testimonial section */}
-      <div className="relative z-10 mt-32 bg-gray-900 pb-20 sm:mt-24 sm:pb-24 xl:pb-0">
+      <div className="relative z-8 mt-32 bg-gray-900 pb-20 sm:mt-24 sm:pb-24 xl:pb-0">
         <div className="absolute inset-0 overflow-hidden" aria-hidden="true">
           <div className="absolute left-[calc(50%-19rem)] top-[calc(50%-36rem)] transform-gpu blur-3xl">
             <div
@@ -116,6 +116,7 @@ export default function EnvironmentSustainable() {
                   delicate balance, so that future generations can inherit a
                   world as beautiful and bountiful as the one we have known.
                 </p>
+               
               </blockquote>
               <figcaption className="mt-8 text-base">
                 <div className="font-semibold text-white"></div>

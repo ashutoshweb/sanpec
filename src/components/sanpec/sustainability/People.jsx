@@ -56,7 +56,7 @@ export default function PeopleSustainable() {
   return (
     <div className="bg-gray-900">
       {/* Testimonial section */}
-      <div className="relative z-10 mt-32 bg-gray-900 pb-20 sm:mt-24 sm:pb-24 xl:pb-0">
+      <div className="relative z-8 mt-32 bg-gray-900 pb-20 sm:mt-24 sm:pb-24 xl:pb-0">
         <div className="absolute inset-0 overflow-hidden" aria-hidden="true">
           <div className="absolute left-[calc(50%-19rem)] top-[calc(50%-36rem)] transform-gpu blur-3xl">
             <div

@@ -56,6 +56,7 @@ export function Sidebar({ navigation, firstSelected, bgColor }) {
     }
     console.log("LookUpComponent:",)
     const Test = LookUpComponent();
+    console.log("setSidebarOpen 1",setSidebarOpen, sidebarOpen );
 
     return (
         <>
@@ -120,14 +121,17 @@ export function Sidebar({ navigation, firstSelected, bgColor }) {
                                         <nav className="flex flex-1 flex-col">
                                             <ul role="list" className="flex flex-1 flex-col gap-y-7">
                                                 <li>
-                                                    <ul role="list" className="-mx-2 space-y-1">
+                                                    <ul role="list" className="-mx-2 space-y-1" >
                                                         {nav.map((item) => (
                                                             <SidebarLink
                                                                 key={item.id}
                                                                 item={item}
                                                                 selected={selected}
                                                                 setSelected={setSelected}
+                                                                sidebarOpen={sidebarOpen}
+                                                                setSidebarOpen={setSidebarOpen}
                                                             />
+                                                            
                                                         ))}
                                                     </ul>
                                                 </li>
@@ -153,8 +157,7 @@ export function Sidebar({ navigation, firstSelected, bgColor }) {
                                             <li key={item.name}>
                                                 {!item.children ? (
                                                     <Link
-                                                        href={item.href}
-                                                        
+                                                        href={item.href}  
                                                         className={classNames(
                                                             item.current ? ' text-[#e8b44b] bg-gray-800' : '  text-white  hover:text-[#554423] ',
                                                             'group flex gap-x-3  p-2 text-lg leading-6 w-full font-semibold    relative rounded-2xl transition-colors hover:bg-gray-800/30'
@@ -164,7 +167,8 @@ export function Sidebar({ navigation, firstSelected, bgColor }) {
                                                     >    <span className="h-6 px-12 shrink-0" aria-hidden="true" >{item.name}</span>
                                                     </Link>
                                                 ) : (
-                                                    <SideNavRow classNames={classNames} selected={selected} setSelected={setSelected} item={item} />
+                                                    <SideNavRow classNames={classNames} selected={selected} setSelected={setSelected} item={item}  sidebarOpen={sidebarOpen}
+                                                    setSidebarOpen={setSidebarOpen} />
                                                 )}
                                             </li>
                                         ))}

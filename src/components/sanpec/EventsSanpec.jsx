@@ -108,7 +108,7 @@ export default function SanpecEvents() {
                                 <div className="relative mt-8 flex items-center gap-x-4">
                                     
                                     <div className="text-sm leading-6">
-                                        <p className="font-semibold  hover:opacity-25">
+                                        <p className="font-semibold   hover:text-[#e8b44b] text-blue-900">
                                             <Link href={post.author.href}>
                                                 <span className="absolute inset-0 " />
                                                 Read more
