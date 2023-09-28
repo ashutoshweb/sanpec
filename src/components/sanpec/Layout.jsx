@@ -9,7 +9,7 @@ import Head from 'next/head';
 export function Layout({ children }) {
   return (
     <>
-     <Head>
+      <Head>
         <title>Sanpec</title>
         <meta
           name="description"
@@ -17,10 +17,8 @@ export function Layout({ children }) {
         />
       </Head>
       <SanpecHeader />
-      <main>{children}</main>
-      <Footer/>
-
-     
+      <main className='pt-28'>{children}</main>
+      <Footer />
     </>
   )
 }

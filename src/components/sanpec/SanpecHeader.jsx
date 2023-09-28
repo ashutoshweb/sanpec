@@ -22,12 +22,12 @@ import sanpeclogoImageOriginal from '@/custom-images/SANPEC_Logo.jpg'
 
 const logoImage = sanpeclogoImageOriginal;
 const navigation = [
-  
+
   { name: 'CONTACT US', href: '/contact-us' },
   { name: 'ABOUT US', href: '/about-sanpec' },
 ]
 
-const mobileNav =[
+const mobileNav = [
   { name: 'Electric Power', href: '/power' },
   { name: 'Sustainability', href: '/sustainability' },
   { name: 'Projects', href: '/project' },
@@ -59,7 +59,7 @@ const products = [
     href: '#',
     icon: FingerPrintIcon,
   },
-  
+
 ]
 
 
@@ -75,7 +75,11 @@ export function SanpecHeader() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className=" isolate z-20 bg-[#151949] font-poppins sticky top-0">
+    <header className=" isolate z-20 bg-[#151949] font-poppins sticky top-0" style={{
+      position: 'fixed',
+      top: '0',
+      width: '100%',
+    }}>
       <div className="container mx-auto flex">
         <div className="flex-1">
           <div className="3 mt-4 cursor-pointer p-1.5">
@@ -127,7 +131,7 @@ export function SanpecHeader() {
             aria-label="Global"
           >
             <Popover.Group className="hidden lg:flex lg:gap-x-12">
-              
+
 
               {company.map((item) => (
                 <Link
@@ -139,7 +143,7 @@ export function SanpecHeader() {
                 </Link>
               ))}
 
-<Popover>
+              <Popover>
                 <Popover.Button className="anime-href flex items-center gap-x-1  text-xl font-semibold leading-6 text-white">
                   Consulting
                   <ChevronDownIcon
@@ -163,12 +167,12 @@ export function SanpecHeader() {
                         <div
                           key={item.name}
                           className="mx-auto group relative rounded-lg p-2 text-sm leading-6 hover:bg-gray-200 "
-                          
+
                         >
                           <Link
                             href={item.href}
                             className="mt-6 block text-xl font-semibold hover:text-[#151949]  hover:text-2xl"
-                            
+
                           >
                             {item.name}
                             <span className="absolute inset-0" />
@@ -179,7 +183,7 @@ export function SanpecHeader() {
                         </div>
                       ))}
                     </div>
-                    
+
                   </Popover.Panel>
                 </Transition>
               </Popover>
@@ -217,14 +221,14 @@ export function SanpecHeader() {
                     <Disclosure as="div" className="-mx-3">
                       {({ open }) => (
                         <>
-                          <Disclosure.Button 
-                         
-                          className={classNames('flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 ',
-                            open ? 'text-[#e8b44b]' :' text-white' ,
-                            
-                          )}
+                          <Disclosure.Button
+
+                            className={classNames('flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 ',
+                              open ? 'text-[#e8b44b]' : ' text-white',
+
+                            )}
                           >
-                             Consulting
+                            Consulting
                             <ChevronDownIcon
                               className={classNames(
                                 open ? 'rotate-180' : '',
@@ -249,17 +253,17 @@ export function SanpecHeader() {
                       )}
                     </Disclosure>
                     {mobileNav.map((item) => (
-                <Link
-                  key={item.name}
-                  href={item.href}
-                  className="block rounded-lg  py-2 text-base font-semibold leading-7 text-white "
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  {item.name}
-                </Link>
-              ))}
+                      <Link
+                        key={item.name}
+                        href={item.href}
+                        className="block rounded-lg  py-2 text-base font-semibold leading-7 text-white "
+                        onClick={() => setMobileMenuOpen(false)}
+                      >
+                        {item.name}
+                      </Link>
+                    ))}
 
-                    
+
                   </div>
                   <div className="py-6">
                     <a

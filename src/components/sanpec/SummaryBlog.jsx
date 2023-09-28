@@ -38,9 +38,9 @@ const testimonials = [
         image: avatarImage5,
       },
     },
-    
+
   ],
-  
+
 ]
 
 function QuoteIcon(props) {
@@ -65,10 +65,10 @@ export function SanpecSummaryBlog() {
           </h2>
           <p className="mt-4 text-lg tracking-tight text-gray-300">
             Our software is so simple that people can’t help but fall in love
-            with it. 
+            with it.
           </p>
 
-          
+
         </div>
         <ul
           role="list"

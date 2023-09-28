@@ -1,4 +1,4 @@
-import { useState }  from 'react'
+import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import {
@@ -44,7 +44,7 @@ const values = [
     description: 'aking creative risks to build a more agile organization that drives transformative change internally and in response to our partner organizations needs',
     icon: AcademicCapIcon,
   },
-  
+
 ]
 const team = [
   {
@@ -160,8 +160,6 @@ export default function AboutSanpec() {
   return (
     <div className="bg-gray-900">
       {/* Header */}
-     
-
       <main className="relative isolate">
         {/* Background */}
         <div
@@ -182,7 +180,7 @@ export default function AboutSanpec() {
           <div className="mx-auto max-w-2xl pt-24 text-center sm:pt-10">
             <h2 className="text-4xl font-bold tracking-tight text-[#e8b44b] sm:text-6xl">Institute for Resilience and Sustainability</h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-            Leadership | Performance Excellence | Quality | Innovation
+              Leadership | Performance Excellence | Quality | Innovation
             </p>
           </div>
         </div>
@@ -193,23 +191,23 @@ export default function AboutSanpec() {
             <div className="grid max-w-xl grid-cols-1 gap-8 leading-7 text-white lg:max-w-none lg:grid-cols-2 text-xl">
               <div>
                 <p>
-                The Baldrige Foundation&apos;s Institute for Performance Excellence 
-                is a thought leader on performance excellence, leadership, and management.
+                  The Baldrige Foundation&apos;s Institute for Performance Excellence
+                  is a thought leader on performance excellence, leadership, and management.
                 </p>
                 <p className="mt-8">
-                Our team carries out its mission in a number of ways: undertaking research projects, hosting conferences and activities, 
-                conducting executive-level and online professional development and skills training, making resources available to enhance 
-                organizational performance, and publishing and distributing a wide variety of educational materials to share best practices.
+                  Our team carries out its mission in a number of ways: undertaking research projects, hosting conferences and activities,
+                  conducting executive-level and online professional development and skills training, making resources available to enhance
+                  organizational performance, and publishing and distributing a wide variety of educational materials to share best practices.
                 </p>
               </div>
               <div>
                 <p>
-                Our communities are specifically designed to provide Institute Partners with opportunities to network, 
-                idea share and converse with one another on important performance excellence, leadership and management topics.
+                  Our communities are specifically designed to provide Institute Partners with opportunities to network,
+                  idea share and converse with one another on important performance excellence, leadership and management topics.
                 </p>
                 <p className="mt-8">
-                Partners of the Institute gain access to hundreds of resources curated to support a desire to learn, 
-                share best practices, and explore content related to performance excellence, leadership and management.
+                  Partners of the Institute gain access to hundreds of resources curated to support a desire to learn,
+                  share best practices, and explore content related to performance excellence, leadership and management.
                 </p>
               </div>
             </div>
@@ -237,10 +235,10 @@ export default function AboutSanpec() {
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Our Vison</h2>
             <p className="mt-6 text-lg leading-8 text-white">
-            To be the global academic leader in the study, promotion, and practice of performance excellence, leadership, and management.
+              To be the global academic leader in the study, promotion, and practice of performance excellence, leadership, and management.
             </p>
           </div>
-          
+
         </div>
 
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-12 lg:px-8">
@@ -250,19 +248,19 @@ export default function AboutSanpec() {
               To improve the practice of leadership and management in pursuit of performance excellence and its impact in an ever-changing world.
             </p>
           </div>
-          
+
         </div>
 
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-12 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Purpose</h2>
             <p className="mt-6 text-lg leading-8 text-white">
-            To help people and organizations learn and grow in the pursuit of performance excellence.
+              To help people and organizations learn and grow in the pursuit of performance excellence.
             </p>
           </div>
-          
+
         </div>
-        
+
 
         {/* Values section */}
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-12 lg:px-8">
@@ -361,13 +359,13 @@ export default function AboutSanpec() {
 
       {/* Footer */}
       <div className="relative mt-32 sm:mt-40" aria-labelledby="footer-heading">
-        
+
         <div className="mx-auto max-w-7xl px-6 pb-8 lg:px-8">
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-            
-            
+
+
           </div>
-          
+
         </div>
       </div>
     </div>
