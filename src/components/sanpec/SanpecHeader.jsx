@@ -18,8 +18,9 @@ import Link from 'next/link'
 import Image from 'next/image'
 import baldrigeMain from '@/custom-images/baldrige-framework_home.jpeg'
 import sanpeclogoImage from '@/custom-images/SANPEC_Logo_transparent.png'
+import sanpeclogoImageOriginal from '@/custom-images/SANPEC_Logo.jpg'
 
-const logoImage = sanpeclogoImage;
+const logoImage = sanpeclogoImageOriginal;
 const navigation = [
   
   { name: 'CONTACT US', href: '/contact-us' },
@@ -27,7 +28,7 @@ const navigation = [
 ]
 
 const mobileNav =[
-  { name: 'Power', href: '/power' },
+  { name: 'Electric Power', href: '/power' },
   { name: 'Sustainability', href: '/sustainability' },
   { name: 'Projects', href: '/project' },
   { name: 'Research', href: '/research' },
@@ -35,7 +36,7 @@ const mobileNav =[
 ]
 
 const company = [
-  { name: 'Power', href: '/power' },
+  { name: 'Electric Power', href: '/power' },
   { name: 'Sustainability', href: '/sustainability' },
   { name: 'Projects', href: '/project' },
   { name: 'Research', href: '/research' },
@@ -44,25 +45,21 @@ const company = [
 const products = [
   {
     name: 'Change Management',
-    description: 'Get a better understanding where your traffic is coming from',
+    description: 'Navigating Change for Organizational Growth and Success',
     href: '/changemanagement',
   },
   {
     name: 'Disaster Management',
-    description: 'Speak directly to your customers with our engagement tool',
+    description: 'Effective Strategies for Resilient Disaster Management and Recovery',
     href: '#',
   },
   {
-    name: 'Sustainable Energy',
-    description: 'Your customers’ data will be safe and secure',
+    name: 'Baldrige Consulting',
+    description: 'Excellence Through Baldrige Consulting Services',
     href: '#',
     icon: FingerPrintIcon,
   },
-  {
-    name: 'Integrations',
-    description: 'Your customers’ data will be safe and secure',
-    href: '/integrations',
-  },
+  
 ]
 
 
@@ -130,9 +127,21 @@ export function SanpecHeader() {
             aria-label="Global"
           >
             <Popover.Group className="hidden lg:flex lg:gap-x-12">
-              <Popover>
+              
+
+              {company.map((item) => (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  className="anime-href from-left text-xl font-semibold leading-6 text-white "
+                >
+                  {item.name}
+                </Link>
+              ))}
+
+<Popover>
                 <Popover.Button className="anime-href flex items-center gap-x-1  text-xl font-semibold leading-6 text-white">
-                  Services
+                  Consulting
                   <ChevronDownIcon
                     className="h-5 w-5 flex-none text-gray-400"
                     aria-hidden="true"
@@ -149,23 +158,17 @@ export function SanpecHeader() {
                   leaveTo="opacity-0 -translate-y-1"
                 >
                   <Popover.Panel className="absolute inset-x-0 top-10 -z-10  mt-6 pt-14 shadow-lg ring-1 ring-gray-900/5">
-                    <div className="mx-auto grid  grid-cols-4 gap-x-4 bg-white px-6 py-10 lg:px-8 xl:gap-x-8">
+                    <div className="mx-auto grid  grid-cols-3 gap-x-4 bg-white px-6 py-10 lg:px-8 xl:gap-x-8">
                       {products.map((item) => (
                         <div
                           key={item.name}
-                          className="group relative rounded-lg p-2 text-sm leading-6 hover:bg-gray-200 "
-                          onClick={()=>{
-                            console.log("isOpen", mobileMenuOpen)
-                            setMobileMenuOpen(true);
-                          }}
+                          className="mx-auto group relative rounded-lg p-2 text-sm leading-6 hover:bg-gray-200 "
+                          
                         >
                           <Link
                             href={item.href}
                             className="mt-6 block text-xl font-semibold hover:text-[#151949]  hover:text-2xl"
-                            onClick={()=>{
-                              console.log("isOpen ddff", mobileMenuOpen)
-                              setMobileMenuOpen(true);
-                            }}
+                            
                           >
                             {item.name}
                             <span className="absolute inset-0" />
@@ -180,16 +183,6 @@ export function SanpecHeader() {
                   </Popover.Panel>
                 </Transition>
               </Popover>
-
-              {company.map((item) => (
-                <Link
-                  key={item.name}
-                  href={item.href}
-                  className="anime-href from-left text-xl font-semibold leading-6 text-white "
-                >
-                  {item.name}
-                </Link>
-              ))}
             </Popover.Group>
           </nav>
           <Dialog
@@ -231,7 +224,7 @@ export function SanpecHeader() {
                             
                           )}
                           >
-                            Services
+                             Consulting
                             <ChevronDownIcon
                               className={classNames(
                                 open ? 'rotate-180' : '',

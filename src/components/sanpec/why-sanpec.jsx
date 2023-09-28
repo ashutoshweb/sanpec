@@ -149,7 +149,7 @@ const whatWeDo = [
   {
     name: 'Experience',
     description:
-      ' SANPEC has 16 years of combined worldwide experience in design, engineering, fabrication, and source inspection services, particularly for the power and lighting industries',
+      ' SANPEC has 160 years of combined worldwide experience in design, engineering, fabrication, and source inspection services, particularly for the power and lighting industries',
   },
   {
     name: 'Professional  Affiliations:',

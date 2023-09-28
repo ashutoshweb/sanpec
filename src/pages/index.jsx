@@ -13,6 +13,7 @@ import Eventscarousel from '@/components/sanpec/Eventscarousel';
 import SanpecEvents from '@/components/sanpec/EventsSanpec';
 import SanpecFAQ from '@/components/sanpec/SanpecFAQ';
 import { SanpecSummaryBlog } from '@/components/sanpec/SummaryBlog';
+import ResearchSanpec from './research-sanpec';
 
 
 
@@ -35,6 +36,7 @@ export default function Home() {
       <SanpecEvents/>
       
       <SanpecSummaryBlog/>
+      <ResearchSanpec/>
       
        
 
