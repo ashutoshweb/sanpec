@@ -24,7 +24,7 @@ const logoImage = sanpeclogoImageOriginal;
 const navigation = [
 
   { name: 'CONTACT US', href: '/contact-us' },
-  { name: 'ABOUT US', href: '/about-sanpec' },
+  { name: 'ABOUT', href: '/about-sanpec' },
 ]
 
 const mobileNav = [
@@ -32,7 +32,7 @@ const mobileNav = [
   { name: 'Sustainability', href: '/sustainability' },
   { name: 'Projects', href: '/project' },
   { name: 'Research', href: '/research' },
-  { name: 'About Us', href: '/about-sanpec' },
+  { name: 'About', href: '/about-sanpec' },
 ]
 
 const company = [
@@ -118,12 +118,7 @@ export function SanpecHeader() {
                   {item.name}
                 </Link>
               ))}
-              <a
-                href="#"
-                className="text-base font-semibold leading-6 text-white"
-              >
-                Log in <span>&rarr;</span>
-              </a>
+             
             </div>
           </nav>
           <nav

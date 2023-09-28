@@ -35,12 +35,7 @@ export default function Home() {
       <Services />
       <MobServices/>
       <SanpecEvents/>
-      
-      
-      
-      
-       
-
+      <SanpecBlog/>
       <Faqs />
      
     </>
