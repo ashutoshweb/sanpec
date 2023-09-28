@@ -44,7 +44,7 @@ const navigation = [
     icon: UsersIcon,
     current: false,
     children: [
-      { id: 10, name: 'Certification and Training', href: '#', current: false, component: MOContent, },
+      { id: 10, name: 'Certification and Training', href: '#', current: false, component: ComingSoon, },
       { id: 11, name: 'Professional Development', href: '#', current: false, component: ComingSoon },
       { id: 12, name: 'Standards and Best Practices', href: '#', current: false, component: ComingSoon },
       { id: 13, name: 'Research and Publications', href: '#', current: false, component: ComingSoon },
