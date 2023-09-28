@@ -22,9 +22,9 @@ const faqs = [
   ],
   [
     {
-      question: 'I am not able to login',
+      question: 'How to reach SANPEC ?',
       answer:
-        'Please call 602-XXX-XXXX',
+        'Please call +1 (832) 823-3467',
     },
 
     
@@ -56,8 +56,7 @@ export function Faqs() {
             Frequently asked questions
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            If you can’t find what you’re looking for, email our support team
-            and if you’re lucky someone will get back to you.
+          Get Answers to Common Queries About Our Services.
           </p>
         </div>
         <ul
