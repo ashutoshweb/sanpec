@@ -25,16 +25,7 @@ const faqs = [
     answer:
     <NextGenFeature />,
   },
-  {
-    question: "Events",
-    answer:
-    <Events />,
-  },
-  {
-    question: "Additional Faeture",
-    answer:
-    <AdditionalFeature />,
-  }
+  
   
 ]
 
@@ -42,8 +33,7 @@ const compMap = {
     0: <CommunityFeature />,
     1: <KnowledgeFeature />,
     2: <NextGenFeature />,
-    3: <Events />,
-    4: <AdditionalFeature />,
+   
   }
 
 export default function MobServices() {
