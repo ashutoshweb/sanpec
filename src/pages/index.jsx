@@ -14,6 +14,7 @@ import SanpecEvents from '@/components/sanpec/EventsSanpec';
 import SanpecFAQ from '@/components/sanpec/SanpecFAQ';
 import { SanpecSummaryBlog } from '@/components/sanpec/SummaryBlog';
 import ResearchSanpec from './research-sanpec';
+import { SanpecBlog } from '@/components/sanpec/blog/SanpecBlog';
 
 
 
@@ -35,8 +36,8 @@ export default function Home() {
       <MobServices/>
       <SanpecEvents/>
       
-      <SanpecSummaryBlog/>
-      <ResearchSanpec/>
+      
+      
       
        
 

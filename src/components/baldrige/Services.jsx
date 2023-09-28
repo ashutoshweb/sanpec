@@ -43,19 +43,13 @@ const features = [
       'Next Generation collaborative global network sharing knowledge and expertise.',
     image: hydrogen,
   },
-  {
-    title: 'Additional Feature',
-
-    description:
-      "The world's foremost power system knowledge development programme",
-    image: hydrogen,
-  },
+  
 ]
 const compMap = {
   0: <CommunityFeature />,
   1: <KnowledgeFeature />,
   2: <NextGenFeature />, 
-  3: <AdditionalFeature />,
+ 
 }
 
 const gradientColor =
