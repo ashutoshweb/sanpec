@@ -14,7 +14,7 @@ export function SidebarLink({
   setSidebarOpen,
 }) {
   const hasChildren = item.children && item.children.length > 0
-  console.log("setSidebarOpen 2",setSidebarOpen, sidebarOpen );
+  
   return (
     <li key={item.name}>
       {hasChildren ? (

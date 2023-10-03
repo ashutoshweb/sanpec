@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { Button } from '@/components/Button'
 import { SelectField, TextField } from '@/components/Fields'
 import { Logo } from '@/components/Logo'
-import { LogoSanpec } from '@/custom/LogoSanpec'
+
 import { SlimLayout } from '@/components/SlimLayout'
 
 export default function Register() {
@@ -14,9 +14,7 @@ export default function Register() {
         <title>Sign Up - Sanpec</title>
       </Head>
       <div className="flex">
-        <Link href="/" aria-label="Home">
-          <LogoSanpec className="h-10 w-auto" />
-        </Link>
+        <Link href="/" aria-label="Home"></Link>
       </div>
       <h2 className="mt-20 text-lg font-semibold text-gray-900">
         Get started for free

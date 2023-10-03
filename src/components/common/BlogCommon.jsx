@@ -21,7 +21,7 @@ function classNames(...classes) {
 }
 
 export default function BlogCommon( {feature} ) {
-  console.log('feature', feature);
+  
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-2xl px-4 py-24 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
