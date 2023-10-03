@@ -9,10 +9,9 @@ import backgroundImage from '@/images/background-features.jpg'
 import hydrogen from '@/custom-images/Hydrogen-production-plants_.jpg'
 
 import KnowledgeFeature from './features/Knowledge'
-import AboutBaldrige from '@/pages/aboutus'
-import AdditionalFeature from './features/Additional'
 
-import Events from '@/custom/Events'
+
+
 
 import CommunityFeature from './features/community'
 import NextGenFeature from './features/NextGen'
@@ -23,11 +22,6 @@ const features = [
   {
     title: 'Baldrige global community',
 
-    content2: [
-      'CIGRE’s engine room is its global community. Across the world thousands of power system professionals are taking time out from their jobs in the industry and volunteering their time to collaboratively share their knowledge and experiences for the greater good of the industry.This unique community is underpinned by a global network of 61 CIGRE organisations referred to as the National Committees, or NCs. These on the ground organisations have an in-depth understanding of the local conditions in over 90 countries. NCs also nominate their best local talent for the 250+ Working Groups participating in CIGRE’s global knowledge programme.',
-      'This unique community is underpinned by a global network of 61 CIGRE organisations referred to as the National Committees, or NCs. These on the ground organisations have an in-depth understanding of the local conditions in over 90 countries. NCs also nominate their best local talent for the 250+ Working Groups participating in CIGRE’s global knowledge programme.',
-      'This wide geographic spread, combined with a variety of established experts, experienced practitioners and young professionals, enables CIGRE to offer the most diverse range of power system perspectives and experiences available from any organisation. CIGRE’s community of professionals give their time and energy with an authentic desire to draw upon, share and build technical expertise, ensuring that the knowledge needed to meet the challenges of the power system is accessible to everyone.',
-    ],
     description:
       'A collaborative global community sharing knowledge and expertise',
     image: hydrogen,
@@ -36,11 +30,6 @@ const features = [
   {
     title: 'Knowledge Programme',
 
-    content2: [
-      'CIGRE operates the world’s foremost power system knowledge development programme of work. At its foundation is CIGRE’s unique structure and the wide spectrum of domains covered.',
-      'The CIGRE knowledge programme is driven by key strategic themes defined by the experts of the CIGRE leadership, with the input of the community. These are based around the key drivers affecting the industry and are updated as strategic changes occur.',
-      'Strategic themes are fed into 16 consistent domains of work, each led by a dedicated Study Committee. The domains are broadly grouped by four key global power system areas – equipment, technologies, systems, new materials and IT.',
-    ],
     description:
       "The world's foremost power system knowledge development programme",
     image: hydrogen,
@@ -49,49 +38,17 @@ const features = [
   {
     title: 'Next Generation Network (NGN) ',
 
-    content2: [
-      'CIGRE operates the world’s foremost power system knowledge development programme of work. At its foundation is CIGRE’s unique structure and the wide spectrum of domains covered.',
-      'The CIGRE knowledge programme is driven by key strategic themes defined by the experts of the CIGRE leadership, with the input of the community. These are based around the key drivers affecting the industry and are updated as strategic changes occur.',
-      'Strategic themes are fed into 16 consistent domains of work, each led by a dedicated Study Committee. The domains are broadly grouped by four key global power system areas – equipment, technologies, systems, new materials and IT.',
-    ],
     description:
       'Next Generation collaborative global network sharing knowledge and expertise.',
     image: hydrogen,
   },
-
-  {
-    title: 'Events',
-
-    content2: [
-      'The G20 Culture Ministers met for the first time in 2020 and highlighted culture’s cross-cutting contribution to advancing G20 agenda. Recognizing the synergies between culture and other policy areas, and considering the impact of culture, cultural heritage and the creative economy on the economic, social and environmental dimensions of development, culture was integrated into the G20 agenda as a Culture Working Group in 2021. The group aims to strengthen international cooperation and collaboration to support cultural and creative industries.',
-      'The CIGRE knowledge programme is driven by key strategic themes defined by the experts of the CIGRE leadership, with the input of the community. These are based around the key drivers affecting the industry and are updated as strategic changes occur.',
-      'Strategic themes are fed into 16 consistent domains of work, each led by a dedicated Study Committee. The domains are broadly grouped by four key global power system areas – equipment, technologies, systems, new materials and IT.',
-    ],
-    description:
-      "The world's foremost power system knowledge development programme",
-    image: hydrogen,
-  },
-
-  {
-    title: 'Additional Faeture',
-
-    content2: [
-      'The G20 Culture Ministers met for the first time in 2020 and highlighted culture’s cross-cutting contribution to advancing G20 agenda. Recognizing the synergies between culture and other policy areas, and considering the impact of culture, cultural heritage and the creative economy on the economic, social and environmental dimensions of development, culture was integrated into the G20 agenda as a Culture Working Group in 2021. The group aims to strengthen international cooperation and collaboration to support cultural and creative industries.',
-      'The CIGRE knowledge programme is driven by key strategic themes defined by the experts of the CIGRE leadership, with the input of the community. These are based around the key drivers affecting the industry and are updated as strategic changes occur.',
-      'Strategic themes are fed into 16 consistent domains of work, each led by a dedicated Study Committee. The domains are broadly grouped by four key global power system areas – equipment, technologies, systems, new materials and IT.',
-    ],
-    description:
-      "The world's foremost power system knowledge development programme",
-    image: hydrogen,
-  },
+  
 ]
-
 const compMap = {
   0: <CommunityFeature />,
   1: <KnowledgeFeature />,
-  2: <NextGenFeature />,
-  3: <Events />,
-  4: <AdditionalFeature />,
+  2: <NextGenFeature />, 
+ 
 }
 
 const gradientColor =
@@ -119,7 +76,7 @@ export function Services() {
     <section
       id="features"
       aria-label="Features for running your books"
-      className="relative overflow-hidden  bg-[#151949]  pb-28 pt-20 sm:py-12 hidden lg:block"
+      className="relative hidden  overflow-hidden  bg-[#151949] pb-28 pt-20 sm:py-12 lg:block"
     >
       <div
         className="absolute left-1/2 top-1/2 max-w-none translate-x-[-44%] translate-y-[-42%]  bg-[#151949] "

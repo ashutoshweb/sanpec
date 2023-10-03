@@ -42,7 +42,7 @@ export function SideNavRow({ classNames, selected, setSelected, item, sidebarOpe
                   onClick={() =>  {
                     setSidebarOpen(false);
                     setSelected(subItem.name);
-                   console.log("setSidebarOpen is not a function",setSidebarOpen, sidebarOpen );
+                   
                   }
                                   
                                    }

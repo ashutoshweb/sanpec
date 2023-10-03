@@ -1,10 +1,9 @@
 import { Disclosure } from '@headlessui/react'
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
 import KnowledgeFeature from './features/Knowledge'
-import AboutBaldrige from '@/pages/aboutus'
-import AdditionalFeature from './features/Additional'
 
-import Events from '@/custom/Events'
+
+
 
 import CommunityFeature from './features/community'
 import NextGenFeature from './features/NextGen'
@@ -25,16 +24,7 @@ const faqs = [
     answer:
     <NextGenFeature />,
   },
-  {
-    question: "Events",
-    answer:
-    <Events />,
-  },
-  {
-    question: "Additional Faeture",
-    answer:
-    <AdditionalFeature />,
-  }
+  
   
 ]
 
@@ -42,8 +32,7 @@ const compMap = {
     0: <CommunityFeature />,
     1: <KnowledgeFeature />,
     2: <NextGenFeature />,
-    3: <Events />,
-    4: <AdditionalFeature />,
+   
   }
 
 export default function MobServices() {

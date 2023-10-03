@@ -9,7 +9,7 @@ import backgroundImage from '@/images/background-features.jpg'
 import hydrogen from '@/custom-images/Hydrogen-production-plants_.jpg'
 import CommunityFeature from '../features/community'
 import SanpecProject from '@/pages/project'
-import Events from '@/custom/Events'
+
 import Datatheme from '@/components/common/Datatheme'
 import Blog1 from './Blog1'
 import Blog2 from './Blog2'

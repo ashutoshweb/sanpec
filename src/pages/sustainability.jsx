@@ -4,7 +4,7 @@ import {
   UsersIcon,
 } from '@heroicons/react/24/outline'
 import SanpecSustainability from "@/components/sanpec/SustainabilityContent";
-import AdditionalFeature from "@/components/baldrige/features/Additional";
+
 import PeopleSustainable from "@/components/sanpec/sustainability/People";
 import EnvironmentSustainable from "@/components/sanpec/sustainability/Environment";
 

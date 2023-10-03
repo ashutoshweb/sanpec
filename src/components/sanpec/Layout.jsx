@@ -1,6 +1,7 @@
 
 
-import Footer from './Footer';
+
+import SanpecFooter from './FooterSanpec';
 import { SanpecHeader } from './SanpecHeader';
 import Head from 'next/head';
 
@@ -18,7 +19,7 @@ export function Layout({ children }) {
       </Head>
       <SanpecHeader />
       <main className='pt-28'>{children}</main>
-      <Footer />
+      <SanpecFooter />
     </>
   )
 }

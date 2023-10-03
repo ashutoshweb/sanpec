@@ -16,8 +16,7 @@ export function classNames(...classes) {
 export function Sidebar({ navigation, firstSelected, bgColor }) {
     const [sidebarOpen, setSidebarOpen] = useState(false)
     const [selected, setSelected] = useState(firstSelected)
-    console.log("selected:", selected)
-    console.log("bgColor=", bgColor)
+   
     const [nav, updateNav] = useState(navigation)
 
     useEffect(() => {
@@ -54,9 +53,9 @@ export function Sidebar({ navigation, firstSelected, bgColor }) {
         })
         return component
     }
-    console.log("LookUpComponent:",)
+    
     const Test = LookUpComponent();
-    console.log("setSidebarOpen 1",setSidebarOpen, sidebarOpen );
+   
 
     return (
         <>

@@ -4,9 +4,7 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import screenshotContacts from '@/images/screenshots/contacts.png'
-import screenshotInventory from '@/images/screenshots/inventory.png'
-import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
+
 import baldrigeMain from '@/custom-images/baldrige-framework_home.jpeg'
 import awardBaldrige from '@/custom-images/Award_Artwork_home_Final.jpeg'
 import poleTestingVideo from '@/custom-images/tower_testing_video-1_(1).mp4'
