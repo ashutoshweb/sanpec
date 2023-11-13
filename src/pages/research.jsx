@@ -72,7 +72,7 @@ const Research = () => {
       <div className="mx-auto max-w-2xl px-4 py-24 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
         <div className="mt-6 grid grid-cols-1 gap-x-20 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-9">
           {researches.map(research => (
-            <div className="group relative p-1">
+            <div key={research.topic} className="group relative p-1">
               <div
                   className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                 <Image src={research.image}
