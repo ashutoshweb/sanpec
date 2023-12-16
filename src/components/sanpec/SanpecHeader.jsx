@@ -31,6 +31,7 @@ const mobileNav = [
   { name: 'Electric Power', href: '/power' },
   { name: 'Sustainability', href: '/sustainability' },
   { name: 'Projects', href: '/project' },
+  { name: 'Events', href: '/eventing' },
   { name: 'Research', href: '/research' },
   { name: 'About', href: '/about-sanpec' },
 ]
@@ -39,6 +40,7 @@ const company = [
   { name: 'Electric Power', href: '/power' },
   { name: 'Sustainability', href: '/sustainability' },
   { name: 'Projects', href: '/project' },
+  { name: 'Events', href: '/eventing' },
   { name: 'Research', href: '/research' },
 ]
 

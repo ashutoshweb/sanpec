@@ -19,6 +19,7 @@ const company = [
   { name: 'About', href: '/about' },
   { name: 'Power', href: '/power'},
   { name: 'Sustainability', href: '/sustainability'},
+  { name: 'Events', href: '/eventing'},
   { name: 'Projects', href: '/projects'},
   { name: 'Research', href: '/research'},
 ]
