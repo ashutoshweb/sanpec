@@ -22,7 +22,7 @@ const features = [
     title: 'Innovative Engineering Solutions',
 
     description:
-        'A collaborative global community sharing knowledge and expertise',
+        '',
     image: hydrogen,
   },
 
@@ -30,7 +30,7 @@ const features = [
     title: 'Organizational Sustainability and Environmental Stewardship',
 
     description:
-        "The world's foremost power system knowledge development programme",
+        "",
     image: hydrogen,
   },
 
@@ -38,14 +38,14 @@ const features = [
     title: 'Customer-Centric Approach ',
 
     description:
-        'Next Generation collaborative global network sharing knowledge and expertise.',
+        '',
     image: hydrogen,
   },
   {
     title: 'Agile and Adaptive Operations',
 
     description:
-        'A collaborative global community sharing knowledge and expertise',
+        '',
     image: hydrogen,
   },
 
@@ -53,7 +53,7 @@ const features = [
     title: 'Global Reach with Local Insight',
 
     description:
-        "The world's foremost power system knowledge development programme",
+        "",
     image: hydrogen,
   },
 
@@ -61,7 +61,7 @@ const features = [
     title: 'Strategic Partnerships and Collaboration ',
 
     description:
-        'Next Generation collaborative global network sharing knowledge and expertise.',
+        '',
     image: hydrogen,
   },
 
@@ -130,8 +130,8 @@ export function ServicesPillars() {
                   <div
                       className="-mx-4 flex overflow-scroll overflow-x-auto pb-4 sm:mx-0 sm:overflow-visible  sm:pb-0 lg:col-span-5"
                       style={{
-                        maxHeight: '50rem',
-                        height: '50rem',
+                        maxHeight: '35rem',
+                        height: '35rem',
                         overflow: 'scroll',
                       }}
                   >
@@ -176,8 +176,8 @@ export function ServicesPillars() {
                   <Tab.Panels
                       className="border-2 border-white bg-white lg:col-span-7 "
                       style={{
-                        maxHeight: '50rem',
-                        height: '50rem',
+                        maxHeight: '35rem',
+                        height: '35rem',
                         overflow: 'scroll',
                         background: 'bg-[#151949]',
                       }}
