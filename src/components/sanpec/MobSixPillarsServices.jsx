@@ -51,17 +51,17 @@ const faqs = [
 
 export  function MobSixPillarsServices() {
   return (
-    <div className=" bg-[#151949] ">
+    <div>
       <div className="mx-auto max-w-7xl px-6 py-12 sm:py-12 lg:px-8 lg:py-12">
         <div className="mx-auto max-w-4xl divide-y divide-white/10">
-          <h2 className="text-2xl font-bold leading-10 tracking-tight text-white">Sanpec&apos;s Six Pillars of Excellence</h2>
-          <dl className="mt-10 space-y-6 divide-y divide-white/10">
+          <h2 className="text-3xl font-bold tracking-tight text-[#151949] sm:text-4xl text-center">Sanpec&apos;s Six Pillars of Excellence</h2>
+          <dl className="mt-10 space-y-6 divide-y divide-gray-700/10">
             {faqs.map((faq) => (
               <Disclosure as="div" key={faq.question} className="pt-6">
                 {({ open }) => (
                   <>
                     <dt>
-                      <Disclosure.Button className="flex w-full items-start justify-between text-left text-white">
+                      <Disclosure.Button className="flex w-full items-start justify-between text-left text-slate-700">
                       {open ? (
                            <span className="text-lg text-[#e8b44b] font-semibold leading-7">{faq.question}</span>
                           ) : (

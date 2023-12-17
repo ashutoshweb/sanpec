@@ -4,7 +4,7 @@ export function TakeAway() {
     'Learn about company priorities, strategies and plans for accelerating the deployment of innovative implementation solutions to help improve your organization’s performance results',
     'Improved engagement and understanding through learning about best practices leading to increased organizational resilience and sustainability',
     'Opportunities for interaction and networking with business leaders, enhancing your personal leadership effectiveness',
-    'How to create long term value for partners',
+    'How to create long term value for stakeholders',
   ];
 
   return (

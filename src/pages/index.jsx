@@ -37,9 +37,9 @@ export default function Home() {
         />
       </Head>
       <HeroSanpec />
-        <ServicesPillars/>
-      <SecondaryFeatures />
       <MobSixPillarsServices/>
+      <ServicesPillars/>
+      <SecondaryFeatures />
       <Services />
       <MobServices/>
       <SanpecEvents/>
