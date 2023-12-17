@@ -28,116 +28,68 @@ import waylonHydenImage from '@/images/avatars/waylon-hyden.jpg'
 
 const days = [
   {
-    name: 'Opening Day',
-    date: 'April 4',
-    dateTime: '2022-04-04',
+    name: 'Keynote Address ',
+
     speakers: [
       {
-        name: 'Steven McHail',
-        role: 'General Manager at Sanpec',
-        image: stevenMchailImage,
+        name: 'Speaker 1',
+        role: 'Title 1',
+        image: '',
       },
       {
-        name: 'Jaquelin Isch',
-        role: 'General Manager at Sanpec',
-        image: jaquelinIschImage,
+        name: 'Speaker 2',
+        role: 'Title 2',
+        image: '',
       },
       {
-        name: 'Dianne Guilianelli',
-        role: 'General Manager at Sanpec',
-        image: dianneGuilianelliImage,
-      },
-      {
-        name: 'Ronni Cantadore',
-        role: 'DGeneral Manager at Sanpec',
-        image: ronniCantadoreImage,
-      },
-      {
-        name: 'Erhart Cockrin',
-        role: 'General Manager at Sanpec',
-        image: erhartCockrinImage,
-      },
-      {
-        name: 'Parker Johnson',
-        role: 'General Manager at Sanpec',
-        image: parkerJohnsonImage,
+        name: 'Speaker 3',
+        role: 'Title 3',
+        image: '',
       },
     ],
   },
   {
-    name: 'Speakers & Workshops',
-    date: 'April 5',
-    dateTime: '2022-04-05',
+    name: 'Presentation ',
+
     speakers: [
       {
-        name: 'Damaris Kimura',
-        role: 'General Manager at Sanpec',
-        image: damarisKimuraImage,
+        name: 'Speaker 4',
+        role: 'Title 1',
+        image: '',
       },
       {
-        name: 'Ibrahim Frasch',
-        role: 'General Manager at Sanpec',
-        image: ibrahimFraschImage,
+        name: 'Speaker 5',
+        role: 'Title 2',
+        image: '',
       },
       {
-        name: 'Cathlene Burrage',
-        role: 'General Manager at Sanpec',
-        image: cathleneBurrageImage,
-      },
-      {
-        name: 'Rinaldo Beynon',
-        role: 'General Manager at Sanpec',
-        image: rinaldoBeynonImage,
-      },
-      {
-        name: 'Waylon Hyden',
-        role: 'General Manager at Sanpec',
-        image: waylonHydenImage,
-      },
-      {
-        name: 'Giordano Sagucio',
-        role: 'General Manager at Sanpec',
-        image: giordanoSagucioImage,
+        name: 'Speaker 6',
+        role: 'Title 3',
+        image: '',
       },
     ],
   },
   {
-    name: 'Interviews',
-    date: 'April 6',
-    dateTime: '2022-04-06',
+    name: 'FireSideChat',
     speakers: [
       {
-        name: 'Andrew Greene',
-        role: 'Frontend Developer at Sanpec',
-        image: andrewGreeneImage,
+        name: 'Speaker 7',
+        role: 'Title 1',
+        image: '',
       },
       {
-        name: 'Heather Terry',
-        role: 'Backend Developer at Sanpec',
-        image: heatherTerryImage,
+        name: 'Speaker 8',
+        role: 'Title 2',
+        image: '',
       },
-      {
-        name: 'Piers Wilkins',
-        role: 'Full stack Developer at Sanpec',
-        image: piersWilkinsImage,
-      },
-      {
-        name: 'Gordon Sanderson',
-        role: 'Mobile Developer at Sanpec',
-        image: gordonSandersonImage,
-      },
-      {
-        name: 'Kimberly Parsons',
-        role: 'Game Developer at Sanpec',
-        image: kimberlyParsonsImage,
-      },
-      {
-        name: 'Richard Astley',
-        role: 'CEO at Sanpec',
-        image: richardAstley,
-      },
+
     ],
   },
+  {
+    name: 'Audience Interaction',
+    speakers: [],
+  },
+
 ]
 
 function ImageClipPaths({ id, ...props }) {
@@ -193,7 +145,7 @@ export function Speakers() {
             Speakers
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            Learn from the experts on the cutting-edge of technology.
+            Learn from the experts.
           </p>
         </div>
         <Tab.Group
