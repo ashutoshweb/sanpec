@@ -13,9 +13,9 @@ const vide01 = poleTestingVideo
 
 const features = [
   {
-    name: 'SANPEC Excellence',
+    name: 'Systems Perspective',
     summary:
-      'Pioneering Circular Economy Transition and Infrastructure Excellence',
+      'Holistic Systems Thinking in Strategy',
     description:
       'We have the skillsets and mindsets to lead the transition to a circular economy and execute complex infrastructure projects with unparalleled engineering excellence, extensive fabrication knowledge, cutting-edge research, conscious leadership, and integrated quality management practices.',
     video: poleTestingVideo,
@@ -98,6 +98,27 @@ const features = [
   },
 ]
 
+const values = [
+  {
+    name: 'Resilient and Sustainable Design :',
+    description: 'Merging resilient infrastructure design with sustainable practices, ensuring that energy systems are not only robust but also environmentally friendly.',
+    icon: '',
+  },
+  {
+    name: 'Lifecycle Analysis :',
+    description: 'Conducting comprehensive lifecycle analyses of products and services to\n' +
+        'ensure they meet the highest standards of resilience and sustainability throughout their\n' +
+        'lifespan.',
+    icon: null,
+  },
+  {
+    name: 'Stakeholder Collaboration :',
+    description: 'Collaborating with a wide range of stakeholders, including industry partners, regulatory bodies, and environmental groups, to promote resilience and sustainability in the energy sector.',
+    icon: null,
+  }
+
+]
+
 function Feature({ feature, isActive, className, ...props }) {
   return (
     <div
@@ -132,14 +153,20 @@ function Feature({ feature, isActive, className, ...props }) {
       >
         {feature.summary}
       </p>
-      <p
-        className={clsx(
-          'mt-4 text-sm',
-          isActive ? 'text-white' : ' hover:text-white'
-        )}
-      >
-        {feature.description}
-      </p>
+      <div className="mx-auto mt-12 max-w-7xl px-6 sm:mt-12 lg:px-8">
+
+        <dl className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 sm:grid-cols-1 lg:mx-0 lg:max-w-none lg:gap-x-16">
+          {values.map((value) => (
+              <div key={value.name} className="relative pl-9">
+                <dt className="inline font-semibold">
+
+                  {value.name}
+                </dt>{' '}
+                <dd className="inline">{value.description}</dd>
+              </div>
+          ))}
+        </dl>
+      </div>
       {/*  <p
         className={clsx(
           'mt-2 font-display text-xl ',
@@ -193,7 +220,7 @@ function FeaturesDesktop() {
     <Tab.Group as="div" className="hidden lg:mt-20 lg:block">
       {({ selectedIndex }) => (
         <>
-          <Tab.List className="grid grid-cols-3 gap-x-8   ">
+          <Tab.List className="grid grid-cols-1 gap-x-8   ">
             {features.map((feature, featureIndex) => (
               <Feature
                 key={feature.name}
@@ -211,52 +238,14 @@ function FeaturesDesktop() {
               />
             ))}
           </Tab.List>
-          <Tab.Panels className="relative mt-12 overflow-hidden rounded-4xl bg-slate-200 px-14 py-8 xl:px-16">
-            <div className="-mx-5 flex">
-              {features.map((feature, featureIndex) => (
-                <Tab.Panel
-                  static
-                  key={feature.name}
-                  className={clsx(
-                    'px-5 transition duration-500 ease-in-out [&:not(:focus-visible)]:focus:outline-none',
-                    featureIndex !== selectedIndex && 'opacity-60'
-                  )}
-                  style={{ transform: `translateX(-${selectedIndex * 100}%)` }}
-                  aria-hidden={featureIndex !== selectedIndex}
-                >
-                  {feature.image ? (
-                    <div className="w-[52.75rem] overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
-                      <Image
-                        className="w-full"
-                        src={feature.image}
-                        alt=""
-                        sizes="52.75rem"
-                      />
-                    </div>
-                  ) : (
-                    <div className="w-[52.75rem] overflow-hidden rounded-xl">
-                      <video
-                        className="h-full w-full rounded-lg"
-                        controls
-                        autoPlay
-                      >
-                        <source src={feature.video} />
-                        Your browser does not support the video tag.
-                      </video>
-                    </div>
-                  )}
-                </Tab.Panel>
-              ))}
-            </div>
-            <div className="pointer-events-none absolute inset-0 rounded-4xl ring-1 ring-inset ring-slate-900/10" />
-          </Tab.Panels>
+
         </>
       )}
     </Tab.Group>
   )
 }
 
-export function SecondaryFeatures() {
+export function SixPillarsFeatures() {
   return (
     <section
       id="secondary-features"
@@ -264,7 +253,12 @@ export function SecondaryFeatures() {
       className="pb-14 pt-20 sm:pb-20 sm:pt-12 lg:pb-32"
     >
       <Container>
-
+        <div className="mx-auto max-w-2xl md:text-center">
+          <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
+            Sanpec&apos;s  Six Pillars of Excellence
+          </h2>
+         
+        </div>
         <FeaturesMobile />
         <FeaturesDesktop />
       </Container>

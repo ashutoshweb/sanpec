@@ -5,42 +5,56 @@ import KnowledgeFeature from './features/Knowledge'
 
 
 
-import CommunityFeature from './features/community'
-import NextGenFeature from './features/NextGen'
+import SystemsPerspective from "./sixpillars/SystemsPerspective";
+import Agility from "./sixpillars/Agility";
+import NewInnovation from "./sixpillars/NewInnovation";
+import ProcessExcellence from "./sixpillars/ProcessExcellence";
+import EcosystemInnovation from "./sixpillars/EcosystemInnovation";
+import Community from "./sixpillars/Community";
 
 const faqs = [
   {
-    question: "Baldrige global community",
+    question: "Systems Perspective",
     answer:
-    <CommunityFeature />,
+    <SystemsPerspective />,
   },
   {
-    question: "Knowledge Programme",
+    question: "Agility",
     answer:
-    <KnowledgeFeature />,
+    <Agility />,
   },
   {
-    question: "Next Generation Network (NGN) ",
+    question: "New Innovation ",
     answer:
-    <NextGenFeature />,
+    <NewInnovation />,
+  },
+  {
+    question: "Process Excellence",
+    answer:
+        <ProcessExcellence />,
+  },
+  {
+    question: "Ecosystem Innovation",
+    answer:
+        <EcosystemInnovation />,
+  },
+  {
+    question: "Community & Co-Creation",
+    answer:
+        <Community />,
   },
   
   
 ]
 
-const compMap = {
-    0: <CommunityFeature />,
-    1: <KnowledgeFeature />,
-    2: <NextGenFeature />,
-   
-  }
 
-export default function MobSixPillarsServices() {
+
+export  function MobSixPillarsServices() {
   return (
-    <div className=" bg-[#151949] lg:hidden">
+    <div className=" bg-[#151949] ">
       <div className="mx-auto max-w-7xl px-6 py-12 sm:py-12 lg:px-8 lg:py-12">
         <div className="mx-auto max-w-4xl divide-y divide-white/10">
-          <h2 className="text-2xl font-bold leading-10 tracking-tight text-white">Everything you need for your business</h2>
+          <h2 className="text-2xl font-bold leading-10 tracking-tight text-white">Sanpec&apos;s Six Pillars of Excellence</h2>
           <dl className="mt-10 space-y-6 divide-y divide-white/10">
             {faqs.map((faq) => (
               <Disclosure as="div" key={faq.question} className="pt-6">

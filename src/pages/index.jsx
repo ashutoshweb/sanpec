@@ -14,6 +14,8 @@ import { SanpecBlog } from '@/components/sanpec/blog/SanpecBlog';
 import MobServices from '@/components/sanpec/MobServices';
 import { Services } from '@/components/sanpec/Services';
 import { ServicesPillars } from '@/components/sanpec/ServicesPillars';
+import {SixPillarsFeatures} from "../components/sanpec/SixPillarsFeatures";
+import {MobSixPillarsServices} from "../components/sanpec/MobSixPillarsServices";
 
 
 
@@ -37,6 +39,7 @@ export default function Home() {
       <HeroSanpec />
         <ServicesPillars/>
       <SecondaryFeatures />
+      <MobSixPillarsServices/>
       <Services />
       <MobServices/>
       <SanpecEvents/>

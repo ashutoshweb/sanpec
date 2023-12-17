@@ -196,7 +196,7 @@ export default function CustomerCentric() {
                 Customer-Centric Approach
               </h2>
               <p className="mt-6 text-lg leading-8 text-[#151949]">
-                A collaborative global community sharing knowledge and expertise.
+
               </p>
             </div>
           </div>
@@ -204,7 +204,7 @@ export default function CustomerCentric() {
           {/* Content section */}
           <div className="mx-auto mt-10 max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
-              <div className="grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-[#151949] lg:max-w-none lg:grid-cols-2">
+              <div className="grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-[#151949] lg:max-w-none lg:grid-cols-1">
                 <div>
                   <p>
                     Understanding and meeting customer needs is a cornerstone of
@@ -215,15 +215,7 @@ export default function CustomerCentric() {
                   </p>
 
                 </div>
-                <div>
-                  <p>
-                    <img
-                        alt="global"
-                        src="https://www.cigre.org/userfiles/images/Community/CIGRE_Global_community_01.png"
-                    />
-                  </p>
 
-                </div>
               </div>
 
 
