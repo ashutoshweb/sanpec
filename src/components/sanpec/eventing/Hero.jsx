@@ -13,7 +13,7 @@ export function Hero() {
           </h1>
           <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-blue-900">
             <p>
-              The Industry's Most Prestigious Cross-Industry Awards Program. Showcasing the most outstanding Business Transformation & OpEx Achievements.
+              The Industry&apos;s Most Prestigious Cross-Industry Awards Program. Showcasing the most outstanding Business Transformation & OpEx Achievements.
             </p>
             <p>
               This elite awards program recognizes and showcases the real results organizations achieve through the successful implementation of Business & Digital Transformation, Operational Excellence & Innovation Excellence. The awards are open to all organizations, both private and public sector, across the globe, which have implemented Operational Excellence programs to deliver outstanding business results.

@@ -67,7 +67,7 @@ export default function ProductQuality() {
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight  sm:text-4xl">Championing Product Quality</h2>
             <p className="mt-4 text-lg leading-8">
-              The quality of SANPEC's products and services is a testament to its commitment to excellence:
+              The quality of SANPEC&apos;s products and services is a testament to its commitment to excellence:
             </p>
           </div>
           <dl className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 sm:grid-cols-1 lg:mx-0 lg:max-w-none lg:gap-x-16">

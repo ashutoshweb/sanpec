@@ -67,7 +67,7 @@ export default function ResilienceAndSustainability() {
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight  sm:text-4xl">Integrating Resilience and Sustainability</h2>
             <p className="mt-4 text-lg leading-8">
-              SANPEC's pioneering role is further highlighted by its ability to integrate resilience and sustainability into
+              SANPEC&apos;s pioneering role is further highlighted by its ability to integrate resilience and sustainability into
               a cohesive strategy:
             </p>
           </div>

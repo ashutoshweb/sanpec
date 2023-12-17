@@ -69,7 +69,7 @@ export default function Resilience() {
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight  sm:text-4xl">Leading the Way in Resilience</h2>
             <p className="mt-4 text-lg leading-8">
-              Resilience is a cornerstone of SANPEC's approach to energy infrastructure. The company's pioneering
+              Resilience is a cornerstone of SANPEC&apos;s approach to energy infrastructure. The company&apos;s pioneering
               efforts in this domain include:
             </p>
           </div>

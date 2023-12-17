@@ -71,7 +71,7 @@ export default function Sustainability() {
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight  sm:text-4xl">Setting Standards in Sustainability</h2>
             <p className="mt-4 text-lg leading-8">
-              SANPEC's leadership in sustainability is evident in its holistic approach, which encompasses
+              SANPEC&apos;s leadership in sustainability is evident in its holistic approach, which encompasses
               environmental stewardship, economic viability, and social responsibility:
             </p>
           </div>
