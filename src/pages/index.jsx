@@ -4,10 +4,6 @@ import { Faqs } from '@/components/Faqs'
 
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
-
-
-
-
 import { HeroSanpec } from '@/components/sanpec/HeroSanpec';
 
 import SanpecEvents from '@/components/sanpec/EventsSanpec';
@@ -17,6 +13,7 @@ import { SanpecSummaryBlog } from '@/components/sanpec/SummaryBlog';
 import { SanpecBlog } from '@/components/sanpec/blog/SanpecBlog';
 import MobServices from '@/components/sanpec/MobServices';
 import { Services } from '@/components/sanpec/Services';
+import { ServicesPillars } from '@/components/sanpec/ServicesPillars';
 
 
 
@@ -38,6 +35,7 @@ export default function Home() {
         />
       </Head>
       <HeroSanpec />
+        <ServicesPillars/>
       <SecondaryFeatures />
       <Services />
       <MobServices/>
