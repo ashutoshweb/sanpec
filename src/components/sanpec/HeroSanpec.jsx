@@ -95,7 +95,7 @@ export  function HeroSanpec() {
           </div>
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-            Institute for Resilience and Sustainability
+            Center for Resilience and Sustainability
             </h1>
             <p className="mt-6 text-lg leading-8 text-[#e8b44b]">
             Leadership | Performance Excellence | Quality | Innovation

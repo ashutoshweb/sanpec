@@ -15,40 +15,53 @@ import KnowledgeFeature from './features/Knowledge'
 
 import CommunityFeature from './features/community'
 import NextGenFeature from './features/NextGen'
+import Resilience from './features/Resilience'
+import Sustainability from './features/Sustainability'
+import ProductQuality from './features/ProductQuality'
+import ResilienceAndSustainability from './features/ResilienceAndSustainability'
 
 let name = 'Ashu'
 
 const features = [
   {
-    title: 'Baldrige global community',
+    title: 'Leading the Way in Resilience',
 
     description:
-      'A collaborative global community sharing knowledge and expertise',
+      'Resilience is a cornerstone of SANPEC\'s approach to energy infrastructure',
     image: hydrogen,
   },
 
   {
-    title: 'Knowledge Programme',
+    title: 'Setting Standards in Sustainability',
 
     description:
-      "The world's foremost power system knowledge development programme",
+      "SANPEC's leadership in sustainability is evident in its holistic approach",
     image: hydrogen,
   },
 
   {
-    title: 'Next Generation Network (NGN) ',
+    title: 'Championing Product Quality ',
 
     description:
       'Next Generation collaborative global network sharing knowledge and expertise.',
     image: hydrogen,
   },
+
+  {
+    title: 'Integrating Resilience and Sustainability ',
+
+    description:
+        'Integrate resilience and sustainability into a cohesive strategy.',
+    image: hydrogen,
+  },
   
 ]
 const compMap = {
-  0: <CommunityFeature />,
-  1: <KnowledgeFeature />,
-  2: <NextGenFeature />, 
- 
+  0: <Resilience />,
+  1: <Sustainability />,
+  2: <ProductQuality />,
+  3: <ResilienceAndSustainability />,
+
 }
 
 const gradientColor =
@@ -89,10 +102,11 @@ export function Services() {
       <Container className="relative mb-8">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need for your business.
+            Pioneer in Resilience, Sustainability, and Product Quality Industry
           </h2>
           <p className="mt-6 text-lg font-semibold tracking-tight text-[#e8b44b]">
-            We excel at all these and give you the best the industry provides.
+            Unwavering commitment to resilience, sustainability, and product quality.  SANPEC has set new benchmarks
+            and led the industry forward in these critical areas.
           </p>
         </div>
         <Tab.Group
@@ -105,8 +119,8 @@ export function Services() {
               <div
                 className="-mx-4 flex overflow-scroll overflow-x-auto pb-4 sm:mx-0 sm:overflow-visible  sm:pb-0 lg:col-span-5"
                 style={{
-                  maxHeight: '70rem',
-                  height: '70rem',
+                  maxHeight: '45rem',
+                  height: '45rem',
                   overflow: 'scroll',
                 }}
               >
@@ -151,8 +165,8 @@ export function Services() {
               <Tab.Panels
                 className="border-2 border-white bg-white lg:col-span-7 "
                 style={{
-                  maxHeight: '70rem',
-                  height: '70rem',
+                  maxHeight: '45rem',
+                  height: '45rem',
                   overflow: 'scroll',
                   background: 'bg-[#151949]',
                 }}
