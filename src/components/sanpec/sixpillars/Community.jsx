@@ -20,18 +20,18 @@ const stats = [
 
 const values = [
     {
-      name: 'Integrated Approach:',
-      description: 'Sanpec adopts a systems perspective, viewing the organization as acohesive whole rather than a collection of independent parts. This approach ensures thatdecisions and strategies are made considering theirimpact across all departments andfunctions.',
+      name: 'Community Engagement:',
+      description: 'Sanpec actively engages with the communities in which it operates,understanding their needs and working collaboratively to address them.',
       icon: RocketLaunchIcon,
     },
     {
-      name: 'Strategic Synergy :',
-      description: 'By integrating various business functions, from R&D to marketing, Sanpecensures that all efforts are aligned with the company&apos;s overarching goals, leading to more efficient and effective outcomes',
+      name: 'Co-Creation with Stakeholders:',
+      description: 'he company believes in co-creating value with stakeholders,including customers, local communities, and industry partners. This approach leads to solutionsthat are more aligned with stakeholder needs and expectations.',
       icon: HandRaisedIcon,
     },
     {
-      name: 'Stakeholder Collaboration :',
-      description: 'Collaborating with a wide range of stakeholders, including industry partners, regulatory bodies, and environmental groups, to promote resilience and sustainability in the energy sector.',
+      name: 'Social Responsibility:',
+      description: 'Sanpec’s commitment to community and co-creation goes beyondbusiness interests, reflecting a deep sense of social responsibility and a desire to contributepositively to society.',
       icon: UserGroupIcon,
     }
    
@@ -63,21 +63,20 @@ export default function Community() {
         {/* Values section */}
         <div className="mx-auto mt-12 max-w-7xl px-6 sm:mt-12 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-3xl font-bold tracking-tight  sm:text-4xl">Integrating Resilience and Sustainability</h2>
+            <h2 className="text-2xl font-bold tracking-tight  sm:text-2xl">Collaborative Efforts for Shared Value</h2>
             <p className="mt-4 text-lg leading-8">
-              SANPEC&apos;s pioneering role is further highlighted by its ability to integrate resilience and sustainability into
-              a cohesive strategy:
+
             </p>
           </div>
           <dl className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 sm:grid-cols-1 lg:mx-0 lg:max-w-none lg:gap-x-16">
             {values.map((value) => (
-              <div key={value.name} className="relative pl-9">
-                <dt className="inline font-semibold">
-                  <value.icon className="absolute left-1 top-1 h-5 w-5 text-indigo-500" aria-hidden="true" />
-                  {value.name}
-                </dt>{' '}
-                <dd className="inline">{value.description}</dd>
-              </div>
+                <div key={value.name} className="relative pl-9">
+                  <dt className="inline font-semibold">
+
+                    {value.name}
+                  </dt>{' '}
+                  <dd className="inline">{value.description}</dd>
+                </div>
             ))}
           </dl>
         </div>
