@@ -31,14 +31,14 @@ const values = [
   },
 
   {
-    name: 'Community-focused business models:',
+    name: 'Ecosystem-focused business model:',
     description:
       'We apply community-focused business models that contribute to the local economies where we operate and create social and environmental value. We use problem-driven adaptive iteration to co-evolve and co-create sustainable solutions. Our leaders are role models for the well-being of our communities.',
     icon: HandRaisedIcon,
   },
 
   {
-    name: 'Youth Sports and Community of Excellence: ',
+    name: 'Youth Sports: ',
     description:
       'SANPEC is highly involved with local and statewide communities to support quality education, youth sports, and communities of excellence programs through volunteer contributions.',
     icon: RocketLaunchIcon,

@@ -11,7 +11,7 @@ import {EventOrganizer} from '@/components/sanpec/eventing/EventOrganizer';
 
 
 
-export default function eventing() {
+export default function event() {
     return (
         <>
           <Header />
