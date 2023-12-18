@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Sanpec</title>
+        <title>SANPEC</title>
         
         <meta
           name="description"
