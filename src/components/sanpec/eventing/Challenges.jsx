@@ -23,14 +23,15 @@ const tabs = [
 
 const focusItems = [
 'Organizational resilience, innovation, and sustainability',
-'Risk management and business excellence',
-'Improving grid resilience and sustainability',
-'Holistic project management',
-'Increasing manufacturing and operational efficiency',
-'Value-chain management and strategic planning',
+'Value-chain management and operational resilience',
+'Uncertainty risk management and sustainable business practices',
+'Grid resilience, innovation, and sustainable development',
+'Holistic project management and sustainable value creation',
+'Manufacturing and Quality',
 'Advanced engineering tools and technologies',
-'Systems engineering perspective',
-'SANPEC and Baldrige Models',
+'Systems engineering perspective and business model innovation',
+'Ecosystem excellence and dynamic co-creation',
+'Science and spirituality',
 ];
 
 function classNames(...classes) {
