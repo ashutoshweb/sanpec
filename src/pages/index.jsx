@@ -41,7 +41,6 @@ export default function Home() {
       <ServicesPillars/>
       <SecondaryFeatures />
       <Services />
-      <MobServices/>
       <SanpecEvents/>
       <SanpecBlog/>
       <Faqs />
