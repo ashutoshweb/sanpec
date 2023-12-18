@@ -3,12 +3,16 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 
+
+
 const navigation = [
   { name: 'Product', href: '#' },
   { name: 'Features', href: '#' },
   { name: 'Marketplace', href: '#' },
   { name: 'Company', href: '#' },
 ]
+
+
 
 export  function HeroSanpec() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -84,6 +88,15 @@ export  function HeroSanpec() {
           />
         </div>
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-32">
+          <div className="hidden sm:mb-8 sm:flex sm:justify-center">
+            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
+              Resilience and Sustainability .{' '}
+              <Link href='/Organizational-Resilience-and-Sustainability.pdf' className="font-semibold text-white" without rel="noopener noreferrer" target="_blank">
+                <span className="absolute inset-0" aria-hidden="true" />
+                View Document <span aria-hidden="true">&rarr;</span>
+              </Link>
+            </div>
+          </div>
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
               Journey Of Excellence .{' '}
