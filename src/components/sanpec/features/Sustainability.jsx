@@ -69,7 +69,7 @@ export default function Sustainability() {
         {/* Values section */}
         <div className="mx-auto mt-12 max-w-7xl px-6 sm:mt-12 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-3xl font-bold tracking-tight  sm:text-4xl">Setting Standards in Sustainability</h2>
+            <h2 className="text-2xl font-bold tracking-tight  sm:text-3xl">Setting Standards in Sustainability</h2>
             <p className="mt-4 text-lg leading-8">
               SANPEC&apos;s leadership in sustainability is evident in its holistic approach, which encompasses
               environmental stewardship, economic viability, and social responsibility:
@@ -79,7 +79,7 @@ export default function Sustainability() {
             {values.map((value) => (
               <div key={value.name} className="relative pl-9">
                 <dt className="inline font-semibold">
-                  <value.icon className="absolute left-1 top-1 h-5 w-5 text-indigo-500" aria-hidden="true" />
+
                   {value.name}
                 </dt>{' '}
                 <dd className="inline">{value.description}</dd>

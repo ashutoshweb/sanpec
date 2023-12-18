@@ -43,7 +43,7 @@ const features = [
     title: 'Championing Product Quality ',
 
     description:
-      'Next Generation collaborative global network sharing knowledge and expertise.',
+      "SANPEC's products and services is a testament to its commitment to excellence",
     image: hydrogen,
   },
 

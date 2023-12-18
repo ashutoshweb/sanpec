@@ -67,7 +67,7 @@ export default function Resilience() {
         {/* Values section */}
         <div className="mx-auto mt-12 max-w-7xl px-6 sm:mt-12 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-3xl font-bold tracking-tight  sm:text-4xl">Leading the Way in Resilience</h2>
+            <h2 className="text-3xl font-bold tracking-tight  sm:text-3xl">Leading the Way in Resilience</h2>
             <p className="mt-4 text-lg leading-8">
               Resilience is a cornerstone of SANPEC&apos;s approach to energy infrastructure. The company&apos;s pioneering
               efforts in this domain include:
@@ -77,7 +77,7 @@ export default function Resilience() {
             {values.map((value) => (
               <div key={value.name} className="relative pl-9">
                 <dt className="inline font-semibold">
-                  <value.icon className="absolute left-1 top-1 h-5 w-5 text-indigo-500" aria-hidden="true" />
+
                   {value.name}
                 </dt>{' '}
                 <dd className="inline">{value.description}</dd>

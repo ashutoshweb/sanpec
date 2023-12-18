@@ -65,7 +65,7 @@ export default function ProductQuality() {
         {/* Values section */}
         <div className="mx-auto mt-12 max-w-7xl px-6 sm:mt-12 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-3xl font-bold tracking-tight  sm:text-4xl">Championing Product Quality</h2>
+            <h2 className="text-3xl font-bold tracking-tight  sm:text-3xl">Championing Product Quality</h2>
             <p className="mt-4 text-lg leading-8">
               The quality of SANPEC&apos;s products and services is a testament to its commitment to excellence:
             </p>
@@ -74,7 +74,7 @@ export default function ProductQuality() {
             {values.map((value) => (
               <div key={value.name} className="relative pl-9">
                 <dt className="inline font-semibold">
-                  <value.icon className="absolute left-1 top-1 h-5 w-5 text-indigo-500" aria-hidden="true" />
+
                   {value.name}
                 </dt>{' '}
                 <dd className="inline">{value.description}</dd>
