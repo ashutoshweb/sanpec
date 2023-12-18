@@ -52,7 +52,7 @@ export default function AgileAndAdaptive() {
               <div className="grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-[#151949] lg:max-w-none lg:grid-cols-1">
                 <div>
                   <p>
-                    In a rapidly changing industry landscape, agility is key. Sanpec&apos;s
+                    In a rapidly changing industry landscape, agility is key. SANPEC&apos;s
                     business model is built to be flexible and responsive to market changes. This agility allows the
                     company to quickly adapt to new challenges and opportunities, maintaining a competitive edge
                     in a dynamic environment.

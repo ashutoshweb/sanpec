@@ -21,12 +21,12 @@ const stats = [
 const values = [
     {
       name: 'Integrated Approach:',
-      description: 'Sanpec adopts a systems perspective, viewing the organization as acohesive whole rather than a collection of independent parts. This approach ensures thatdecisions and strategies are made considering theirimpact across all departments andfunctions.',
+      description: 'SANPEC adopts a systems perspective, viewing the organization as acohesive whole rather than a collection of independent parts. This approach ensures thatdecisions and strategies are made considering theirimpact across all departments andfunctions.',
       icon: RocketLaunchIcon,
     },
     {
       name: 'Strategic Synergy :',
-      description: 'By integrating various business functions, from R&D to marketing, Sanpecensures that all efforts are aligned with the company&apos;s overarching goals, leading to more efficient and effective outcomes',
+      description: 'By integrating various business functions, from R&D to marketing, SANPECensures that all efforts are aligned with the company&apos;s overarching goals, leading to more efficient and effective outcomes',
       icon: HandRaisedIcon,
     },
     {

@@ -21,7 +21,7 @@ const stats = [
 const values = [
     {
       name: 'Community Engagement:',
-      description: 'Sanpec actively engages with the communities in which it operates,understanding their needs and working collaboratively to address them.',
+      description: 'SANPEC actively engages with the communities in which it operates,understanding their needs and working collaboratively to address them.',
       icon: RocketLaunchIcon,
     },
     {
@@ -31,7 +31,7 @@ const values = [
     },
     {
       name: 'Social Responsibility:',
-      description: 'Sanpec’s commitment to community and co-creation goes beyondbusiness interests, reflecting a deep sense of social responsibility and a desire to contributepositively to society.',
+      description: 'SANPEC’s commitment to community and co-creation goes beyondbusiness interests, reflecting a deep sense of social responsibility and a desire to contributepositively to society.',
       icon: UserGroupIcon,
     }
    

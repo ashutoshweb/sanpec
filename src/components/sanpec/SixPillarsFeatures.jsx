@@ -255,7 +255,7 @@ export function SixPillarsFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Sanpec&apos;s  Six Pillars of Excellence
+            SANPEC&apos;s  Six Pillars of Excellence
           </h2>
          
         </div>

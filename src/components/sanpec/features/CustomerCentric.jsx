@@ -208,9 +208,9 @@ export default function CustomerCentric() {
                 <div>
                   <p>
                     Understanding and meeting customer needs is a cornerstone of
-                    Sanpec&apos;s business philosophy. The model emphasizes bespoke solutions tailored to the unique
+                    SANPEC&apos;s business philosophy. The model emphasizes bespoke solutions tailored to the unique
                     requirements of each client, ensuring high satisfaction and long-term partnerships. This
-                    approach has positioned Sanpec as a trusted partner in the industry, known for its reliability and
+                    approach has positioned SANPEC as a trusted partner in the industry, known for its reliability and
                     customer-focused service.
                   </p>
 

@@ -114,7 +114,7 @@ export function ServicesPillars() {
         <Container className="relative mb-8">
           <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
             <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-              Sanpec&apos;s Business Excellence
+              SANPEC&apos;s Business Excellence
             </h2>
             <p className="mt-6 text-lg font-semibold tracking-tight text-[#e8b44b]">
               We excel at all these and give you the best the industry provides.

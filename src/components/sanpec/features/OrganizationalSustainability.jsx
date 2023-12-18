@@ -205,7 +205,7 @@ export default function OrganizationalSustainability() {
               <div className="grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-[#151949] lg:max-w-none lg:grid-cols-1">
                 <div>
                   <p>
-                    Sanpec recognizes the critical
+                    SANPEC recognizes the critical
                     importance of sustainability in today&apos;s world. Its business model incorporates sustainable
                     practices across all operations, from eco-friendly design principles in engineering to sustainable
                     supply chain management. This commitment extends to minimizing environmental impact and

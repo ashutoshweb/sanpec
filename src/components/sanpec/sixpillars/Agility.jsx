@@ -21,7 +21,7 @@ const stats = [
 const values = [
     {
       name: 'Rapid Response to Market Changes:',
-      description: 'Agility at Sanpec means the ability to quickly adapt tomarket changes and customer needs. This agility is achieved through flexible operationalprocesses and an adaptive organizational structure.',
+      description: 'Agility at SANPEC means the ability to quickly adapt tomarket changes and customer needs. This agility is achieved through flexible operationalprocesses and an adaptive organizational structure.',
       icon: RocketLaunchIcon,
     },
     {
@@ -31,7 +31,7 @@ const values = [
     },
     {
       name: 'Scalable Solutions:',
-      description: 'Operational processes are designed to be scalable, allowing Sanpec toefficiently manage changes in demandor shifts in market dynamics.',
+      description: 'Operational processes are designed to be scalable, allowing SANPEC toefficiently manage changes in demandor shifts in market dynamics.',
       icon: UserGroupIcon,
     }
    

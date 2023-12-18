@@ -21,7 +21,7 @@ const stats = [
 const values = [
     {
       name: 'Collaborative Ecosystem:',
-      description: 'Sanpec fosters a collaborative ecosystem comprising suppliers,partners, and customers. This ecosystem approach leads to shared innovation and valuecreation.',
+      description: 'SANPEC fosters a collaborative ecosystem comprising suppliers,partners, and customers. This ecosystem approach leads to shared innovation and valuecreation.',
       icon: RocketLaunchIcon,
     },
     {
@@ -31,7 +31,7 @@ const values = [
     },
     {
       name: 'Sustainable Supply Chain:',
-      description: 'Efforts are made to ensure that the supply chain is not only efficientbut also sustainable,aligning with Sanpec’s commitment to environmental stewardship.',
+      description: 'Efforts are made to ensure that the supply chain is not only efficientbut also sustainable,aligning with SANPEC’s commitment to environmental stewardship.',
       icon: UserGroupIcon,
     }
    

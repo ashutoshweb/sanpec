@@ -54,7 +54,7 @@ export  function MobSixPillarsServices() {
     <div>
       <div className="mx-auto max-w-7xl px-6 py-12 sm:py-12 lg:px-8 lg:py-12">
         <div className="mx-auto max-w-4xl divide-y divide-white/10">
-          <h2 className="text-3xl font-bold tracking-tight text-[#151949] sm:text-4xl text-center">Sanpec&apos;s Six Pillars of Excellence</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-[#151949] sm:text-4xl text-center">SANPEC&apos;s Six Pillars of Excellence</h2>
           <dl className="mt-10 space-y-6 divide-y divide-gray-700/10">
             {faqs.map((faq) => (
               <Disclosure as="div" key={faq.question} className="pt-6">

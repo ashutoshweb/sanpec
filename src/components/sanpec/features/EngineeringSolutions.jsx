@@ -49,9 +49,9 @@ export default function EngineeringSolutions() {
             <div className="grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-[#151949] lg:max-w-none lg:grid-cols-1">
               <div>
                 <p>
-                  At the heart of Sanpec&apos;s business model lies a commitment to
+                  At the heart of SANPEC&apos;s business model lies a commitment to
                   engineering innovation. This involves not only adopting cutting-edge technologies but also
-                  pioneering new methods in transmission and distribution engineering. Sanpec&apos;s approach to
+                  pioneering new methods in transmission and distribution engineering. SANPEC&apos;s approach to
                   engineering solutions is proactive, anticipating future industry needs and developing
                   technologies that set new standards in efficiency and reliability.
                 </p>

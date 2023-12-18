@@ -16,7 +16,7 @@ import {
 const values = [
     {
       name: 'Lean and Efficient Operations:',
-      description: 'Sanpec employs lean management principles to streamlineoperations, eliminate waste, and increase efficiency.',
+      description: 'SANPEC employs lean management principles to streamlineoperations, eliminate waste, and increase efficiency.',
       icon: RocketLaunchIcon,
     },
     {

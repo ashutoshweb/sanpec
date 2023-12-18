@@ -50,7 +50,7 @@ export default function GlobalReach() {
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
             <div className="grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-[#151949] lg:max-w-none lg:grid-cols-1">
               <div>
-                <p> Sanpec operates on a global scale, leveraging international
+                <p> SANPEC operates on a global scale, leveraging international
                   resources and multidisciplinary expertise. However, its business model also emphasizes local
                   knowledge and presence, understanding that local insights are crucial for the successful
                   implementation of projects across diverse geographical and cultural landscapes.

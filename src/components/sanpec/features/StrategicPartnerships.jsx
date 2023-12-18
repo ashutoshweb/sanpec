@@ -208,7 +208,7 @@ export default function StrategicPartnerships() {
                 <div>
                   <p>
 
-                    Recognizing the power of collaboration, Sanpec
+                    Recognizing the power of collaboration, SANPEC
                     actively seeks and nurtures strategic partnerships. This includes alliances with other industry
                     leaders, academic institutions, and research bodies. These collaborations enhance its
                     capabilities, foster innovation, and expand its reach in the industry.

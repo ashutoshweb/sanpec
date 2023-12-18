@@ -21,12 +21,12 @@ const stats = [
 const values = [
     {
       name: 'Cutting-Edge Research and Development:',
-      description: 'Sanpec is committed to staying at the forefront oftechnological advancements. The company invests significantly in R&D, focusing on developingnew solutions that address current and future industry challenges.',
+      description: 'SANPEC is committed to staying at the forefront oftechnological advancements. The company invests significantly in R&D, focusing on developingnew solutions that address current and future industry challenges.',
       icon: RocketLaunchIcon,
     },
     {
       name: 'Collaboration with Innovators:',
-      description: 'Partnerships with leading innovators and academic institutionsare a key part of Sanpec\'s strategy, ensuring access to the latest technologies and thoughtleadership.',
+      description: 'Partnerships with leading innovators and academic institutionsare a key part of SANPEC\'s strategy, ensuring access to the latest technologies and thoughtleadership.',
       icon: HandRaisedIcon,
     },
     {
