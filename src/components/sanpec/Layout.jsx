@@ -11,7 +11,7 @@ export function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>Sanpec</title>
+        <title>SANPEC</title>
         <meta
           name="description"
           content="Sanpec: Bringing Engineering Excellence. Improving Power Grid Reliability"
