@@ -229,11 +229,10 @@ export default function WhySanpec() {
                 Why SANPEC ?
               </h2>
               <p className="mt-6 text-lg font-semibold leading-8">
-                SANPEC has a wealth of experience and expertise in T&D line
-                engineering, testing, and manufacturing, with a strong
-                commitment to quality, sustainability, and professional
-                development through academic affiliations and active
-                participation in industry committees.
+                SANPEC is a purpose-led, values-aligned, and innovation-driven company specializing in design,
+                engineering, testing, supply chain, asset inspection, risk mitigation, sustainability, and quality
+                management for critical electric power, lighting, and renewable energy infrastructures.
+                SANPEC team has extensive worldwide experiences in creating value chain management with holistic approach.
               </p>
             </div>
 
