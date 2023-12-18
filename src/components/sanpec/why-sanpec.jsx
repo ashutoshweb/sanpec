@@ -246,33 +246,33 @@ export default function WhySanpec() {
             </div>
 
             <div className="mx-auto mt-6 pl-12 text-lg font-semibold leading-8">
-              <p>
+              <p className="pt-5">
                 We are a diverse team of purpose-led engineers and
                 multidisciplinary professionals with an uncompromising focus on
                 resilience, reliability, sustainability, quality, and
                 excellence.
               </p>
-              <p>
+              <p className="pt-5">
                 We have the skill sets and mindsets to lead the transition to a
                 circular economy and execute complex infrastructure projects
                 with unparalleled engineering excellence, extensive fabrication
                 knowledge, cutting-edge research, conscious leadership, and
                 integrated quality management practices.
               </p>
-              <p>
+              <p className="pt-5">
                 We have engineered, fabricated, inspected, and restored millions
                 of assets to ensure structural integrity and improve the quality
                 of life. Our innovative solutions help solve critical challenges
                 by integrating deep domain expertise, market research, valuable
                 insights, and advanced technology capabilities.
               </p>
-              <p>
+              <p className="pt-5">
                 We provide the right blend of cutting-edge research,
                 breakthrough innovations, unconventional wisdom, and
                 unparalleled technical expertise to ensure the project benefits
                 socio-economic value n the dynamic and disruptive energy sector.
               </p>
-              <p>
+              <p className="pt-5">
                 We are uniquely positioned to lead the energy transition with
                 innovative and strategic solutions while anticipating and
                 mitigating tomorrow&apos;s disruptions.

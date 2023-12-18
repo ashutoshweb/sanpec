@@ -26,7 +26,7 @@ const values = [
     },
     {
       name: 'Co-Creation with Stakeholders:',
-      description: 'he company believes in co-creating value with stakeholders,including customers, local communities, and industry partners. This approach leads to solutionsthat are more aligned with stakeholder needs and expectations.',
+      description: 'The company believes in co-creating value with stakeholders,including customers, local communities, and industry partners. This approach leads to solutionsthat are more aligned with stakeholder needs and expectations.',
       icon: HandRaisedIcon,
     },
     {

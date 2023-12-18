@@ -89,13 +89,13 @@ const values = [
   {
     name: 'Visionary Leadership',
     description:
-      'focused on results and creating value for all partner organizations.',
+      'focused on results and creating value for all stakeholders organizations.',
     icon: UserGroupIcon,
   },
   {
     name: 'Unwavering Commitment',
     description:
-      'to continuous improvement and Organizational Performance Excellence.',
+      'to continuous improvement and sustainable value creation.',
     icon: RocketLaunchIcon,
   },
   {
@@ -108,7 +108,7 @@ const values = [
   {
     name: 'Innovation',
     description:
-      'taking creative risks to build a more agile organization that drives transformative change internally.',
+      'taking creative risks to build a more agile organization that drives holistic change.',
     icon: AcademicCapIcon,
   },
 ]
