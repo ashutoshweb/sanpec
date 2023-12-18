@@ -233,8 +233,8 @@ export default function AboutSanpec() {
               <h2 className="text-4xl font-bold tracking-tight text-gray-300 sm:text-6xl">
                 Center for Resilience and Sustainability
               </h2>
-              <p className="mt-6 text-xl font-bold leading-8  text-[#e8b44b]">
-                Leadership | Performance Excellence | Quality | Innovation
+              <p className="mt-6  font-bold leading-8  text-[#e8b44b]">
+                Leadership | Performance Excellence | Quality | Innovation | Sustainability
               </p>
             </div>
           </div>
