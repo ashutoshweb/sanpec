@@ -24,18 +24,18 @@ let name = 'Ashu'
 
 const features = [
   {
-    title: 'Leading the Way in Resilience',
-
-    description:
-      'Resilience is a cornerstone of SANPEC\'s approach to energy infrastructure',
-    image: hydrogen,
-  },
-
-  {
     title: 'Setting Standards in Sustainability',
 
     description:
       "SANPEC's leadership in sustainability is evident in its holistic approach",
+    image: hydrogen,
+  },
+
+  {
+    title: 'Leading the Way in Resilience',
+
+    description:
+        'Resilience is a cornerstone of SANPEC\'s approach to energy infrastructure',
     image: hydrogen,
   },
 
@@ -57,8 +57,8 @@ const features = [
   
 ]
 const compMap = {
-  0: <Resilience />,
-  1: <Sustainability />,
+  0: < Sustainability/>,
+  1: <Resilience />,
   2: <ProductQuality />,
   3: <ResilienceAndSustainability />,
 
