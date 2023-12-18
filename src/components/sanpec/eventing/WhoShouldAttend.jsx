@@ -5,6 +5,7 @@ export function WhoShouldAttend () {
     'Quality and performance controllers personnel',
     'Practitioners from business and private sector',
     'Key individuals from other sectors engaged in organizational improvement',
+    'Performace excellence professional',
   ];
 
 
