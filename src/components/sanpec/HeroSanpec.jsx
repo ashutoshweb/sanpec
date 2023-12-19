@@ -91,7 +91,7 @@ export  function HeroSanpec() {
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
               Resilience and Sustainability .{' '}
-              <Link href='/Organizational-Resilience-and-Sustainability.pdf' className="font-semibold text-white" without rel="noopener noreferrer" target="_blank">
+              <Link href='/TheLightOfTheWorld.pdf' className="font-semibold text-white" without rel="noopener noreferrer" target="_blank">
                 <span className="absolute inset-0" aria-hidden="true" />
                 View Document <span aria-hidden="true">&rarr;</span>
               </Link>
