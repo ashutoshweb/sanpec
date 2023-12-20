@@ -43,7 +43,7 @@ export default function Home() {
       <Services />
       <SanpecEvents/>
       <SanpecBlog/>
-      <Faqs />
+
      
     </>
   )

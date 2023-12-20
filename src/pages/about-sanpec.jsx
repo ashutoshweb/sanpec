@@ -337,7 +337,7 @@ export default function AboutSanpec() {
         </div>
 
         <WhySanpec/>
-        <Faqs/>
+
 
         {/* Values section 
           <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-12 lg:px-8">
