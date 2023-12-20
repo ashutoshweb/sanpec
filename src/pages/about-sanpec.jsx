@@ -318,27 +318,7 @@ export default function AboutSanpec() {
           />
         </div>
 
-        <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-12 lg:px-8">
-          <dl className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 text-white sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-16">
-            {sanpec.map((value) => (
-              <div key={value.name} className="relative pl-9">
-                <div className="mx-auto max-w-2xl lg:mx-0">
-                  <h2 className="text-3xl font-bold tracking-tight text-white sm:text-2xl">
-                    {value.title}
-                  </h2>
-                </div>
-                <dt className="inline  ">
-                  <p className="mt-6 text-xl leading-8 text-[#e8b44b]">
-                    {value.mainHead}
-                  </p>
-                  <p className="mt-6 text-lg leading-8 text-white ">
-                    {value.description}
-                  </p>
-                </dt>{' '}
-              </div>
-            ))}
-          </dl>
-        </div>
+
 
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-12 lg:px-16">
           <div className="mx-auto max-w-2xl lg:mx-0">
