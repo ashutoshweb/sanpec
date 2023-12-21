@@ -47,7 +47,7 @@ const values = [
       'Advance Equity & Social Justice',
       'Preserve Historic & Cultural Resources',
       'Enhance Views & Local Character',
-      'nhance Public Space & Amenities',
+      'Enhance Public Space & Amenities',
 
     ],
     icon: RocketLaunchIcon,
