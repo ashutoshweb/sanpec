@@ -2,6 +2,8 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
+import poleTestingVideo from '@/custom-images/tower_testing_video-1_(1).mp4'
+
 
 
 
@@ -70,8 +72,9 @@ export  function HeroSanpec() {
       </header>
 
       <div className="relative isolate overflow-hidden pt-14">
+
         <img
-          src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2830&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
+          src="https://cdn.firespring.com/images/35938bbc-24cf-4889-8219-1635aaa6edb6.jpeg"
           alt=""
           className="absolute inset-0 -z-10 h-full w-full object-cover"
         />
@@ -89,8 +92,8 @@ export  function HeroSanpec() {
         </div>
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-32">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
-              Resilience and Sustainability .{' '}
+            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-black-400 ring-1 ring-white/10 hover:ring-white/20">
+              Our blueprint for holistic resilience .{' '}
               <Link href='/TheLightOfTheWorld.pdf' className="font-semibold text-white" without rel="noopener noreferrer" target="_blank">
                 <span className="absolute inset-0" aria-hidden="true" />
                 View Document <span aria-hidden="true">&rarr;</span>
@@ -98,7 +101,7 @@ export  function HeroSanpec() {
             </div>
           </div>
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
+            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-black-400 ring-1 ring-white/10 hover:ring-white/20">
               Journey Of Excellence .{' '}
               <Link href="/about-sanpec#journey-of-excellence" className="font-semibold text-white">
                 <span className="absolute inset-0" aria-hidden="true" />
@@ -107,8 +110,8 @@ export  function HeroSanpec() {
             </div>
           </div>
           <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-            Center for Resilience and Sustainability
+            <h1 className="text-4xl font-bold tracking-tight text-black-400 sm:text-6xl">
+            Center for Energy Excellence and Sustainability
             </h1>
             <p className="mt-6 text-lg leading-8 text-[#e8b44b]">
             Leadership | Performance Excellence | Quality | Resilience | Sustainability

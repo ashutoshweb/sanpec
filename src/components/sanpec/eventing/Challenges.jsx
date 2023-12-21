@@ -3,6 +3,7 @@ import {Fragment} from 'react';
 import {CleanEnergyChallenge} from '@/components/sanpec/eventing/Challenge/CleanEnergyChallenge';
 import {Approach} from '@/components/sanpec/eventing/Challenge/Approach';
 import { TakeAway } from '@/components/sanpec/eventing/Challenge/TakeAway';
+import {DiscussionPillars} from '@/components/sanpec/eventing/DiscussionPillars';
 
 const tabs = [
 {
@@ -73,6 +74,8 @@ return (
                 ))}
 
               </ul>
+
+              <DiscussionPillars/>
             </div>
 
             <Tab.Group as="div" className="mt-10">

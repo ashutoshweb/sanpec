@@ -20,7 +20,7 @@ const feature = {
   para: [
     'SANPEC is proud to attend the “Transmission & Substation Design & Operation Symposium (TSDOS)” hosted by The University of Texas at Arlington.',
   ],
-  author: 'Sangita Mallick',
+  author: 'Sangita P. Mallik',
 
   description:
     'The SunZia Transmission Project is a major new 500 kilovolt (kV) transmission project that will provide additional transmission interconnections and transmission capacity between central New Mexico and central Arizona. SunZia will enable the development of renewable energy resources, notably wind energy resources, by creating access to the interstate power grid across the Desert Southwest.',

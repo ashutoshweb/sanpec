@@ -20,20 +20,25 @@ const stats = [
 
 const values = [
     {
-      name: 'Rapid Response to Market Changes:',
-      description: 'Agility at SANPEC means the ability to quickly adapt tomarket changes and customer needs. This agility is achieved through flexible operationalprocesses and an adaptive organizational structure.',
+      name: 'Customer-focused Excellence:',
+      description: 'We implement a feedback-driven leadership and management framework to improve the company-wide strategic change initiatives. Our skilled and qualified professionals continuously strive to elevate performance to maximize operational efficiency and meet customer demands. We care deeply about inspiring loyalty and trust. ',
       icon: RocketLaunchIcon,
     },
     {
-      name: 'Innovative Problem-Solving:',
-      description: 'Employees are encouraged to think creatively and act swiftly,fostering a culture where innovative problem-solving is the norm.',
+      name: 'Focus on success:',
+      description: 'We deploy an effective financial strategy to maximize stakeholder value and maintain positive financial returns.',
       icon: HandRaisedIcon,
     },
     {
-      name: 'Scalable Solutions:',
-      description: 'Operational processes are designed to be scalable, allowing SANPEC toefficiently manage changes in demandor shifts in market dynamics.',
+      name: 'Organizational Learning:',
+      description: 'We consistently learn and improve agility goals as we journey towards excellence in our systems and processes!',
       icon: UserGroupIcon,
-    }
+    },
+  {
+    name: 'Knowledge Management:',
+    description: 'We utilize well-crafted policies, procedures, and training to document and improve the process. We ensure that the information gets to the right people at the right time.',
+    icon: UserGroupIcon,
+  }
    
   ]
 

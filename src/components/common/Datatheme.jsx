@@ -56,7 +56,7 @@ const feature =
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Innovating for Sustainability</h2>
             <p className="mt-4 text-xl text-gray-900">
-            Sangita Mallick
+                Sangita P. Mallik
             </p>
           </div>
   

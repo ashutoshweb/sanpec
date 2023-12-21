@@ -15,20 +15,40 @@ import {
 
 const values = [
     {
-      name: 'Lean and Efficient Operations:',
-      description: 'SANPEC employs lean management principles to streamlineoperations, eliminate waste, and increase efficiency.',
+      name: '',
+      description: 'Purpose-driven decision-making ensures a dynamic balance between growth and the common good.',
       icon: RocketLaunchIcon,
     },
     {
-      name: 'Quality Management Systems:',
-      description: 'The company adheres to rigorous quality management systems,ensuring thatevery process, from production to delivery, meets the highest standards.',
+      name: '',
+      description: 'Our values guide our behavior. It promotes consistent product/service quality and customer satisfaction.',
       icon: HandRaisedIcon,
     },
     {
-      name: 'Employee Empowerment:',
-      description: 'Employees are empowered to suggest improvements andinnovations in processes, creating a culture of continuous improvement and excellence.',
+      name: '',
+      description: 'We provide a unique system and comprehensive approach for filling the gaps and addressing long-term priorities beyond making plans and implementing short-term projects.',
       icon: UserGroupIcon,
-    }
+    },
+    {
+        name: '',
+        description: 'We actively improve the process, value people, share ideas, and discuss issues for improving the company and the community.',
+        icon: RocketLaunchIcon,
+    },
+    {
+        name: '',
+        description: 'We help, mentor, and train others to deliver value and achieve their performance goals.',
+        icon: HandRaisedIcon,
+    },
+    {
+        name: '',
+        description: 'Excellence in all we do.',
+        icon: RocketLaunchIcon,
+    },
+    {
+        name: '',
+        description: 'Effective business model has helped us learn the necessity for stewardship of physical, financial, environmental, and human resources. We create an environment for high performance and long-term sustainability by developing, nurturing, and maintaining a purpose-led, customer-focused, and value-driven entrepreneurial culture.',
+        icon: HandRaisedIcon,
+    },
    
   ]
 

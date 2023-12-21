@@ -20,7 +20,7 @@ const feature = {
   para: [
     'We aim to create a united power community and an ecosystem model based on knowledge about conscious living and connect with the broader stakeholder to develop improved and sustainable policies, regulations, research, engineering, manufacturing, and inspection to drive transformation at all levels and ensure power grid reliability.',
   ],
-  author: 'Sangita Mallick',
+  author: 'Sangita P. Mallik',
 
   description:
     'The SunZia Transmission Project is a major new 500 kilovolt (kV) transmission project that will provide additional transmission interconnections and transmission capacity between central New Mexico and central Arizona. SunZia will enable the development of renewable energy resources, notably wind energy resources, by creating access to the interstate power grid across the Desert Southwest.',

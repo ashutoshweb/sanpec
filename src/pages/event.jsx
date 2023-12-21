@@ -8,6 +8,7 @@ import { Header } from '@/components/sanpec/eventing/Header';
 import { Challenges } from '@/components/sanpec/eventing/Challenges';
 import {WhoShouldAttend} from '@/components/sanpec/eventing/WhoShouldAttend';
 import {EventOrganizer} from '@/components/sanpec/eventing/EventOrganizer';
+import {DiscussionPillars} from '@/components/sanpec/eventing/DiscussionPillars';
 
 
 
@@ -18,6 +19,7 @@ export default function event() {
           <Hero />
           <Challenges />
           <Speakers />
+
           <WhoShouldAttend />
           <EventOrganizer />
           {/*<Schedule />*/}

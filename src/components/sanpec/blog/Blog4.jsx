@@ -22,7 +22,7 @@ const feature = {
   'This paper will present a case study of a recent successful EPC project for the Alberta Power Line 500kV West Fort McMurray Transmission Project (WFMAC). The WFMAC project was a competitively bid 500 km of 500kV transmission line between Edmonton, Alberta, and Fort McMurray, Alberta. The project included routing, siting, permitting, design, procurement, construction, and operation for 35 years by one EPC contractor.',
   '#sanpec #sustainableenergy #powergridreliability #socioeconomicimpact #transmissionlinenegineering #energyinfrastructure #engineeringexcellence #riskmitigation'
   ],
-  author: 'Sangita Mallick',
+  author: 'Sangita P. Mallik',
 
   description:
     'The SunZia Transmission Project is a major new 500 kilovolt (kV) transmission project that will provide additional transmission interconnections and transmission capacity between central New Mexico and central Arizona. SunZia will enable the development of renewable energy resources, notably wind energy resources, by creating access to the interstate power grid across the Desert Southwest.',

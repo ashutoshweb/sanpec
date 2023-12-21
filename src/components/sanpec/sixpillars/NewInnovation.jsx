@@ -20,20 +20,16 @@ const stats = [
 
 const values = [
     {
-      name: 'Cutting-Edge Research and Development:',
-      description: 'SANPEC is committed to staying at the forefront oftechnological advancements. The company invests significantly in R&D, focusing on developingnew solutions that address current and future industry challenges.',
+      name: 'Protect and encourage innovation:',
+      description: 'We take strategic risks and dedicated action to protect and encourage innovation and active learning to solve complex problems and prepare for the future.',
       icon: RocketLaunchIcon,
     },
     {
-      name: 'Collaboration with Innovators:',
-      description: 'Partnerships with leading innovators and academic institutionsare a key part of SANPEC\'s strategy, ensuring access to the latest technologies and thoughtleadership.',
+      name: 'Managing for Innovation:',
+      description: 'We make effective decisions using reliable data, breakthrough innovation, and new intelligence to deliver value-aligned results. We design, manage and innovate our services and work processes to optimize operational effectiveness and achieve ongoing organizational success.',
       icon: HandRaisedIcon,
     },
-    {
-      name: 'Sustainable Innovation:',
-      description: 'Emphasis is placed on developing solutions that are not onlytechnologically advanced but also sustainable, aligning with global environmental goals.',
-      icon: UserGroupIcon,
-    }
+
    
   ]
 

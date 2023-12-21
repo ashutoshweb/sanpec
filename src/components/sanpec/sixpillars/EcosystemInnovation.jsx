@@ -20,20 +20,35 @@ const stats = [
 
 const values = [
     {
-      name: 'Collaborative Ecosystem:',
-      description: 'SANPEC fosters a collaborative ecosystem comprising suppliers,partners, and customers. This ecosystem approach leads to shared innovation and value creation.',
+      name: '',
+      description: 'We create world-class productivity, maintain ethics and transparency, create organizational efficiency, and drive innovation throughout the value chain. ',
       icon: RocketLaunchIcon,
     },
     {
-      name: 'Open Innovation Model:',
-      description: 'The company embraces an open innovation model, where external ideas and technologies are integrated with internal resources to drive innovation.',
+      name: '',
+      description: 'Holistic Risk Management: Holistic risk management create continuous loop of data/information and actionable insights to manage risk, build early awareness and rapid response, and improve the delivery time, quality, and safety. It is integrated into the operations model.',
       icon: HandRaisedIcon,
     },
     {
-      name: 'Sustainable Supply Chain:',
-      description: 'Efforts are made to ensure that the supply chain is not only efficient but also sustainable,aligning with SANPEC’s commitment to environmental stewardship.',
+      name: '',
+      description: 'Project management and engineering excellence',
       icon: UserGroupIcon,
-    }
+    },
+  {
+    name: '',
+    description: 'Disciplined portfolio and enterprise management',
+    icon: UserGroupIcon,
+  },
+  {
+    name: '',
+    description: 'Environmental excellence',
+    icon: UserGroupIcon,
+  },
+  {
+    name: '',
+    description: 'Health and safety excellence',
+    icon: UserGroupIcon,
+  }
    
   ]
 

@@ -20,20 +20,30 @@ const stats = [
 
 const values = [
     {
-      name: 'Integrated Approach:',
-      description: 'SANPEC adopts a systems perspective, viewing the organization as acohesive whole rather than a collection of independent parts. This approach ensures thatdecisions and strategies are made considering theirimpact across all departments andfunctions.',
+      name: 'Visionary leadership/Shared vision:',
+      description: 'The leaders create an organizational mission and core values and maintain a focused vision to manage all the business components as a unified whole to achieve and sustain ongoing success.',
       icon: RocketLaunchIcon,
     },
     {
-      name: 'Strategic Synergy :',
-      description: 'By integrating various business functions, from R&D to marketing, SANPECensures that all efforts are aligned with the company&apos;s overarching goals, leading to more efficient and effective outcomes',
+      name: 'Sustainability strategy:',
+      description: 'The sustainability strategy provides a feedback-driven intelligence for building and sustaining a value-aligned and purpose-driven organization.',
       icon: HandRaisedIcon,
     },
     {
-      name: 'Stakeholder Collaboration :',
-      description: 'Collaborating with a wide range of stakeholders, including industry partners, regulatory bodies, and environmental groups, to promote resilience and sustainability in the energy sector.',
+      name: 'Role-model behavior:',
+      description: 'We develop engineering leadership capacity, exemplify role-model behavior, and ensure that our people, processes, and strategies are aligned to achieve performance excellence and sustainability.',
       icon: UserGroupIcon,
-    }
+    },
+  {
+    name: 'Prioritized focus:',
+    description: 'Our business objectives are systematically created, communicated, and improved. We consistently focus on organizational effectiveness and align people with purpose to deliver exceptional results.',
+    icon: HandRaisedIcon,
+  },
+  {
+    name: 'Creating value:',
+    description: 'Our system emphasizes managing value-aligned key strategies and measuring performance excellence. We are devoted to being a force for good and achieving sustainability through daily activities.',
+    icon: UserGroupIcon,
+  }
    
   ]
 

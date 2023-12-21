@@ -315,25 +315,7 @@ export default function WhySanpec() {
           </dl>
         </div>
 
-        <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-12 lg:px-16">
-          <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-2xl">
-              Our Aim
-            </h2>
-          </div>
-          <dl className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 text-base leading-7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-4">
-            {valuesX.map((value) => (
-              <div key={value.name}>
-                <dt className="text-xl font-semibold text-[#e8b44b]">
-                  {value.name}
-                </dt>
-                <dd className="mt-1 text-lg  text-white">
-                  {value.description}
-                </dd>
-              </div>
-            ))}
-          </dl>
-        </div>
+
       </main>
 
       {/* Footer */}

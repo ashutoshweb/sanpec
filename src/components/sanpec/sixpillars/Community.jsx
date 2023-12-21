@@ -20,20 +20,16 @@ const stats = [
 
 const values = [
     {
-      name: 'Community Engagement:',
-      description: 'SANPEC actively engages with the communities in which it operates,understanding their needs and working collaboratively to address them.',
+      name: '',
+      description: 'We practice “Community Leadership.” to build a shared or distributed leadership system with policy actors (civil society, private sector, public sector). We believe in creating an open, innovative, active, quality-focused, and evolving culture to effectively manage the stakeholder’s needs, ideas, and concerns. ',
       icon: RocketLaunchIcon,
     },
     {
-      name: 'Co-Creation with Stakeholders:',
-      description: 'The company believes in co-creating value with stakeholders,including customers, local communities, and industry partners. This approach leads to solutionsthat are more aligned with stakeholder needs and expectations.',
+      name: '',
+      description: 'Our culture is the spiritual essence that guides us “who we are” and “why we exist.” We are devoted to building a community of excellence. Our team demonstrates a set of value-aligned behaviors consistently.',
       icon: HandRaisedIcon,
     },
-    {
-      name: 'Social Responsibility:',
-      description: 'SANPEC’s commitment to community and co-creation goes beyondbusiness interests, reflecting a deep sense of social responsibility and a desire to contributepositively to society.',
-      icon: UserGroupIcon,
-    }
+
    
   ]
 

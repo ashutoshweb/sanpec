@@ -46,6 +46,21 @@ const days = [
         role: 'Title 3',
         image: '',
       },
+      {
+        name: 'Speaker 4',
+        role: 'Title 1',
+        image: '',
+      },
+      {
+        name: 'Speaker 5',
+        role: 'Title 2',
+        image: '',
+      },
+      {
+        name: 'Speaker 6',
+        role: 'Title 3',
+        image: '',
+      },
     ],
   },
   {

@@ -17,7 +17,7 @@ import Image from 'next/image'
 */
 const feature = {
   name: 'Innovating for Sustainability',
-  author: 'Sangita Mallick',
+  author: 'Sangita P. Mallik',
   para: [
     'Plan now to attend Carbon, Capture, Utilization, and Storage (CCUS) 25–27 April 2023 at the University of Houston in Houston, Texas. ',
     'Subsurface Geologic Storage',

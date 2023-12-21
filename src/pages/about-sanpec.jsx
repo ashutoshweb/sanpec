@@ -66,21 +66,25 @@ const timeline = [
     dateTime: '2022-12',
   },
 ]
-const sanpec = [
+const sanpecVision = [
   {
     title: 'Our Vision',
     mainHead:
       'To be the global academic leader in the study, promotion, and practice of performance excellence, leadership, and management.',
-    description:
-      'SANPEC aims to lead the energy transition and grid modernization with innovative solutions, develop resilience and sustainability, inspire stakeholders for excellence and responsible stewardship, manage resources effectively, contribute to economic and social progress through engineering, and be recognized as a pioneering source of transmission engineering and quality management services.',
+
     icon: RocketLaunchIcon,
   },
+
+]
+
+const sanpecMission = [
+
   {
     title: 'Our Mission',
     mainHead:
-      'To be the global academic leader in the study, promotion, and practice of performance excellence, leadership, and management.',
+        'To be the global academic leader in the study, promotion, and practice of performance excellence, leadership, and management.',
     description:
-      'The mission of SANPEC includes making the world a better place for future generations, creating innovative solutions for sustainability in the power and utilities sectors, offering strategic insight to industry leaders on leveraging emerging technologies, managing business operations effectively, focusing on agility, innovation, and creativity, valuing people, delivering results, and achieving excellence at all levels.',
+        'The mission of SANPEC includes making the world a better place for future generations, creating innovative solutions for sustainability in the power and utilities sectors, offering strategic insight to industry leaders on leveraging emerging technologies, managing business operations effectively, focusing on agility, innovation, and creativity, valuing people, delivering results, and achieving excellence at all levels.',
     icon: RocketLaunchIcon,
   },
 ]
@@ -151,36 +155,65 @@ const whatWeDo = [
 ]
 
 const valuesX = [
-  {
-    name: 'Intellectual and Creative Excellence',
-    description:
-      'SANPEC strives for intellectual and creative excellence, making conscious decisions to generate sustained value for stakeholders, humanity, and the natural world.',
-  },
-  {
-    name: 'Continuous Improvement',
-    description:
-      'Embracing diversity of ideas, SANPEC is dedicated to continuous improvement in pursuit of truth. They are committed to learning and finding better ways to deliver quality products and services.',
-  },
-  {
-    name: 'Learning and Growth:',
-    description:
-      'Rooted in STEM and education, SANPEC believes in learning by doing, learning from others, and challenging assumptions to seek new knowledge in service of stakeholders and humanity.',
-  },
 
-  {
-    name: 'Integrity',
-    description:
-      ' Maintaining the highest level of integrity is essential for SANPEC, ensuring effective responses to customers and stakeholders.',
-  },
   {
     name: 'Trust',
     description:
-      'SANPEC values trust and aims to earn it through teamwork, open communication, transparency, integrity, and excellence.',
+        'We earn trust through teamwork, open communication, transparency, integrity, and excellence.',
   },
   {
-    name: 'Accountability',
+    name: 'Visionary Leadership: ',
     description:
-      ' SANPEC holds itself accountable for improving processes and results at all levels of the value chain.',
+      'We provide an unwavering commitment to quality, intellectual and creative excellence, integrity, loyalty, and sustainability. We are devoted to creating and sustaining value for all stakeholders.',
+  },
+  {
+    name: 'Innovation: ',
+    description:
+        'We seek new knowledge and take creative risks to build a more agile organization that drives transformative change internally and in response to our stakeholder’s needs. We reward courage, discovery, authenticity, exploration, and invention.',
+  },
+  {
+    name: 'Continuous Improvement: ',
+    description:
+      'We respect the diversity of ideas, continuously improve in pursuit of truth, and are devoted to learning and improving ways to deliver quality products and services.',
+  },
+  {
+    name: 'Accountability: ',
+    description:
+      'We are committed to improving our process and results at all levels of the value chain.',
+  },
+
+  {
+    name: 'Integrity: ',
+    description:
+      'We maintain the highest level of integrity to satisfy and respond to customers and stakeholders effectively. We listen to each other’s, our partners, and our customers.',
+  },
+
+  {
+    name: 'Team Development: ',
+    description:
+        'We develop teams and provide learning opportunities to expand upon ideas and develop strategic, creative solutions.',
+  },
+  {
+    name: 'Community: ',
+    description:
+        'We blur the cultural boundaries, co-evolve, and strive to make our community a better place to live, work, and play.',
+  },
+  {
+    name: 'Co-Creation: ',
+    description:
+        'We believe in co-creating an open, active, unified, and evolving socio-cultural system and being a part of our local communities to lead from the point of balance and alignment.',
+  },
+
+  {
+    name: ' ',
+    description:
+        'We strive for intellectual and creative excellence, lead with the highest standards of integrity, use the full spectrum of human wisdom, and make conscious decisions to realize sustained value for our stakeholders, humanity, and the natural world.',
+  },
+
+  {
+    name: ' ',
+    description:
+        'Drawing strength from our distinctive roots in STEM and education, we believe in learning by doing, learning from others, leading with integrity, and challenging our assumptions to seek new knowledge in service of our stakeholders and humanity.',
   },
  
 ]
@@ -231,7 +264,7 @@ export default function AboutSanpec() {
           <div className="px-6 pt-5 lg:px-8">
             <div className="mx-auto max-w-2xl pt-24 text-center sm:pt-10">
               <h2 className="text-4xl font-bold tracking-tight text-gray-300 sm:text-6xl">
-                Center for Resilience and Sustainability
+                Center for Energy Excellence and Sustainability
               </h2>
               <p className="mt-6  font-bold leading-8  text-[#e8b44b]">
                 Leadership | Performance Excellence | Quality | Resilience | Sustainability
@@ -271,7 +304,10 @@ export default function AboutSanpec() {
                 Who we are
               </h2>
               <p className="mt-6 text-lg leading-8 font-semibold">
-              SANPEC has a wealth of experience and expertise in T&D line engineering, testing, and manufacturing, with a strong commitment to quality, sustainability, and professional development through academic affiliations and active participation in industry committees.
+                SANPEC is a purpose-led, values-aligned, and innovation-driven company specializing in design,
+                engineering, testing, supply chain, asset inspection, risk mitigation, sustainability, and quality
+                management for critical electric power, lighting, and renewable energy infrastructures.
+                SANPEC team has extensive worldwide experiences in creating value chain management with holistic approach.
               </p>
             </div>
 
@@ -300,11 +336,18 @@ export default function AboutSanpec() {
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl ">
             Journey Of Excellence
           </h2>
+
           <p className="mt-6 text-xl leading-8 text-white">
-            Our innovative solutions help solve critical challenges by
-            integrating deep domain expertise, market research, Insights, and
-            advanced technology capabilities.
-          </p>
+
+            SANPEC was founded to improve the resilience and reliability of power grid systems and has been privately owned and operated since 2009. Our unique approach, "SANPEC" allows us to create, measure, transfer, and recreate knowledge effectively.
+            </p>
+          <p className="mt-6 text-xl leading-8 text-white">
+            In the '90s, SANPEC co-founders were the emerging leaders of the quality revolution in the electric power sector, driving it toward sustainability. They realized that the power industry was plagued by irresponsible use of resources, ineffective leadership and strategy, unsustainable business models and processes, inefficient operations, workforce, and risk planning. In response, they set out a new vision "SANPEC" to restructure and transform the electric power sector.
+            </p>
+          <p className="mt-6 text-xl leading-8 text-white">
+            At SANPEC, we aim to continuously improve structural resilience, reliability, and quality of life through engineering excellence, research and innovation, education and outreach, co-creation, and collaboration. In addition, we aim to bring a focused approach toward improving transmission and distribution systems and creating socio-economic values
+            </p>
+
         </div>
 
         {/* Image section */}
@@ -317,6 +360,103 @@ export default function AboutSanpec() {
             sizes="50rem"
           />
         </div>
+
+        <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-12 lg:px-8">
+          <dl className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 text-white sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-16">
+            {sanpecVision.map((value) => (
+                <div key={value.name} className="relative pl-9">
+                  <div className="mx-auto max-w-2xl lg:mx-0">
+                    <h2 className="text-3xl font-bold tracking-tight text-white sm:text-2xl">
+                      {value.title}
+                    </h2>
+                  </div>
+                  <dt className="inline  ">
+                    <p className="mt-6 text-xl leading-8 text-[#e8b44b]">
+
+                    </p>
+                    <p className="mt-6 text-lg leading-8 text-white ">
+                      Lead the energy transition and grid modernization initiatives with innovative and strategic solutions while anticipating and mitigating tomorrow’s disruptions.
+                    </p>
+                    <p className="mt-6 text-lg leading-8 text-white ">
+                      Develop skill sets and mindsets to build resilience and manage sustainability goals effectively
+                    </p>
+                    <p className="mt-6 text-lg leading-8 text-white ">
+                      Inspire our stakeholders to achieve excellence and promote responsible stewardship of our physical, financial, environmental, and human resources.
+                    </p>
+                    <p className="mt-6 text-lg leading-8 text-white ">
+                      Manage our physical and natural resources effectively and create a sense of pride among all our employees. We use impact-focused and purpose-driven engineering to contribute to economic and social progress and develop a responsible culture.
+                    </p>
+                    <p className="mt-6 text-lg leading-8 text-white ">
+                      Be recognized as the pioneering source of transmission engineering, inspection, and holistic quality management services.
+                    </p>
+                    <p className="mt-6 text-lg leading-8 text-white ">
+                      Work with stakeholders to continuously improve and create value through engineering, research, and deployment of cutting-edge technology, leadership, and management practices.
+                    </p>
+                    <p className="mt-6 text-lg leading-8 text-white ">
+                      Lead the energy transition and grid modernization initiatives with innovative and strategic solutions while anticipating and mitigating tomorrow’s disruptions.
+                    </p>
+                    <p className="mt-6 text-lg leading-8 text-white ">
+                      Be the global leader in developing strategic and innovative engineering solutions for energy transition and sustainability in the electric power sector.
+                    </p>
+                  </dt>{' '}
+                </div>
+            ))}
+
+            {sanpecMission.map((value) => (
+                <div key={value.name} className="relative pl-9">
+                  <div className="mx-auto max-w-2xl lg:mx-0">
+                    <h2 className="text-3xl font-bold tracking-tight text-white sm:text-2xl">
+                      {value.title}
+                    </h2>
+                  </div>
+                  <dt className="inline  ">
+                    <p className="mt-6 text-xl leading-8 text-[#e8b44b]">
+
+                    </p>
+                    <p className="mt-6 text-lg leading-8 text-white ">
+                      Leverage our unshakable resolve to make the world a better place for future generations.
+                    </p>
+                    <p className="mt-6 text-lg leading-8 text-white ">
+                      Create innovative solutions for sustainability in the power and utilities sectors.
+                    </p>
+                    <p className="mt-6 text-lg leading-8 text-white ">
+                      Offer strategic insight into how new approaches and business models will enable today’s power and utility industry leaders to use emerging technologies and breakthrough innovation to succeed in this rapidly changing landscape.
+                    </p>
+                    <p className="mt-6 text-lg leading-8 text-white ">
+                      Use our business excellence framework to manage business operations effectively and generate value for all our stakeholders.
+                    </p>
+                    <p className="mt-6 text-lg leading-8 text-white ">
+                      Focus on the future by managing agility, innovation, and creativity.
+                    </p>
+                    <p className="mt-6 text-lg leading-8 text-white ">
+                      Value people, deliver results, and focus on achieving excellence at all levels.
+                    </p>
+                    <p className="mt-6 text-lg leading-8 text-white ">
+                      Achieve and sustain success by developing a mission-driven, happy, healthy, and engaged workforce.
+                    </p>
+                    <p className="mt-6 text-lg leading-8 text-white ">
+                      Explore the power of renewable energy sources (such as wind, solar, and hydrogen) and build a clean, green, and energy-secure America.
+                    </p>
+                    <p className="mt-6 text-lg leading-8 text-white ">
+                      Bring together the best talents, knowledge, and experience to design, build, and upgrade reliable, cost-effective, environmentally friendly, technically advanced, and resilient transmission and distribution systems.
+                    </p>
+                    <p className="mt-6 text-lg leading-8 text-white ">
+                      Achieve our strategic priorities through focused, dedicated action and real-time performance feedback.
+                    </p>
+                    <p className="mt-6 text-lg leading-8 text-white ">
+                      Build a diverse team of purpose-led and innovative power engineers and conscious industry leaders who contribute to the common good and advance engineering excellence practices.
+                    </p>
+                    <p className="mt-6 text-lg leading-8 text-white ">
+                      Bring growth and opportunity to our employees, shareholders, and partners worldwide to improve their qualities of life.
+                    </p>
+
+                  </dt>{' '}
+                </div>
+            ))}
+
+          </dl>
+        </div>
+
 
 
 

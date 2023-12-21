@@ -53,12 +53,12 @@ const products = [
   {
     name: 'Disaster Management',
     description: 'Effective Strategies for Resilient Disaster Management and Recovery',
-    href: '#',
+    href: '/changemanagement',
   },
   {
     name: 'Baldrige Consulting',
     description: 'Excellence Through Baldrige Consulting Services',
-    href: '#',
+    href: '/changemanagement',
     icon: FingerPrintIcon,
   },
 

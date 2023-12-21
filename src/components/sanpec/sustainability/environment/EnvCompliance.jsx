@@ -11,6 +11,12 @@ import {
   UserGroupIcon,
 } from '@heroicons/react/20/solid'
 
+import Image from 'next/image'
+import climateandresilience from '@/custom-images/climateandresilience1.png'
+
+
+
+
 const stats = [
   { label: 'Business was founded', value: '2012' },
   { label: 'People on the team', value: '120+' },
@@ -18,29 +24,117 @@ const stats = [
   { label: 'Paid out to creators', value: '$70M' },
 ]
 
+
+
+
+
+
+
 const values = [
+
   {
-    name: 'Environmental Compliance .',
-    description:
-      'Our operations adhere to federal statutes like the Clean Air Act, Clean Water Act, and more. As environmental regulations evolve, our industry faces technical, operational, and financial challenges. We actively participate in developing well-informed regulations. For more disclosure, refer to SEC Form 10-K.',
+    name: 'Quality of Life',
+    description:[
+      'Improve Community Quality of Life',
+      'Enhance Public Health & Safety',
+      ' Improve Construction Safety',
+      'Minimize Noise & Vibration',
+      'Minimize Light Pollution',
+      'Minimize Construction Impacts',
+      'Improve Community Mobility Access',
+      'Encourage Sustainable Transportation',
+      'Improve Access & Wayfinding',
+      'Advance Equity & Social Justice',
+      'Preserve Historic & Cultural Resources',
+      'Enhance Views & Local Character',
+      'nhance Public Space & Amenities',
+
+    ],
     icon: RocketLaunchIcon,
-  },
-  {
-    name: 'Compliance in Action',
-    description: 'Our facilities undergo environmental inspections, ensuring regulatory compliance. We verify compliance through internal audits, revealing potential gaps. In 2022, 21 environmental audits were conducted.',
-    icon: HandRaisedIcon,
-  },
-  {
-    name: 'Environmental Performance',
-    description:
-      'We set annual targets, aiming for zero violations. Our Environmental Performance Index (EPI) promotes self-reporting and prevention. New standards in 2022 expanded EPI events, including air and land media events, with 35 EPI events. Strategies in 2023 aim to develop a similar standard for the Energy Delivery business.',
-    icon: UserGroupIcon,
   },
 
   {
-    name: 'Environmental Good Catch',
-    description: 'Our program identifies and prevents conditions leading to environmental events, fostering an accountable culture. Over 300 Good Catches were identified in 2022, ensuring compliance.',
-    icon: SparklesIcon,
+    name: 'Leadership',
+    description:[
+      'Provide Effective Leadership & Commitment',
+      'Foster Collaboration & Teamwork',
+      ' Provide for Stakeholder Involvement',
+      'Pursue Byproduct Synergies',
+      'Establish a Sustainability Management Plan',
+      'Plan for Sustainable Communities',
+      'Plan for Long-Term Monitoring & Maintenance',
+      'Plan for End-of-Life',
+      'Stimulate Economic Prosperity & Development',
+      'Develop Local Skills & Capabilities',
+      'Conduct a Life-Cycle Economic Evaluation',
+
+    ],
+    icon: RocketLaunchIcon,
+  },
+
+
+  {
+    name: 'Resource Allocation',
+    description:[
+      'Support Sustainable Procurement Practices',
+      'Use Recycled Materials',
+      ' Reduce Operational Waste',
+      'Reduce Construction Waste',
+      'Balance Earthwork On Site',
+      'Reduce Operational Energy Consumption',
+      'Reduce Construction Energy Consumption',
+      'Use Renewable Energy',
+      'Commission & Monitor Energy Systems',
+      'Preserve Water Resources',
+      'Reduce Operational Water Consumption',
+      'Monitor Water Systems',
+
+    ],
+
+
+    icon: RocketLaunchIcon,
+
+  },
+  {
+    name: 'Climate and Resilience',
+    description:[
+      'Reduce Greenhouse Gas Emissions',
+      'Reduce Greenhouse Gas Emissions',
+        'Reduce Air Pollutant Emissions',
+        'Avoid Unsuitable Development',
+        'Assess Climate Change Vulnerability',
+        'Evaluate Risk and Resilience',
+        'Establish Resilience Goals and Strategies',
+        'Maximize Resilience',
+        'Improve Infrastructure Integratio',
+
+    ],
+
+
+    icon: RocketLaunchIcon,
+
+  },
+  {
+    name: 'Natural World',
+    description:[
+      'Preserve Sites of High Ecological Value',
+      'Provide Wetland & Surface Water Buffers',
+      ' Preserve Prime Farmland',
+      'Preserve Undeveloped Land',
+      'Reclaim Brownfields',
+      'Manage Stormwater',
+      ' Reduce Pesticide & Fertilizer Impacts',
+      'Protect Surface & Groundwater Quality',
+      'Enhance Functional Habitats',
+      'Enhance Wetland & Surface Water Functions',
+      'Maintain Floodplain Functions',
+      'Control Invasive Species',
+      'Protect Soil Health',
+
+    ],
+
+
+    icon: RocketLaunchIcon,
   },
 ]
 
@@ -71,9 +165,11 @@ export default function EnvCompliance() {
               Environmental Compliance
             </h2>
             <p className="mt-6 text-lg leading-8 text-[#151949]">
-            Striving for Zero Violations and Enforcement Actions
+
             </p>
+
           </div>
+
         </div>
 
         {/* Content section */}
@@ -81,7 +177,7 @@ export default function EnvCompliance() {
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
             <div className="grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-[#151949] lg:max-w-none lg:grid-cols-1">
               <div>
-                <p>
+               {/* <p>
                   At SANPEC, our goal is zero violations of environmental laws and
                   regulations and zero enforcement actions. We strive towards
                   this goal through our commitment to operational excellence
@@ -93,7 +189,7 @@ export default function EnvCompliance() {
                   transmission lines, or responsibly managing our waste, we
                   value and practice environmental stewardship and conservation
                   across our service territory.
-                </p>
+                </p>*/}
               </div>
               <div>
 
@@ -112,14 +208,19 @@ export default function EnvCompliance() {
             
             </p>
           </div>
-          <dl className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-16 ">
+          <dl className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 sm:grid-cols-1 lg:mx-0 lg:max-w-none lg:gap-x-16 ">
             {values.map((value) => (
               <div key={value.name} className="relative pl-9">
                 <dt className="inline font-semibold">
                   
                   {value.name}
+                  {value.image}
                 </dt>{' '}
-                <dd className="inline">{value.description}</dd>
+                <dd className="inline">{value.description.map((item,itemIdx) =>(
+                    <div>{item} </div>
+                ))}</dd>
+
+
               </div>
             ))}
           </dl>
