@@ -9,6 +9,7 @@ import { Challenges } from '@/components/sanpec/eventing/Challenges';
 import {WhoShouldAttend} from '@/components/sanpec/eventing/WhoShouldAttend';
 import {EventOrganizer} from '@/components/sanpec/eventing/EventOrganizer';
 import {DiscussionPillars} from '@/components/sanpec/eventing/DiscussionPillars';
+import {Sponsership} from '@/components/sanpec/eventing/Sponsership';
 
 
 
@@ -22,6 +23,7 @@ export default function event() {
 
           <WhoShouldAttend />
           <EventOrganizer />
+            <Sponsership/>
           {/*<Schedule />*/}
           {/*<Pricing/>*/}
           {/*<Sponsors />*/}

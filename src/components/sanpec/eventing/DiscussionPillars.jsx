@@ -11,7 +11,7 @@ const timeline = [
     date: '',
     datetime: '2020-09-20',
     icon: CheckIcon,
-    iconBackground: 'bg-slate-400',
+    iconBackground: 'bg-gray-400',
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const timeline = [
     date: '',
     datetime: '2020-09-20',
     icon: CheckIcon,
-    iconBackground: 'bg-slate-400',
+    iconBackground: 'bg-gray-400',
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const timeline = [
     date: '',
     datetime: '2020-09-20',
     icon: CheckIcon,
-    iconBackground: 'bg-slate-400 ',
+    iconBackground: 'bg-gray-400 ',
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ const timeline = [
     date: '',
     datetime: '2020-09-20',
     icon: CheckIcon,
-    iconBackground: 'bg-slate-400',
+    iconBackground: 'bg-gray-400',
   },
 
 ];
@@ -84,7 +84,7 @@ export function DiscussionPillars() {
                         <span
                             className={classNames(
                                 event.iconBackground,
-                                'h-40 w-40 rounded-full flex items-center justify-center ring-8 ring-white text-center'
+                                'h-40 w-40 rounded-full flex items-center justify-center ring-8 ring-white text-center font-bold'
                             )}
                         >
                             {event.title}
