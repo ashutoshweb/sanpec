@@ -2,7 +2,8 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
-import poleTestingVideo from '@/custom-images/tower_testing_video-1_(1).mp4'
+import poleTestingVideo from '@/custom-images/tower_testing_video-hero.mp4'
+
 
 
 
@@ -13,6 +14,12 @@ const navigation = [
   { name: 'Marketplace', href: '#' },
   { name: 'Company', href: '#' },
 ]
+
+const videoForHero =
+  {
+
+    video: poleTestingVideo,
+  }
 
 
 
@@ -73,11 +80,10 @@ export  function HeroSanpec() {
 
       <div className="relative isolate overflow-hidden pt-14">
 
-        <img
-          src="https://cdn.firespring.com/images/35938bbc-24cf-4889-8219-1635aaa6edb6.jpeg"
-          alt=""
-          className="absolute inset-0 -z-10 h-full w-full object-cover"
-        />
+        <video className="absolute inset-0 -z-10 h-full w-full object-cover"  autoPlay muted>
+          <source src={videoForHero.video} />
+          Your browser does not support the video tag.
+        </video>
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           aria-hidden="true"
