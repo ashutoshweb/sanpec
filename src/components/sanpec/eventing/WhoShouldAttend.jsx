@@ -1,11 +1,11 @@
 export function WhoShouldAttend () {
 
   const attendees = [
-    'CEOs, senior managers, executives, directors, heads of organizations',
-    'Quality and performance controllers personnel',
+    'CEOs, senior managers, executives, directors',
+    'Quality personnel',
     'Practitioners from business and private sector',
     'Key individuals from other sectors engaged in organizational improvement',
-    'Performace excellence professional',
+    'Performance excellence professionals',
   ];
 
 
