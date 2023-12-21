@@ -80,7 +80,7 @@ export  function HeroSanpec() {
 
       <div className="relative isolate overflow-hidden pt-14">
 
-        <video className="absolute inset-0 -z-10 h-full w-full object-cover"  autoPlay muted>
+        <video className="absolute inset-0 -z-10 h-full w-full object-cover"  autoPlay loop muted>
           <source src={videoForHero.video} />
           Your browser does not support the video tag.
         </video>
