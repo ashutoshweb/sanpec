@@ -339,10 +339,10 @@ export default function AboutSanpec() {
 
           <p className="mt-6 text-xl leading-8 text-white">
 
-            SANPEC was founded to improve the resilience and reliability of power grid systems and has been privately owned and operated since 2009. Our unique approach, "SANPEC" allows us to create, measure, transfer, and recreate knowledge effectively.
+            SANPEC was founded to improve the resilience and reliability of power grid systems and has been privately owned and operated since 2009. Our unique approach, &quot;SANPEC&quot; allows us to create, measure, transfer, and recreate knowledge effectively.
             </p>
           <p className="mt-6 text-xl leading-8 text-white">
-            In the '90s, SANPEC co-founders were the emerging leaders of the quality revolution in the electric power sector, driving it toward sustainability. They realized that the power industry was plagued by irresponsible use of resources, ineffective leadership and strategy, unsustainable business models and processes, inefficient operations, workforce, and risk planning. In response, they set out a new vision "SANPEC" to restructure and transform the electric power sector.
+            In the &apos;90s, SANPEC co-founders were the emerging leaders of the quality revolution in the electric power sector, driving it toward sustainability. They realized that the power industry was plagued by irresponsible use of resources, ineffective leadership and strategy, unsustainable business models and processes, inefficient operations, workforce, and risk planning. In response, they set out a new vision &quot;SANPEC&quot; to restructure and transform the electric power sector.
             </p>
           <p className="mt-6 text-xl leading-8 text-white">
             At SANPEC, we aim to continuously improve structural resilience, reliability, and quality of life through engineering excellence, research and innovation, education and outreach, co-creation, and collaboration. In addition, we aim to bring a focused approach toward improving transmission and distribution systems and creating socio-economic values

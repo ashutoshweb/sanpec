@@ -214,10 +214,10 @@ export default function EnvCompliance() {
                 <dt className="inline font-semibold">
                   
                   {value.name}
-                  {value.image}
+
                 </dt>{' '}
                 <dd className="inline">{value.description.map((item,itemIdx) =>(
-                    <div>{item} </div>
+                    <div key={value.name}>{item} </div>
                 ))}</dd>
 
 

@@ -21,7 +21,7 @@ export function EventOrganizer () {
               It also bring a focused approach toward improving transmission and distribution systems and creating socio-economic values.
             </p>
             <p className="mt-5">
-              At SANPEC, we make it our mission to protect our clients' best interests. No matter what
+              At SANPEC, we make it our mission to protect our clients&apos; best interests. No matter what
               energy, power grid, telecom, or organizational issues you may be facing, we can help you move
               forward and prepare for a brighter future. We can provide you with impactful guidance and manage the project’s performance throughout its lifecycle.
             </p>

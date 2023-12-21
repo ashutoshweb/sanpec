@@ -118,7 +118,7 @@ export  function DiscussionPillars() {
                                             {event.content}{' '}
                                             <a href={event.href} className="font-medium text-gray-900">
                                                 {event.target.map((item,itemIdx) =>(
-                                                    <div>{item} </div>
+                                                    <div key={item.id}>{item} </div>
                                                     ))}
                                             </a>
 
