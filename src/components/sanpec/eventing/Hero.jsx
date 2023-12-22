@@ -1,14 +1,15 @@
 import { BackgroundImage } from '@/components/sanpec/eventing/BackgroundImage'
 import { Button } from '@/components/sanpec/eventing/Button'
 import { Container } from '@/components/sanpec/eventing/Container'
+import {SponserAction} from "./sponser/SponserAction";
 
 export function Hero() {
   return (
-    <div className="relative py-20 sm:pb-24 sm:pt-36">
-      <BackgroundImage className="-bottom-14 -top-36" />
+    <div className="relative py-20 sm:pb-12 sm:pt-12">
+      <BackgroundImage className="-bottom-12 -top-12" />
       <Container className="relative">
         <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
-          <h1 className="font-display text-5xl font-bold tracking-tighter text-blue-600 sm:text-7xl">
+          <h1 className="font-display text-5xl font-bold tracking-tighter text-blue-600 sm:text-5xl">
             Building Sustainability and Resilience in Electric Power System
           </h1>
           <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-blue-900">
@@ -36,7 +37,11 @@ export function Hero() {
               </div>
             ))}
           </dl>
+
+
         </div>
+
+        <SponserAction/>
       </Container>
     </div>
   )

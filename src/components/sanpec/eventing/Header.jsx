@@ -2,6 +2,8 @@ import { Button } from '@/components/sanpec/eventing/Button'
 import { Container } from '@/components/sanpec/eventing/Container'
 import { DiamondIcon } from '@/components/sanpec/eventing/DiamondIcon'
 import { Logo } from '@/components/sanpec/eventing/Logo'
+import { SponserAction } from '@/components/sanpec/eventing/sponser/SponserAction'
+
 
 export function Header() {
   return (

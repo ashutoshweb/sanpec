@@ -93,7 +93,7 @@ const values = [
   {
     name: 'Visionary Leadership',
     description:
-      'focused on results and creating value for all stakeholders organizations.',
+      'focused on results and creating value for all stakeholders.',
     icon: UserGroupIcon,
   },
   {

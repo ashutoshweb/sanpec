@@ -31,7 +31,7 @@ return classes.filter(Boolean).join(' ');
 
 export function Sponsership() {
 return (
-    <div className="bg-gray-900">
+    <div id="sponsership" className="bg-gray-900">
       <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-2">
         <section
             aria-labelledby="features-heading"
