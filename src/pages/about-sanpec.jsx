@@ -264,10 +264,10 @@ export default function AboutSanpec() {
           <div className="px-6 pt-5 lg:px-8">
             <div className="mx-auto max-w-2xl pt-24 text-center sm:pt-10">
               <h2 className="text-4xl font-bold tracking-tight text-gray-300 sm:text-6xl">
-                Center for Energy Excellence and Sustainability
+                Bringing Engineering Excellence. Improving Power Grid Reliability
               </h2>
               <p className="mt-6  font-bold leading-8  text-[#e8b44b]">
-                Leadership | Performance Excellence | Quality | Resilience | Sustainability
+                Leadership | Excellence | Quality | Innovation |Resilience | Sustainability
               </p>
             </div>
           </div>

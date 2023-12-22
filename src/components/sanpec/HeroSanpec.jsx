@@ -98,7 +98,7 @@ export  function HeroSanpec() {
         </div>
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-32">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-black-400 ring-1 ring-white/10 hover:ring-white/20">
+            <div className="relative rounded-full px-3 py-1 text-xl leading-6 text-blue-900 ring-1 ring-white/10 hover:ring-white/20 font-bold">
               Our blueprint for holistic resilience .{' '}
               <Link href='/TheLightOfTheWorld.pdf' className="font-semibold text-white" without rel="noopener noreferrer" target="_blank">
                 <span className="absolute inset-0" aria-hidden="true" />
@@ -107,7 +107,7 @@ export  function HeroSanpec() {
             </div>
           </div>
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-black-400 ring-1 ring-white/10 hover:ring-white/20">
+            <div className="relative rounded-full px-3 py-1 text-xl leading-6 text-blue-900 ring-1 ring-white/10 hover:ring-white/20 font-bold">
               Journey Of Excellence .{' '}
               <Link href="/about-sanpec#journey-of-excellence" className="font-semibold text-white">
                 <span className="absolute inset-0" aria-hidden="true" />
@@ -117,10 +117,10 @@ export  function HeroSanpec() {
           </div>
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-black-400 sm:text-6xl">
-            Center for Energy Excellence and Sustainability
+              Bringing Engineering Excellence. Improving Power Grid Reliability
             </h1>
-            <p className="mt-6 text-lg leading-8 text-[#e8b44b]">
-            Leadership | Performance Excellence | Quality | Resilience | Sustainability
+            <p className="mt-6 text-lg font-bold leading-8 text-blue-900">
+              Leadership | Excellence | Quality | Innovation |Resilience | Sustainability
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
@@ -129,7 +129,7 @@ export  function HeroSanpec() {
               >
                 Why SANPEC ?
               </Link>
-              <Link href="/about-sanpec" className="text-sm font-semibold leading-6 text-white">
+              <Link href="/about-sanpec" className="text-xl font-semibold leading-6 text-white">
                 Learn more about us <span aria-hidden="true">→</span>
               </Link>
             </div>
