@@ -13,7 +13,7 @@ export function SideNavRow({ classNames, selected, setSelected, item, sidebarOpe
             className={classNames(
               selected === item.name
                 ? 'bg-indigo-800 text-white'
-                : 'text-blue-900 hover:text-white hover:bg-blue-400',
+                : 'text-blue-900 hover:text-white hover:bg-indigo-700',
               'flex items-center w-full text-left group gap-x-3 rounded-md p-2 lg:text-xl leading-6 font-semibold'
             )}
           >
@@ -36,7 +36,7 @@ export function SideNavRow({ classNames, selected, setSelected, item, sidebarOpe
                   className={classNames(
                     subItem.current
                       ? 'bg-indigo-800 text-white'
-                      : 'text-blue-900 hover:text-white hover:bg-blue-400',
+                      : 'text-blue-900 hover:text-white hover:bg-indigo-700',
                     'flex items-center w-full text-left group gap-x-3 rounded-md p-2 text-bg leading-6 font-semibold'
                   )}
                   onClick={() =>  {
