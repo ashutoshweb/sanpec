@@ -2,6 +2,11 @@ import { BackgroundImage } from '@/components/sanpec/eventing/BackgroundImage'
 import { Button } from '@/components/sanpec/eventing/Button'
 import { Container } from '@/components/sanpec/eventing/Container'
 import {SponserAction} from "./sponser/SponserAction";
+import Image from 'next/image'
+
+import questImage from '@/custom-images/Quest2024-home-image.jpg.jpg'
+import questCroppedImage from '@/custom-images/Quest-cropped-2024.png'
+
 
 export function Hero() {
   return (
@@ -9,10 +14,21 @@ export function Hero() {
       <BackgroundImage className="-bottom-12 -top-12" />
       <Container className="relative">
         <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
-          <h1 className="font-display text-5xl font-bold tracking-tighter text-blue-600 sm:text-5xl">
-            Building Sustainability and Resilience in Electric Power System
+          <h1 className="font-display text-4xl font-bold tracking-tighter text-blue-600 sm:text-4xl">
+            The Resilience and Sustainability Forum
           </h1>
-          <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-blue-900">
+          <Image
+              className="w-full"
+              src={questImage}
+              alt=""
+              sizes="52.75rem"
+          />
+
+          <h2 className="font-display text-3xl font-bold tracking-tighter text-blue-900 sm:text-2xl pt-3">
+            Building Sustainability and Resilience in Electric Power System
+          </h2>
+
+          <div className="mt-6 space-y-6 font-display text-xl tracking-tight text-blue-900">
             <p>
               Building sustainability and resilience in energy systems is paramount in our quest for an environmentally protected future. This event aims to address the intricate interplay between sustainability and resilience, exploring innovative strategies, policy frameworks, and technological advancements necessary to fortify energy systems. Experts will share insights, fostering discussions on critical challenges, such as enhanced grid resilience, grid stability, and disaster preparedness, aiming to forge a unified path towards sustainable solutions.
             </p>
@@ -25,7 +41,7 @@ export function Hero() {
           </Button>
           <dl className="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
-              ['Speakers', '3'],
+              ['Speakers', '11'],
               ['Venue', 'Gaylord National Harbor'],
               ['Location', 'near Washington, D.C'],
             ].map(([name, value]) => (

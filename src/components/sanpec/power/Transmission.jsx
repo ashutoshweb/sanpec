@@ -3,7 +3,8 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import turtleInWaterImage from '@/custom-images/david-troeger-M8xxVih_V_U-unsplash.jpg'
 import WaterImage from '@/custom-images/greg-becker-sYzFIusQp3Q-unsplash.jpg'
-import steelTower from '@/custom-images/evgeniy-alyoshin-FXw3zkbqd0w-unsplash.jpg'
+import steelTowerOld from '@/custom-images/evgeniy-alyoshin-FXw3zkbqd0w-unsplash.jpg'
+import steelTower from '@/custom-images/pls_pole_w.gif'
 import {
   AcademicCapIcon,
   CheckCircleIcon,
@@ -45,6 +46,13 @@ const values = [
   },
 ]
 
+const takeawayList = [
+  'Transmission Line Engineering (Sustainability Approach)',
+  'Structural Analysis, Design and Detailing of Steel Poles and Lattice Towers',
+  'Full Scale Structural Testing (Witnessing and Validation)',
+
+];
+
 export default function Transmission() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
@@ -71,7 +79,7 @@ export default function Transmission() {
             <h2 className="text-4xl font-bold tracking-tight text-[#151949] sm:text-4xl">
               Transmission And Distribution
             </h2>
-            <p className="mt-6 text-lg font-semibold leading-8 text-[#151949]">
+            <p className="mt-6 text-lg font-bold leading-8 text-blue-800">
               Structure Design (Steel Poles and Towers)
             </p>
           </div>
@@ -107,8 +115,22 @@ export default function Transmission() {
                 </p>
               </div>
             </div>
+            <div className=" grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-[#151949] lg:max-w-none lg:grid-cols-1">
+
+
+              <div className="py-5 text-base leading-7 text-[#151949]">
+                <div className="list-disc text-xl leading-8">
+                  {takeawayList.map((listItem, index) => (
+                      <li key={index} className="py-2 font-bold">{listItem}</li>
+                  ))}
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
+
+
       </main>
     </div>
   )

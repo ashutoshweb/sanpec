@@ -99,40 +99,34 @@ export  function HeroSanpec() {
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-32">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-xl leading-6 text-blue-900 ring-1 ring-white/10 hover:ring-white/20 font-bold">
-              Our blueprint for holistic resilience .{' '}
-              <Link href='/TheLightOfTheWorld.pdf' className="font-semibold text-white" without rel="noopener noreferrer" target="_blank">
-                <span className="absolute inset-0" aria-hidden="true" />
-                View Document <span aria-hidden="true">&rarr;</span>
-              </Link>
+
+
             </div>
           </div>
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-xl leading-6 text-blue-900 ring-1 ring-white/10 hover:ring-white/20 font-bold">
-              Journey Of Excellence .{' '}
-              <Link href="/about-sanpec#journey-of-excellence" className="font-semibold text-white">
-                <span className="absolute inset-0" aria-hidden="true" />
-                Read more <span aria-hidden="true">&rarr;</span>
-              </Link>
+
+
             </div>
           </div>
           <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-black-400 sm:text-6xl">
-              Bringing Engineering Excellence. Improving Power Grid Reliability
+            <h1 className="text-4xl font-bold tracking-tight  text-[#151949] sm:text-3xl">
+              Bringing Engineering Excellence  &nbsp; Improving Power Grid Reliability
             </h1>
-            <p className="mt-6 text-lg font-bold leading-8 text-blue-900">
-              Leadership | Excellence | Quality | Innovation |Resilience | Sustainability
-            </p>
+
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
-                href="/about-sanpec#why-sanpec"
-                className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+                  href="/about-sanpec#why-sanpec"
+                  className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
               >
                 Why SANPEC ?
               </Link>
-              <Link href="/about-sanpec" className="text-xl font-semibold leading-6 text-white">
-                Learn more about us <span aria-hidden="true">→</span>
-              </Link>
+
             </div>
+            <p className="mt-6 text-lg font-bold leading-8 text-blue-900 ">
+              Leadership | Performance Excellence | Quality 4 |Resilience | Sustainability
+            </p>
+
           </div>
         </div>
         <div

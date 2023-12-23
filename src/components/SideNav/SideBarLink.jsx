@@ -32,7 +32,7 @@ export function SidebarLink({
           className={classNames(
             selected === item.name
               ? 'bg-gray-800 text-white'
-              : 'text-gray-400 hover:bg-indigo-800 hover:text-white',
+              : 'text-gray-400 hover:bg-blue-400 hover:text-white',
             'group flex w-full items-center gap-x-3 rounded-md p-2 text-left text-sm font-semibold leading-6'
           )}
           onClick={() => {

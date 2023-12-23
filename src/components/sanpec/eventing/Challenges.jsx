@@ -4,20 +4,35 @@ import {CleanEnergyChallenge} from '@/components/sanpec/eventing/Challenge/Clean
 import {Approach} from '@/components/sanpec/eventing/Challenge/Approach';
 import { TakeAway } from '@/components/sanpec/eventing/Challenge/TakeAway';
 import {DiscussionPillars} from '@/components/sanpec/eventing/DiscussionPillars';
+import {What} from "./challengenew/What";
+import {Why} from "./challengenew/Why";
 
 const tabs = [
 {
-  name: 'Challenge',
-  comp: <CleanEnergyChallenge/>,
+  name: 'What?',
+  comp: <What/>
 },
 {
-  name: 'Approach',
-  comp: <Approach/>
-},
-{
-  name: 'Takeaways',
-  comp: <TakeAway/>
-},
+  name: 'Why?',
+  comp: <Why/>,
+}
+
+
+];
+
+const tabsOld = [
+  {
+    name: 'Challenge',
+    comp: <CleanEnergyChallenge/>,
+  },
+  {
+    name: 'Approach',
+    comp: <Approach/>
+  },
+  {
+    name: 'Takeaways',
+    comp: <TakeAway/>
+  },
 
 
 ];
@@ -90,7 +105,7 @@ return (
                                     selected
                                         ? 'border-white     text-[#e8b44b] '
                                         : 'border-transparent text-white ',
-                                    'whitespace-nowrap border-b-2  py-2 text-sm font-semibold hover:text-gray-300 outline-none'
+                                    'whitespace-nowrap border-b-2  py-2 text-sm font-semibold hover:text-gray-300 outline-none text-xl'
                                 )
                             }
                         >

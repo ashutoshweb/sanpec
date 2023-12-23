@@ -144,7 +144,7 @@ export function Sidebar({ navigation, firstSelected, bgColor }) {
                 </Transition.Root>
 
                 {/* Static sidebar for desktop */}
-                <div className="hidden lg:flex lg:h-[550px] lg:w-72 lg:my-24 overflow-y-auto  font-poppins">
+                <div className="hidden lg:flex lg:h-[550px] lg:w-150 lg:my-24 overflow-y-auto  font-poppins pt-20">
                     {/* Sidebar component, swap this element with another sidebar if you like */}
                     <div className="flex flex-col gap-y-5 px-6 overflow-y-auto">
                         
@@ -159,7 +159,7 @@ export function Sidebar({ navigation, firstSelected, bgColor }) {
                                                         href={item.href}  
                                                         className={classNames(
                                                             item.current ? ' text-[#e8b44b] bg-gray-800' : '  text-white  hover:text-[#554423] ',
-                                                            'group flex gap-x-3  p-2 text-lg leading-6 w-full font-semibold    relative rounded-2xl transition-colors hover:bg-gray-800/30'
+                                                            'group flex gap-x-3  p-2 text-lg leading-6 w-full font-semibold    relative rounded-2xl transition-colors hover:bg-blue-400'
                                                         )}
                                                         onClick={() => setSelected(item.name)}
 
@@ -183,7 +183,7 @@ export function Sidebar({ navigation, firstSelected, bgColor }) {
                         <span className="sr-only">Open sidebar</span>
                         <Bars3Icon className="h-6 w-6" aria-hidden="true" />
                     </button>
-                    <div className="flex-1 text-sm font-semibold leading-6 text-white">{selected}</div>
+                    <div className="flex-1 text-xl font-semibold leading-6 text-white">{selected}</div>
                 </div>
                 <main>
                     <div className="h-full">
