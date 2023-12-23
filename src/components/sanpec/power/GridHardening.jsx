@@ -46,12 +46,12 @@ export default function GridHardening() {
           <div className="mx-auto mt-10  px-6 lg:px-8">
             <p className="mt-6 text-lg font-bold leading-8 text-blue-800">
               Hardening the Grid: &nbsp;
-              <span className="text-sm font-semibold leading-8 text-blue-800">
-
+              <span className="text-lg font-semibold leading-8 pl-2 text-blue-800">
                 Reinforcing the T&D
                 infrastructure to prevent or reduce the damage
-                from extreme weather events
+                from extreme weather events.
               </span>
+
             </p>
             <p className="mt-6 text-lg font-bold leading-8 text-blue-800">
               Right selection of poles, Towers and Wires:

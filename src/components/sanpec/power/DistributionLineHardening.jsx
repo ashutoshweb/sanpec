@@ -47,7 +47,7 @@ export default function DistributionLineHardening() {
             <p className="mt-6 text-lg font-bold leading-8 text-blue-800">
               Fire Prevention and Detection:
 
-              <span className="text-sm font-semibold leading-8 pl-2 text-blue-800">
+              <span className="text-lg font-semibold leading-8 pl-2 text-blue-800">
 
                 Severe drought conditions
                 coupled with high winds and other factors, have resulted in an

@@ -16,42 +16,28 @@ import {
 } from '@heroicons/react/20/solid'
 import Image from 'next/image'
 
-const stats = [
-  { label: 'Business was founded', value: '2012' },
-  { label: 'People on the team', value: '120+' },
-  { label: 'Users on the platform', value: '250k' },
-  { label: 'Paid out to creators', value: '$70M' },
-]
 
-const values = [
-  {
-    name: 'Watershed Stewardship:',
-    description:
-      'We actively participate in voluntary efforts to protect watersheds, including Caddo Lake, a Ramsar Convention-designated wetland. Additionally, we engage in the Illinois River Watershed Partnership (IRWP) and support environmental education through grants, benefiting thousands of students.',
-    icon: UserGroupIcon,
-  },
 
-  {
-    name: 'Water Management in High-Risk Areas:',
-    description:
-      'Drought and flooding can impact our operations, particularly in drought-prone regions. We have conservation plans for select power plants, conserving millions of gallons of water in 2022. The Knox Lee Plant implemented Stage 1 of its drought contingency plan for two weeks in August 2022. The Pirkey Plant ceased operation as planned in April 2023, further reducing water use.',
-    icon: HandRaisedIcon,
-  },
-
-  {
-    name: 'Water Use Reporting: ',
-    description:
-      'We prioritize transparency by extensively reporting our water management, fulfilling both required and voluntary obligations. Our water data is shared in platforms like the ESG Data Center and the CDP Water Survey.',
-    icon: RocketLaunchIcon,
-  },
-]
-
-const takeawayList = [
+const takeawayList1 = [
   'Transmission Line Engineering (Sustainability Approach)',
   'Structural Analysis, Design and Detailing of Steel Poles and Lattice Towers',
   'Full Scale Structural Testing (Witnessing and Validation)',
+  'Minimize adverse environmental impacts',
+  'Optimize the ROW',
+  'Plan resiliency in transmission line system',
+
 
 ];
+
+const takeawayList2 = [
+  'Deliver electricity in safe, reliable and an efficient manner',
+  'Provide economic benefits to shareholders and communities',
+  'Optimize operational and maintenance practices',
+  'Use environmentally preferable structures: Steel Poles/Towers',
+  'Utilize lifecycle economics and use best practice specs',
+
+];
+
 
 export default function Transmission() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -115,16 +101,25 @@ export default function Transmission() {
                 </p>
               </div>
             </div>
-            <div className=" grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-[#151949] lg:max-w-none lg:grid-cols-1">
+            <div className=" grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-[#151949] lg:max-w-none lg:grid-cols-2">
 
 
               <div className="py-5 text-base leading-7 text-[#151949]">
                 <div className="list-disc text-xl leading-8">
-                  {takeawayList.map((listItem, index) => (
+                  {takeawayList1.map((listItem, index) => (
                       <li key={index} className="py-2 font-bold">{listItem}</li>
                   ))}
                 </div>
               </div>
+
+              <div className="py-5 text-base leading-7 text-[#151949]">
+                <div className="list-disc text-xl leading-8">
+                  {takeawayList2.map((listItem, index) => (
+                      <li key={index} className="py-2 font-bold">{listItem}</li>
+                  ))}
+                </div>
+              </div>
+
             </div>
 
           </div>

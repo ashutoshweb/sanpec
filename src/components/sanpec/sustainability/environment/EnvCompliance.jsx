@@ -199,10 +199,10 @@ export default function EnvCompliance() {
         </div>
 
         {/* Values section */}
-        <div className="mx-auto mt-12 max-w-7xl px-6 sm:mt-12 lg:px-8 pb-6">
+        <div className="mx-auto  max-w-7xl px-6  lg:px-8 pb-6">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-3xl font-bold tracking-tight  sm:text-2xl">
-            Commitment to Environmental Excellence
+            <h2 className="text-3xl font-bold tracking-tight  sm:text-2xl pl-5">
+            Invision Framework
             </h2>
             <p className="mt-4 text-lg leading-8">
             

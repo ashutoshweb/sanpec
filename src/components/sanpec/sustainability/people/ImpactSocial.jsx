@@ -15,12 +15,7 @@ import {
 } from '@heroicons/react/20/solid'
 import Image from 'next/image'
 
-const stats = [
-  { label: 'Business was founded', value: '2012' },
-  { label: 'People on the team', value: '120+' },
-  { label: 'Users on the platform', value: '250k' },
-  { label: 'Paid out to creators', value: '$70M' },
-]
+
 
 const values = [
   {
@@ -80,9 +75,7 @@ export default function PeopleImpactSocial() {
             <h2 className="text-4xl font-bold tracking-tight text-[#151949] sm:text-4xl">
               Social Impact
             </h2>
-            <p className="mt-6 text-lg leading-8 text-[#151949]">
-              Balancing Consumption, Reporting, and Conservation
-            </p>
+
           </div>
         </div>
 
