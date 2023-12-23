@@ -1,11 +1,9 @@
 import { BackgroundImage } from '@/components/sanpec/eventing/BackgroundImage'
 import { Button } from '@/components/sanpec/eventing/Button'
 import { Container } from '@/components/sanpec/eventing/Container'
-import {SponserAction} from "./sponser/SponserAction";
 import Image from 'next/image'
 
 import questImage from '@/custom-images/Quest2024-home-image.jpg.jpg'
-import questCroppedImage from '@/custom-images/Quest-cropped-2024.png'
 
 
 export function Hero() {
@@ -57,7 +55,7 @@ export function Hero() {
 
         </div>
 
-        <SponserAction/>
+
       </Container>
     </div>
   )

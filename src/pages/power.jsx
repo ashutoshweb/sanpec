@@ -5,6 +5,7 @@ import ComingSoon from "@/components/common/ComingSoon";
 import Transmission from "@/components/sanpec/power/Transmission";
 import Testing from "@/components/sanpec/power/Testing";
 import GridHardening from "@/components/sanpec/power/GridHardening";
+import Grid from "@/components/sanpec/power/Grid";
 import {
   Bars3Icon,
   CalendarIcon,
@@ -27,7 +28,7 @@ const navigation = [
     
     children: [
       { id: 2, name: 'Design and Engineering', href: '#', current: true, component: Transmission, },
-      { id: 3, name: 'Hardening Grid', href: '#', current: false,component: GridHardening, },
+      { id: 3, name: 'Hardening Grid', href: '#', current: false,component: Grid, },
       { id: 5, name: 'Tower Testing and Source Inspection', href: '#', current: false,component: Testing, },
       { id: 6, name: 'Material Take-off', href: '#', current: false,component: ComingSoon, },
       { id: 7, name: 'Drafting and Detailing', href: '#', current: false,component: ComingSoon, },

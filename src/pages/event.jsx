@@ -23,7 +23,7 @@ export default function event() {
 
           <WhoShouldAttend />
           <EventOrganizer />
-            <Sponsership/>
+            {/*<Sponsership/>*/}
           {/*<Schedule />*/}
           {/*<Pricing/>*/}
           {/*<Sponsors />*/}

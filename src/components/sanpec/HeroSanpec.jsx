@@ -96,7 +96,7 @@ export  function HeroSanpec() {
             }}
           />
         </div>
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-32">
+        <div className="mx-auto max-w-3xl py-32 sm:py-48 lg:py-32">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-xl leading-6 text-blue-900 ring-1 ring-white/10 hover:ring-white/20 font-bold">
 

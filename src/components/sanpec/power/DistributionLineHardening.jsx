@@ -6,20 +6,20 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 
 const testing = [
-  'Dual OHGW to reduce the potage caused by lightning.',
-  'OPGW to provide the communication path across the grid, enhancing the cybersecurity and improving reliability.',
-  'New Insulator design and materials provide greater reliability.',
-  'Higher Capacity, steel reinforced conductor allows for more efficient power flow and reduce electrical losses.',
-  'Greater clearances between electrical lines reduces outages caused by animal and provides safer working conditions for line crews.',
-  'Sturdier steel poles/concrete poles improve resiliency during storms, provide longer lifeexpectancy and lower maintenance costs.',
-  'Improved grounding provides better lightning performance and safer operation of T&D system.',
-
+  'Implement wildfire mitigation plan to monitor weather and equipment.',
+  'Enhance inspections process of all overhead power lines in high fire risk areas and apply preventive maintenance to reduce risks of ignition.',
+  'Use fire-resistant poles, composite cross-arms, and covered conductors in high fire risk areas.',
+  'Install current limiting fuses that interrupt current more quickly to boost reliability by segmenting circuits to isolate problems.',
+  'Install HD camera that enable fire agencies to observe potential fire activity.',
+  'Install weather stations with multiple sensors to provide real time weather data.',
+  'Evaluate the ability to install new access roads and increase line ROW.',
+  'As a last resort, cut power to high fire areas when winds reach above a certain predetermined threshold.',
 
 ];
 
 
 
-export default function GridHardening() {
+export default function DistributionLineHardening() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
@@ -45,17 +45,19 @@ export default function GridHardening() {
           {/* Content section */}
           <div className="mx-auto mt-10  px-6 lg:px-8">
             <p className="mt-6 text-lg font-bold leading-8 text-blue-800">
-              Hardening the Grid: &nbsp;
-              <span className="text-sm font-semibold leading-8 text-blue-800">
+              Fire Prevention and Detection:
 
-                Reinforcing the T&D
-                infrastructure to prevent or reduce the damage
-                from extreme weather events
+              <span className="text-sm font-semibold leading-8 pl-2 text-blue-800">
+
+                Severe drought conditions
+                coupled with high winds and other factors, have resulted in an
+                increased number and severity of wildfires that can devastate
+                natural habitats and communities.
               </span>
+
+
             </p>
-            <p className="mt-6 text-lg font-bold leading-8 text-blue-800">
-              Right selection of poles, Towers and Wires:
-            </p>
+
             <div className="mx-auto  lg:mx-0 lg:max-w-none">
               <div className="grid  grid-cols-1 gap-8 text-base leading-7 text-[#151949] lg:max-w-none lg:grid-cols-1">
                 <div className="py-5 text-base leading-7 text-[#151949]">
@@ -65,14 +67,9 @@ export default function GridHardening() {
                     ))}
                   </div>
                 </div>
-
               </div>
-
-
             </div>
           </div>
-
-
 
 
         </main>

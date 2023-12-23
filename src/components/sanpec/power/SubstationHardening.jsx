@@ -6,20 +6,18 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 
 const testing = [
-  'Dual OHGW to reduce the potage caused by lightning.',
-  'OPGW to provide the communication path across the grid, enhancing the cybersecurity and improving reliability.',
-  'New Insulator design and materials provide greater reliability.',
-  'Higher Capacity, steel reinforced conductor allows for more efficient power flow and reduce electrical losses.',
-  'Greater clearances between electrical lines reduces outages caused by animal and provides safer working conditions for line crews.',
-  'Sturdier steel poles/concrete poles improve resiliency during storms, provide longer lifeexpectancy and lower maintenance costs.',
-  'Improved grounding provides better lightning performance and safer operation of T&D system.',
-
+  'Identify the substations which are vulnerable to flooding.',
+  'Plan for temporary and permanent hardening measures.',
+  'For permanent solutions, install sheet piles flood walls that are constructed of composite materials to resist decay and rust.',
+  'Raise substation equipment above flood level.',
+  'Install flood monitor sensor to alert rising water level.',
+  'Substation control houses can be designed for withstand a direct hit from EF3 tornado with back-up control houses available on short',
 
 ];
 
 
 
-export default function GridHardening() {
+export default function SubstationHardening() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
@@ -40,21 +38,18 @@ export default function GridHardening() {
           </div>
 
           {/* Header section */}
+          <div className="px-6  lg:px-8">
+            <div className="mx-auto max-w-2xl  text-center ">
 
+
+
+            </div>
+          </div>
 
           {/* Content section */}
           <div className="mx-auto mt-10  px-6 lg:px-8">
             <p className="mt-6 text-lg font-bold leading-8 text-blue-800">
-              Hardening the Grid: &nbsp;
-              <span className="text-sm font-semibold leading-8 text-blue-800">
-
-                Reinforcing the T&D
-                infrastructure to prevent or reduce the damage
-                from extreme weather events
-              </span>
-            </p>
-            <p className="mt-6 text-lg font-bold leading-8 text-blue-800">
-              Right selection of poles, Towers and Wires:
+              Flooding can create tremendous issues for transmission substations
             </p>
             <div className="mx-auto  lg:mx-0 lg:max-w-none">
               <div className="grid  grid-cols-1 gap-8 text-base leading-7 text-[#151949] lg:max-w-none lg:grid-cols-1">
@@ -65,14 +60,9 @@ export default function GridHardening() {
                     ))}
                   </div>
                 </div>
-
               </div>
-
-
             </div>
           </div>
-
-
 
 
         </main>
