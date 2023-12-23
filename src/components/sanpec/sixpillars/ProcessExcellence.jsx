@@ -78,7 +78,7 @@ export default function ProcessExcellence() {
         {/* Values section */}
         <div className="mx-auto mt-12 max-w-7xl px-6 sm:mt-12 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-2xl font-bold tracking-tight  sm:text-2xl">Continuous Improvement in Business Processes</h2>
+            <h2 className="text-2xl font-bold tracking-tight  sm:text-2xl">Process Excellence</h2>
             <p className="mt-4 text-lg leading-8">
 
             </p>
