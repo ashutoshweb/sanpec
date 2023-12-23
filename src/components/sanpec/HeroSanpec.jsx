@@ -110,8 +110,11 @@ export  function HeroSanpec() {
             </div>
           </div>
           <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight  text-[#151949] sm:text-3xl">
-              Bringing Engineering Excellence  &nbsp; Improving Power Grid Reliability
+            <h1 className="text-4xl font-bold  text-emerald-300 sm:text-5xl">
+              Bringing Engineering Excellence
+            </h1>
+            <h1 className="text-4xl font-bold   text-emerald-300 sm:text-5xl">
+              Improving Power Grid Reliability
             </h1>
 
             <div className="mt-10 flex items-center justify-center gap-x-6">
