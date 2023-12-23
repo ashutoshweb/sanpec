@@ -262,9 +262,12 @@ export default function AboutSanpec() {
             />
           </div>
           <div className="px-6 pt-5 lg:px-8">
-            <div className="mx-auto max-w-2xl pt-24 text-center sm:pt-10">
-              <h2 className="text-4xl font-bold tracking-tight text-gray-300 sm:text-6xl">
-                Bringing Engineering Excellence. Improving Power Grid Reliability
+            <div className="mx-auto max-w-4xl pt-24 text-center sm:pt-10">
+              <h2 className="text-4xl font-bold tracking-tight text-gray-300 sm:text-5xl">
+                Bringing Engineering Excellence
+              </h2>
+              <h2 className="text-4xl font-bold tracking-tight text-gray-300 sm:text-5xl">
+                Improving Power Grid Reliability
               </h2>
               <p className="mt-6  font-bold leading-8  text-[#e8b44b]">
                 Leadership | Excellence | Quality | Innovation |Resilience | Sustainability
