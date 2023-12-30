@@ -9,7 +9,7 @@ const posts = [
             'The Malcolm Baldrige National Quality Award is presented annually by the United States President to organizations that demonstrate quality and performance excellence.',
         imageUrl:
             'https://cdn.firespring.com/images/72574c11-9ead-48fa-97ac-861336ae257e.jpg',
-        date: 'Mar 16, 2020',
+        date: 'Mar 16, 2023',
         datetime: '2020-03-16',
         category: { title: 'News', href: 'https://baldrigefoundation.org/news-resources/press-releases.html/article/2023/03/31/sanpec-inc-is-mac-baldrige-society-s-newest-member' },
         author: {
