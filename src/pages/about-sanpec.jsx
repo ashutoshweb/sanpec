@@ -270,7 +270,7 @@ export default function AboutSanpec() {
                 Improving Power Grid Reliability
               </h2>
               <p className="mt-6  font-bold leading-8  text-[#e8b44b]">
-                Leadership | Excellence | Quality | Innovation |Resilience | Sustainability
+                Leadership | Performance Excellence | Quality 4 |Resilience | Sustainability
               </p>
             </div>
           </div>
