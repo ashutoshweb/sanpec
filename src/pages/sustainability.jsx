@@ -9,23 +9,24 @@ import PeopleSustainable from "@/components/sanpec/sustainability/People";
 import EnvironmentSustainable from "@/components/sanpec/sustainability/Environment";
 
 const navigation = [
+
   {
     id: 1,
+    name: 'Holistic Resilience',
+    href: '#',
+    component: EnvironmentSustainable,
+    icon: UsersIcon,
+    current: false,
+  },
+
+  {
+    id: 2,
     name: 'People',
     href: '#',
     component: PeopleSustainable,
     icon: HomeIcon,
     current: true,
   },
-  {
-    id: 2,
-    name: 'Environment',
-    href: '#',
-    component: EnvironmentSustainable,
-    icon: UsersIcon,
-    current: false,
-  },
-  
   
 
 ]

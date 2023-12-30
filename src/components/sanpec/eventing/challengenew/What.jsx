@@ -23,8 +23,8 @@ export function What() {
         <p className="lg:px-12 px-5 py-2 pb-10">
 
             Experts will share insights on enhanced grid resilience, co-creating the new power grid, mastering organizational and operational resilience,
-            dynamic value co-creation, manufacturing andprocess excellence, Quality4, policy and finance, sustainability strategy, and leadership excellence;
-            best practices in sustainable T&D business.
+            dynamic value co-creation, manufacturing and process excellence, Quality 4, policy and finance, sustainability strategy, and leadership excellence;
+            best practices in sustainable business.
         </p>
 
     </div>

@@ -24,13 +24,15 @@ import SlideOverCommon from '@/components/common/Slideovers'
 
 import EnvCompliance from './environment/EnvCompliance'
 import EnvWater from './environment/WaterManagement'
+import ClimateChange from './environment/ClimateChange'
 import WaterImage from '@/custom-images/greg-becker-sYzFIusQp3Q-unsplash.jpg'
 import turtleInWaterImage from '@/custom-images/david-troeger-M8xxVih_V_U-unsplash.jpg'
+import SustainabilityThreeImage from '@/custom-images/SustainabilityThreeImage.png'
 import Image from 'next/image'
 
 const tabs = [
   {
-    name: 'Compliance',
+    name: 'Envision',
     comp: <EnvCompliance />,
     features: [
       {
@@ -60,6 +62,23 @@ const tabs = [
       },
     ],
   },
+
+  {
+    name: 'Climate Change',
+    comp: <ClimateChange />,
+
+    features: [
+      {
+        name: 'Natural wood options',
+        description:
+            'Organize has options for rich walnut and bright maple base materials. Accent your desk with a contrasting material, or match similar woods for a calm and cohesive look. Every base is hand sanded and finished.',
+        imageSrc:
+            'https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-02.jpg',
+        imageAlt:
+            'Walnut organizer base with pen, sticky note, phone, and bin trays, next to modular drink coaster attachment.',
+      },
+    ],
+  },
   
   
 ]
@@ -85,11 +104,11 @@ export default function EnvironmentSustainable() {
           </div>
         </div>
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-x-8 gap-y-10 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch">
-          <div className="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
+          <div className="-mt-8 w-full max-w-5xl xl:-mb-8 xl:w-96 xl:flex-none">
             <div className="relative aspect-[2/1] h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
               <Image
-                className="absolute inset-0 h-full w-full rounded-2xl bg-gray-800 object-cover shadow-2xl"
-                src={turtleInWaterImage}
+                className="absolute inset-0  w-full rounded-2xl bg-gray-800 object-cover shadow-2xl"
+                src={SustainabilityThreeImage}
                 alt=""
               />
             </div>
@@ -109,13 +128,10 @@ export default function EnvironmentSustainable() {
                 <use href="#b56e9dab-6ccb-4d32-ad02-6b4bb5d9bbeb" x={86} />
               </svg>
               <blockquote className="text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9">
-                <p>
-                  Sustainability is not a choice; it&apos;s a responsibility. Our
-                  actions today determine the legacy we leave for tomorrow. Let
-                  us be stewards of the Earth, nurturing and protecting its
-                  delicate balance, so that future generations can inherit a
-                  world as beautiful and bountiful as the one we have known.
+                <p className="pb-5">
+                  Sustainability is an approach to business that meets the needs of the present without compromising the ability of the future generations to meet their own needs.
                 </p>
+
                
               </blockquote>
               <figcaption className="mt-8 text-base">
@@ -137,7 +153,7 @@ export default function EnvironmentSustainable() {
               id="features-heading"
               className="text-3xl font-bold tracking-tight text-[#e8b44b] sm:text-4xl"
             >
-              Environmental Sustainability
+              Holistic Resilience
             </h2>
             <p className="mt-4 text-white">
             Responsible management of natural resources and ecosystems to ensure they endure for future generations

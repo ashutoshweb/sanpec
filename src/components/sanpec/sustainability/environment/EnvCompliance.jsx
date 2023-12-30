@@ -202,7 +202,7 @@ export default function EnvCompliance() {
         <div className="mx-auto  max-w-7xl px-6  lg:px-8 pb-6">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight  sm:text-2xl pl-5">
-            Invision Framework
+              Envision Framework
             </h2>
             <p className="mt-4 text-lg leading-8">
             
