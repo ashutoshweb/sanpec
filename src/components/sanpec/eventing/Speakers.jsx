@@ -63,7 +63,7 @@ const days = [
 
       {
         name: 'Prof. Sapna A. Narula ',
-        role: 'Professor & Dean, President and CEO, Global Netweork for Sustainable Development',
+        role: 'Professor & Dean, President and CEO, Global Network for Sustainable Development',
         image: sapna,
       },
       {

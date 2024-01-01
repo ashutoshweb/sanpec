@@ -52,7 +52,7 @@ export default function GlobalReach() {
               <div>
                 <p> SANPEC operates on a global scale, leveraging international
                   resources and multidisciplinary expertise. However, its business model also emphasizes local
-                  knowledge and presence, understanding that local insights are crucial for the successful
+                  knowledge and presence, understanding that local insights are crucial for successful
                   implementation of projects across diverse geographical and cultural landscapes.
                 </p>
 

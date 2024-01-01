@@ -17,7 +17,7 @@ import Image from "next/image"
 const feature = 
 
   {
-    name: 'The SunZia Transmission Project, NEW MEXICO ANDdcsddddd ARIZONA, USA',
+    name: 'The SunZia Transmission Project, NEW MEXICO AND ARIZONA, USA',
     para :['Plan now to attend Carbon, Capture, Utilization, and Storage (CCUS) 25–27 April 2023 at the University of Houston in Houston, Texas. ',
      'Subsurface Geologic Storage',
     'CO₂ Enhanced Hydrocarbon Recovery',

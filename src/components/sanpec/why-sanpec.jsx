@@ -232,7 +232,7 @@ export default function WhySanpec() {
                 SANPEC is a purpose-led, values-aligned, and innovation-driven company specializing in design,
                 engineering, testing, supply chain, asset inspection, risk mitigation, sustainability, and quality
                 management for critical electric power, lighting, and renewable energy infrastructures.
-                SANPEC team has extensive worldwide experiences in creating value chain management with holistic approach.
+                SANPEC team has extensive worldwide experiences in executing transformation line projects with holistic approach.
               </p>
             </div>
 

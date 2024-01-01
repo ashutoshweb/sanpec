@@ -101,10 +101,10 @@ export function Services() {
       <Container className="relative mb-8">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Pioneer in Resilience, Sustainability, and Product Quality
+            Pioneer in Excellence, Resilience, and Sustainability
           </h2>
           <p className="mt-6 text-lg font-semibold tracking-tight text-[#e8b44b]">
-            Unwavering commitment to resilience, sustainability, and product quality.  SANPEC has set new benchmarks
+            Unwavering commitment to excellence, resilience, and sustainability.  SANPEC has set new benchmarks
             and led the industry forward in these critical areas.
           </p>
         </div>

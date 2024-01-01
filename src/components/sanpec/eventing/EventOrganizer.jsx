@@ -1,4 +1,5 @@
 import {Container} from '@/components/Container';
+import Link from 'next/link'
 
 export function EventOrganizer () {
   return(
@@ -13,28 +14,26 @@ export function EventOrganizer () {
           </h2>
           <div className="mt-10">
 
-            <h3 className=" font-display font-medium text-xl tracking-tighter text-blue-900 mt-5">
+            <Link href="/about-sanpec" className=" font-display font-medium text-xl tracking-tighter text-blue-900 mt-5">
               About SANPEC
 
-            </h3>
+            </Link>
             <p className="mt-5">
               SANPEC has been privately owned and operated since 2009 and aims to improve the resilience and reliability of power grid systems.
               The company’s unique approach, allows it to create, measure, transfer, and recreate knowledge effectively.
             </p>
             <p className="mt-5">
               SANPEC aims to continuously improve structural resilience, reliability, and quality of life through engineering excellence, research and innovation, education and outreach, co-creation, and collaboration.
-              It also bring a focused approach toward improving transmission and distribution systems and creating socio-economic values.
+              It also brings a focused approach toward improving transmission and distribution systems and creating socio-economic values.
             </p>
 
           </div>
 
 
           <div className="mt-10">
-            <h3 className=" font-display font-medium text-xl tracking-tighter text-blue-900 mt-5">
+            <Link href="https://baldrigefoundation.org/" className=" font-display font-medium text-xl tracking-tighter text-blue-900 mt-5">
               About Baldrige Foundation
-
-
-            </h3>
+            </Link>
             <p className="mt-5">
               The Baldrige Foundation&apos;s Institute for Performance Excellence is a thought leader on performance excellence, leadership, and management.
 
@@ -50,7 +49,7 @@ export function EventOrganizer () {
               Sangita: Founder, Baldrige Sustainability Forum
             </h2>
             <p className="mt-2">
-              Ms Sangita P. Mallik, Executive Vice President, SANPEC Inc. is the distinguished recipient of the Baldrige Foundation Awards for Leadership Excellence for 2023 in the “Business” category.
+              Ms Sangita P. Mallik, Executive Vice President, SANPEC Inc. is the distinguished recipient of the Baldrige Foundation Awards for Leadership Excellence for 2023 in the Business category.
             </p>
           </div>
         </Container>

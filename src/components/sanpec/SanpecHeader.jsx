@@ -140,7 +140,7 @@ export function SanpecHeader() {
                 </Link>
               ))}
 
-              <Popover>
+              {/*<Popover>
                 <Popover.Button className="anime-href flex items-center gap-x-1  text-xl font-semibold leading-6 text-white">
                   Consulting
                   <ChevronDownIcon
@@ -183,7 +183,7 @@ export function SanpecHeader() {
 
                   </Popover.Panel>
                 </Transition>
-              </Popover>
+              </Popover>*/}
             </Popover.Group>
           </nav>
           <Dialog
@@ -212,7 +212,7 @@ export function SanpecHeader() {
                   <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                 </button>
               </div>
-              <div className="mt-6 flow-root ">
+              {/*<div className="mt-6 flow-root ">
                 <div className="-my-6 divide-y divide-gray-500/10">
                   <div className="space-y-2 py-6">
                     <Disclosure as="div" className="-mx-3">
@@ -271,7 +271,7 @@ export function SanpecHeader() {
                     </a>
                   </div>
                 </div>
-              </div>
+              </div>*/}
             </Dialog.Panel>
           </Dialog>
         </div>

@@ -26,7 +26,7 @@ const values = [
     },
     {
       name: 'Managing for Innovation:',
-      description: 'We make effective decisions using reliable data, breakthrough innovation, and new intelligence to deliver value-aligned results. We design, manage and innovate our services and work processes to optimize operational effectiveness and achieve ongoing organizational success.',
+      description: 'We make effective decisions using reliable data, breakthrough innovation, and new intelligence to deliver value-aligned results. We design, manage, and innovate our services and work processes to optimize operational effectiveness and achieve ongoing organizational success.',
       icon: HandRaisedIcon,
     },
 

@@ -29,7 +29,7 @@ function classNames(...classes) {
 return classes.filter(Boolean).join(' ');
 }
 
-export function Sponsership() {
+export function Sponsorship() {
 return (
     <div id="sponsership" className="bg-gray-900">
       <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-2">
@@ -43,7 +43,7 @@ return (
                   id="features-heading"
                   className="text-3xl font-bold tracking-tight text-[#e8b44b] sm:text-4xl"
               >
-                Sponsership
+                Sponsorship
               </h2>
             </div>
 
