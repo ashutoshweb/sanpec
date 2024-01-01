@@ -7,8 +7,13 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/sanpec/eventing/Container'
 import { DiamondIcon } from '@/components/sanpec/eventing/DiamondIcon'
-import andrewGreeneImage from '@/images/avatars/andrew-greene.jpg'
-import cathleneBurrageImage from '@/images/avatars/cathlene-burrage.jpg'
+import vijayShekhawat from '@/custom-images/VijayShekhawat-150x150.jpeg'
+import kapilNarula from '@/custom-images/Kapil-Narula.jpeg'
+import panwarRajat from '@/custom-images/Panwar.jpeg'
+import piyushVerma from '@/custom-images/Piyush-Verma.png'
+import rajSP from '@/custom-images/Raj_SP.jpeg'
+import mohanYellishetty from '@/custom-images/Mohan_Yellishetty.webp'
+import sapna from '@/custom-images/sapna.jpeg'
 import damarisKimuraImage from '@/images/avatars/damaris-kimura.jpg'
 import dianneGuilianelliImage from '@/images/avatars/dianne-guilianelli.jpg'
 import erhartCockrinImage from '@/images/avatars/erhart-cockrin.jpg'
@@ -26,40 +31,51 @@ import ronniCantadoreImage from '@/images/avatars/ronni-cantadore.jpg'
 import stevenMchailImage from '@/images/avatars/steven-mchail.jpg'
 import waylonHydenImage from '@/images/avatars/waylon-hyden.jpg'
 
+
+
+
 const days = [
   {
     name: 'Keynote Address ',
 
     speakers: [
       {
-        name: 'Speaker 1',
-        role: 'Title 1',
-        image: '',
+        name: 'Vijay Shekhawat',
+        role: 'Director, Energy, Sustainability and Infrastructure (India)',
+        image: vijayShekhawat,
       },
       {
-        name: 'Speaker 2',
-        role: 'Title 2',
-        image: '',
+        name: 'Rajat Panwar',
+        role: 'Associate Professor of Responsible and Sustainable Business',
+        image: panwarRajat,
       },
       {
-        name: 'Speaker 3',
-        role: 'Title 3',
-        image: '',
+        name: 'S.P. Raj',
+        role: 'Chair, Department of Marketing, Distinguished Professor of Marketing, Director, MS Marketing Program',
+        image: rajSP,
       },
       {
-        name: 'Speaker 4',
-        role: 'Title 1',
-        image: '',
+        name: 'Dr. Kapil Narula',
+        role: 'Senior Researcher at the Chair for Energy Efficiency within the Institute for Environmental Sciences (ISE), University of Geneva. ',
+        image: kapilNarula,
+      },
+
+
+      {
+        name: 'Prof. Sapna A. Narula ',
+        role: 'Professor & Dean, President and CEO, Global Netweork for Sustainable Development',
+        image: sapna,
       },
       {
-        name: 'Speaker 5',
-        role: 'Title 2',
-        image: '',
+        name: 'Mohan Yellishetty',
+        role: 'Associate Professor, Civil Engineering, Australian Endeavour Fellow and Chartered Mining Engineer',
+        image: mohanYellishetty,
       },
+
       {
-        name: 'Speaker 6',
-        role: 'Title 3',
-        image: '',
+        name: 'Piyush Verma',
+        role: 'Senior Governance Expert-Energy, UNDP',
+        image: piyushVerma,
       },
     ],
   },
@@ -150,7 +166,7 @@ export function Speakers() {
       aria-labelledby="speakers-title"
       className="py-20 sm:py-32"
     >
-      <ImageClipPaths id={id} />
+     {/* <ImageClipPaths id={id} />*/}
       <Container>
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2

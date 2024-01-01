@@ -10,13 +10,13 @@ export function Why() {
       </div>
 
       <p className="lg:px-12 px-5 py-5 ">
-          The world is at climate crossroads and demands a global clean energy transition powered bya sustainable business paradigm.
+          The world is at climate crossroads and demands a global clean energy transition powered by a sustainable business paradigm.
           Clean and reliable electricity is at the centre of this transformation and grids are the super highways for clean energy flow.
 
       </p>
 
         <p className="lg:px-12 px-5 pb-10 ">
-            Building Sustainability and Resilience in Electric Power System through inspired leadership, innovative finance,robust governance,
+            Building Sustainability and Resilience in Electric Power System through thought leadership, innovative finance, robust governance,
             sustainable engineering practices and new workforce development programs will therefore occupy the centre stage.
         </p>
 

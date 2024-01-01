@@ -5,14 +5,19 @@ export function EventOrganizer () {
       <section id="sponsors" aria-label="Sponsors" className="py-20">
         <Container>
           <h2 className=" max-w-2xl  font-display text-4xl font-medium tracking-tighter text-blue-900 sm:text-5xl">
-            Event Organizer
+            Event Organizers
           </h2>
           <h2 className=" font-display font-medium text-2xl tracking-tighter text-blue-900 mt-5">
-            SANPEC, Inc
-            Trustee @Baldrige Foundation Institute of Performance Excellence
+            SANPEC and Baldrige Foundation
+
           </h2>
           <div className="mt-10">
-            <p >
+
+            <h3 className=" font-display font-medium text-xl tracking-tighter text-blue-900 mt-5">
+              About SANPEC
+
+            </h3>
+            <p className="mt-5">
               SANPEC has been privately owned and operated since 2009 and aims to improve the resilience and reliability of power grid systems.
               The company’s unique approach, allows it to create, measure, transfer, and recreate knowledge effectively.
             </p>
@@ -20,11 +25,24 @@ export function EventOrganizer () {
               SANPEC aims to continuously improve structural resilience, reliability, and quality of life through engineering excellence, research and innovation, education and outreach, co-creation, and collaboration.
               It also bring a focused approach toward improving transmission and distribution systems and creating socio-economic values.
             </p>
+
+          </div>
+
+
+          <div className="mt-10">
+            <h3 className=" font-display font-medium text-xl tracking-tighter text-blue-900 mt-5">
+              About Baldrige Foundation
+
+
+            </h3>
             <p className="mt-5">
-              At SANPEC, we make it our mission to protect our clients&apos; best interests. No matter what
-              energy, power grid, telecom, or organizational issues you may be facing, we can help you move
-              forward and prepare for a brighter future. We can provide you with impactful guidance and manage the project’s performance throughout its lifecycle.
+              The Baldrige Foundation's Institute for Performance Excellence is a thought leader on performance excellence, leadership, and management.
+
             </p>
+            <p className="mt-5">
+              Our team carries out its mission in a number of ways: undertaking research projects, hosting conferences and activities, conducting executive-level and online professional development and skills training, making resources available to enhance organizational performance, and publishing and distributing a wide variety of educational materials to share best practices.
+            </p>
+
           </div>
 
           <div>

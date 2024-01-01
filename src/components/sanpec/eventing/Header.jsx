@@ -15,8 +15,8 @@ export function Header() {
         <div className="order-first -mx-4 flex flex-auto basis-full overflow-x-auto whitespace-nowrap border-b border-blue-600/10 py-4 font-bold text-lg text-blue-900 sm:-mx-6 lg:order-none lg:mx-0 lg:basis-auto lg:border-0 lg:py-0">
           <div className="mx-auto flex items-center gap-4 px-4">
             <p>
-              <time dateTime="2024-04-07">07</time>-
-              <time dateTime="2024-04-10">10 of April, 2024</time>
+              <time dateTime="2024-04-07">April 7</time>-
+              <time dateTime="2024-04-10">10, 2024 (Sunday–Wednesday)</time>
             </p>
             <DiamondIcon className="h-1.5 w-1.5 overflow-visible fill-current stroke-current" />
             <p>Gaylord National Harbor (near Washington, D.C) </p>
