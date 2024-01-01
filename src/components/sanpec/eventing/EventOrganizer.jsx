@@ -36,7 +36,7 @@ export function EventOrganizer () {
 
             </h3>
             <p className="mt-5">
-              The Baldrige Foundation's Institute for Performance Excellence is a thought leader on performance excellence, leadership, and management.
+              The Baldrige Foundation&apos;s Institute for Performance Excellence is a thought leader on performance excellence, leadership, and management.
 
             </p>
             <p className="mt-5">
