@@ -6,6 +6,7 @@ import Transmission from "@/components/sanpec/power/Transmission";
 import Testing from "@/components/sanpec/power/Testing";
 import GridHardening from "@/components/sanpec/power/GridHardening";
 import Grid from "@/components/sanpec/power/Grid";
+import SourceInspection from "@/components/sanpec/power/sourceinspection/SourceInspection";
 import {
   Bars3Icon,
   CalendarIcon,
@@ -42,7 +43,7 @@ const navigation = [
     current: false,
     children: [
       { id: 8, name: 'Vendor Audit', href: '#', current: false, component: ComingSoon, },
-      { id: 9, name: 'Source Inspection', href: '#', current: false,component: ComingSoon, },
+      { id: 9, name: 'Source Inspection', href: '#', current: false,component: SourceInspection, },
       { id: 10, name: 'Quality Controls', href: '#', current: false,component: ComingSoon, },
       { id: 11, name: 'Lean Manufacturing', href: '#', current: false,component: ComingSoon, },
     ],

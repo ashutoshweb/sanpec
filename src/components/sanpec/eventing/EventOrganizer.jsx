@@ -15,16 +15,26 @@ export function EventOrganizer () {
           <div className="mt-10">
 
             <Link href="/about-sanpec" className=" font-display font-medium text-xl tracking-tighter text-blue-900 mt-5">
-              About SANPEC
+              About SANPEC and Leadership
 
             </Link>
             <p className="mt-5">
-              SANPEC has been privately owned and operated since 2009 and aims to improve the resilience and reliability of power grid systems.
-              The company’s unique approach, allows it to create, measure, transfer, and recreate knowledge effectively.
+              SANPEC, Inc., a trailblazer in the energy sector since 2009, specializes in the design, engineering, testing,
+              inspection, risk management, sustainability, and quality management for critical electric power, lighting,
+              and renewable energy infrastructures. As a Lifetime Trustee of the Baldrige Foundation’s Institute for
+              Performance Excellence and a member of the Mac Baldrige Society, SANPEC is committed to improving
+              the resilience and reliability of power grid systems. The company&apos;s unique approach allows it to create,
+              measure, transfer, and recreate knowledge effectively, continuously improving resilience, reliability, and
+              quality of life through engineering excellence, sustainable business model practices, research and
+              innovation, education and outreach, co-creation, and collaboration.
             </p>
             <p className="mt-5">
-              SANPEC aims to continuously improve structural resilience, reliability, and quality of life through engineering excellence, research and innovation, education and outreach, co-creation, and collaboration.
-              It also brings a focused approach toward improving transmission and distribution systems and creating socio-economic values.
+              At the helm is Ms. Sangita P. Mallik, co-founder and Executive Vice President, a luminary in electric
+              power transmission and distribution. As a 2023 Baldrige Award for Leadership Excellence winner,
+              Sangita has steered SANPEC to the forefront of innovation and resilience. Her visionary leadership and
+              commitment to fostering a future-ready workforce have significantly advanced engineering practices
+              within the industry. Under her guidance, SANPEC aims to dynamically balance grid reliability, resiliency,
+              and directional alignment while innovating for sustainable development goals.
             </p>
 
           </div>
@@ -32,15 +42,19 @@ export function EventOrganizer () {
 
           <div className="mt-10">
             <Link href="https://baldrigefoundation.org/" className=" font-display font-medium text-xl tracking-tighter text-blue-900 mt-5">
-              About Baldrige Foundation
+              About the Baldrige Foundation
             </Link>
             <p className="mt-5">
-              The Baldrige Foundation&apos;s Institute for Performance Excellence is a thought leader on performance excellence, leadership, and management.
+              The Baldrige Foundation is the private-sector partner of the Baldrige Performance Excellence Program
+              and is committed to supporting organizational performance excellence in the U.S. and worldwide. The
+              Foundation and its Institute for Performance Excellence play a pivotal role in promoting and extending
+              the Baldrige Framework, ensuring its relevance for future generations of leaders and organizations
+              across all sectors. As a beacon of excellence, the Foundation fosters best practices in leadership,
+              strategic planning, customer focus, measurement, analysis, knowledge management, workforce focus,
+              and more, contributing to the improvement and innovation of organizations.
 
             </p>
-            <p className="mt-5">
-              Our team carries out its mission in a number of ways: undertaking research projects, hosting conferences and activities, conducting executive-level and online professional development and skills training, making resources available to enhance organizational performance, and publishing and distributing a wide variety of educational materials to share best practices.
-            </p>
+
 
           </div>
 
