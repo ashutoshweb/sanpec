@@ -10,6 +10,7 @@ import {WhoShouldAttend} from '@/components/sanpec/eventing/WhoShouldAttend';
 import {EventOrganizer} from '@/components/sanpec/eventing/EventOrganizer';
 import {DiscussionPillars} from '@/components/sanpec/eventing/DiscussionPillars';
 import {Sponsorship} from '@/components/sanpec/eventing/Sponsorship';
+import {DayEvent} from "../components/sanpec/eventing/schedule/DayEvent";
 
 
 
@@ -19,13 +20,15 @@ export default function event() {
           <Header />
           <Hero />
           <Challenges />
-          <Speakers />
+            <Schedule />
+            <DayEvent/>
+          {/*<Speakers />*/}
 
           <WhoShouldAttend />
           <EventOrganizer />
             {/*<Sponsership/>*/}
-          {/*<Schedule />*/}
-          {/*<Pricing/>*/}
+
+          <Pricing/>
           {/*<Sponsors />*/}
           {/*<Newsletter />*/}
 
