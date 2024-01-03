@@ -5,7 +5,6 @@ import Image from 'next/image'
 import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
-import { Container } from '@/components/sanpec/eventing/Container'
 import { DiamondIcon } from '@/components/sanpec/eventing/DiamondIcon'
 import vijayShekhawat from '@/custom-images/VijayShekhawat-150x150.jpeg'
 import kapilNarula from '@/custom-images/Kapil-Narula.jpeg'
@@ -30,6 +29,7 @@ import rinaldoBeynonImage from '@/images/avatars/rinaldo-beynon.jpg'
 import ronniCantadoreImage from '@/images/avatars/ronni-cantadore.jpg'
 import stevenMchailImage from '@/images/avatars/steven-mchail.jpg'
 import waylonHydenImage from '@/images/avatars/waylon-hyden.jpg'
+import backgroundImage from '@/images/background-auth.jpg';
 
 
 
@@ -37,7 +37,8 @@ import waylonHydenImage from '@/images/avatars/waylon-hyden.jpg'
 const days = [
   {
     name: 'Keynote Address ',
-
+    title: 'Innovations Driving Economic Growth through Sustainable Engineering',
+    date: 'April 7, 2024',
     speakers: [
       {
         name: 'Vijay Shekhawat',
@@ -78,10 +79,108 @@ const days = [
         image: piyushVerma,
       },
     ],
+    timeSlots: [
+      {
+        name: 'Opening Ceremony and Welcome Address',
+        description: '',
+        start: '10:00AM',
+        end: '11:00AM',
+        speakers: [
+          {
+            name: 'Vijay Shekhawat',
+            role: 'Director, Energy, Sustainability and Infrastructure (India)',
+            image: vijayShekhawat,
+          },
+          {
+            name: 'Rajat Panwar',
+            role: 'Associate Professor of Responsible and Sustainable Business',
+            image: panwarRajat,
+          },
+          {
+            name: 'S.P. Raj',
+            role: 'Chair, Department of Marketing, Distinguished Professor of Marketing, Director, MS Marketing Program',
+            image: rajSP,
+          },
+          {
+            name: 'Dr. Kapil Narula',
+            role: 'Senior Researcher at the Chair for Energy Efficiency within the Institute for Environmental Sciences (ISE), University of Geneva. ',
+            image: kapilNarula,
+          },
+        ]
+      },
+      {
+        name: 'Panel Discussion: Engineering for Sustainable Infrastructure Development',
+        description: 'This session aims to explore the pivotal role of engineering in fostering sustainable ' +
+            'infrastructure development, emphasizing innovative approaches, best practices,' +
+            ' and challenges in creating resilient and eco-conscious infrastructure. ' +
+            'The session aims to delve into case studies, technological advancements, ' +
+            'and collaborative strategies that drive infrastructure projects towards sustainability,' +
+            ' considering environmental impact, resource efficiency, and long-term viability. ' +
+            'By examining the intersection of engineering and sustainability, the objective is' +
+            ' to discuss actionable insights that empower participants to champion sustainable' +
+            ' infrastructure initiatives, integrating resilience, adaptability, and' +
+            ' environmental stewardship into engineering practices.',
+        start: '11:00AM',
+        end: '12:00AM',
+        speakers: [
+          {
+            name: 'Vijay Shekhawat',
+            role: 'Director, Energy, Sustainability and Infrastructure (India)',
+            image: vijayShekhawat,
+          },
+          {
+            name: 'Rajat Panwar',
+            role: 'Associate Professor of Responsible and Sustainable Business',
+            image: panwarRajat,
+          },
+          {
+            name: 'S.P. Raj',
+            role: 'Chair, Department of Marketing, Distinguished Professor of Marketing, Director, MS Marketing Program',
+            image: rajSP,
+          },
+          {
+            name: 'Dr. Kapil Narula',
+            role: 'Senior Researcher at the Chair for Energy Efficiency within the Institute for Environmental Sciences (ISE), University of Geneva. ',
+            image: kapilNarula,
+          },
+        ]
+      },
+      {
+        name: 'Dianne Guilianelli',
+        description: 'Sustainability in power sector',
+        start: '11:00AM',
+        end: '12:00PM',
+      },
+      {
+        name: 'Lunch',
+        description: null,
+        start: '12:00PM',
+        end: '1:00PM',
+      },
+      {
+        name: 'Ronni Cantadore',
+        description: 'Sustainability in power sector',
+        start: '1:00PM',
+        end: '2:00PM',
+      },
+      {
+        name: 'Erhart Cockrin',
+        description: 'Sustainability in power sector',
+        start: '2:00PM',
+        end: '3:00PM',
+      },
+      {
+        name: 'Parker Johnson',
+        description: 'Sustainability in power sector',
+        start: '3:00PM',
+        end: '4:00PM',
+      },
+    ],
   },
   {
     name: 'Presentation ',
-
+    title: 'Creating Equitable and Sustainable Societies in Harmony with Nature',
+    date: 'April 8, 2024',
     speakers: [
       {
         name: 'Speaker 4',
@@ -102,6 +201,9 @@ const days = [
   },
   {
     name: 'FireSideChat',
+    title: 'Empowering the Future: Youth, Education, and Sustainable Practices',
+    date: 'April 9, 2024',
+
     speakers: [
       {
         name: 'Speaker 7',
@@ -118,6 +220,7 @@ const days = [
   },
   {
     name: 'Audience Interaction',
+    date: 'April 10, 2024',
     speakers: [],
   },
 
@@ -141,41 +244,100 @@ function ImageClipPaths({ id, ...props }) {
   )
 }
 
+function TimeSlots({day, className}) {
+  return (
+    <ol
+      role="list"
+      className={clsx(
+          className,
+          'space-y-8 bg-white/60 px-10 pb-14 pt-5',
+      )}
+    >
+    {day?.timeSlots?.map((timeSlot, timeSlotIndex) => (
+        <li
+            key={timeSlot.start}
+            aria-label={`${timeSlot.name} talking about ${timeSlot.description} at ${timeSlot.start} - ${timeSlot.end} PST`}
+        >
+          {timeSlotIndex > 0 && (
+              <div className="mx-auto mb-8 h-px w-full bg-indigo-500/10"/>
+          )}
+          <div className="grid lg:grid-cols-2">
+            <div className="lg:mr-10">
+              <h4 className="text-lg font-semibold tracking-tight text-blue-900">
+                {timeSlot.name}
+              </h4>
+              <p className="mt-1 font-mono text-sm text-slate-500">
+                <time dateTime={`${day.dateTime}T${timeSlot.start}-08:00`}>
+                  {timeSlot.start}
+                </time>
+                {' '}
+                -{' '}
+                <time dateTime={`${day.dateTime}T${timeSlot.end}-08:00`}>
+                  {timeSlot.end}
+                </time>
+                {' '}
+              </p>
+              {timeSlot.description && (
+                  <p className="mt-1 tracking-tight text-blue-900">
+                    {timeSlot.description}
+                  </p>
+              )}
+            </div>
+            <div className="grid lg:grid-cols-2">
+              {timeSlot?.speakers?.map((speaker, speakerIndex) => (
+                <div key={speakerIndex}>
+                  <div className="flex items-center gap-x-6 m-4">
+                    <Image className="h-16 w-16 rounded-full" src={speaker.image} alt=""/>
+                    <div>
+                      <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">{speaker.name}</h3>
+                      <p className="text-sm font-semibold leading-6 text-indigo-600">{speaker.role}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </li>
+    ))}
+    </ol>
+  );
+}
+
 export function Speakers() {
-  let id = useId()
-  let [tabOrientation, setTabOrientation] = useState('horizontal')
+  let id = useId();
+  let [tabOrientation, setTabOrientation] = useState('horizontal');
 
   useEffect(() => {
-    let lgMediaQuery = window.matchMedia('(min-width: 1024px)')
+    let lgMediaQuery = window.matchMedia('(min-width: 1024px)');
 
-    function onMediaQueryChange({ matches }) {
-      setTabOrientation(matches ? 'vertical' : 'horizontal')
+    function onMediaQueryChange({matches}) {
+      setTabOrientation(matches ? 'vertical' : 'horizontal');
     }
 
-    onMediaQueryChange(lgMediaQuery)
-    lgMediaQuery.addEventListener('change', onMediaQueryChange)
+    onMediaQueryChange(lgMediaQuery);
+    lgMediaQuery.addEventListener('change', onMediaQueryChange);
 
     return () => {
-      lgMediaQuery.removeEventListener('change', onMediaQueryChange)
-    }
-  }, [])
+      lgMediaQuery.removeEventListener('change', onMediaQueryChange);
+    };
+  }, []);
 
   return (
-    <section
-      id="speakers"
-      aria-labelledby="speakers-title"
-      className="py-20 sm:py-32"
-    >
-     {/* <ImageClipPaths id={id} />*/}
-      <Container>
-        <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2
-            id="speakers-title"
-            className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl"
-          >
-            Speakers
-          </h2>
-          <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
+      <section
+          id="speakers"
+          aria-labelledby="speakers-title"
+          className="py-20 sm:py-32"
+      >
+        {/* <ImageClipPaths id={id} />*/}
+        <div className="m-10">
+          <div className="mx-auto max-w-2xl lg:mx-0">
+            <h2
+                id="speakers-title"
+                className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl"
+            >
+              Speakers
+            </h2>
+            <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
             Learn from the experts.
           </p>
         </div>
@@ -186,7 +348,7 @@ export function Speakers() {
         >
           <div className="relative -mx-4 flex overflow-x-auto pb-4 sm:mx-0 sm:block sm:overflow-visible sm:pb-0">
             <div className="absolute bottom-0 left-0.5 top-2 hidden w-px bg-slate-200 lg:block" />
-            <Tab.List className="grid auto-cols-auto grid-flow-col justify-start gap-x-8 gap-y-10 whitespace-nowrap px-4 sm:mx-auto sm:max-w-2xl sm:grid-cols-3 sm:px-0 sm:text-center lg:grid-flow-row lg:grid-cols-1 lg:text-left">
+            <Tab.List className="grid auto-cols-auto grid-flow-col justify-start gap-x-8 gap-y-10 px-4 sm:mx-auto sm:max-w-2xl sm:grid-cols-3 sm:px-0 lg:grid-flow-row lg:grid-cols-1 lg:text-left">
               {({ selectedIndex }) => (
                 <>
                   {days.map((day, dayIndex) => (
@@ -208,9 +370,9 @@ export function Speakers() {
                               : 'text-slate-500',
                           )}
                         >
-                          <Tab className="ui-not-focus-visible:outline-none">
-                            <span className="absolute inset-0" />
-                            {day.name}
+                          <Tab className="ui-not-focus-visible:outline-none text-left">
+                            <span className="absolute inset-0 break-words" />
+                            {day.title}
                           </Tab>
                         </div>
                         <time
@@ -230,48 +392,49 @@ export function Speakers() {
             {days.map((day) => (
               <Tab.Panel
                 key={day.dateTime}
-                className="grid grid-cols-1 gap-x-8 gap-y-10 ui-not-focus-visible:outline-none sm:grid-cols-2 sm:gap-y-16 md:grid-cols-3"
+                className="grid grid-cols-1 gap-x-8 gap-y-10 ui-not-focus-visible:outline-none"
                 unmount={false}
               >
-                {day.speakers.map((speaker, speakerIndex) => (
-                  <div key={speakerIndex}>
-                    <div className="group relative h-[17.5rem] transform overflow-hidden rounded-4xl">
-                      <div
-                        className={clsx(
-                          'absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 xl:right-6',
-                          [
-                            'border-blue-300',
-                            'border-indigo-300',
-                            'border-sky-300',
-                          ][speakerIndex % 3],
-                        )}
-                      />
-                      <div
-                        className="absolute inset-0 bg-indigo-50"
-                        style={{ clipPath: `url(#${id}-${speakerIndex % 3})` }}
-                      >
-                        <Image
-                          className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110"
-                          src={speaker.image}
-                          alt=""
-                          priority
-                          sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
-                        />
-                      </div>
-                    </div>
-                    <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">
-                      {speaker.name}
-                    </h3>
-                    <p className="mt-1 text-base tracking-tight text-slate-500">
-                      {speaker.role}
-                    </p>
-                  </div>
-                ))}
+                {/*{day.speakers.map((speaker, speakerIndex) => (*/}
+                {/*  <div key={speakerIndex}>*/}
+                {/*    <div className="group relative h-[17.5rem] transform overflow-hidden rounded-4xl">*/}
+                {/*      <div*/}
+                {/*        className={clsx(*/}
+                {/*          'absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 xl:right-6',*/}
+                {/*          [*/}
+                {/*            'border-blue-300',*/}
+                {/*            'border-indigo-300',*/}
+                {/*            'border-sky-300',*/}
+                {/*          ][speakerIndex % 3],*/}
+                {/*        )}*/}
+                {/*      />*/}
+                {/*      <div*/}
+                {/*        className="absolute inset-0 bg-indigo-50"*/}
+                {/*        style={{ clipPath: `url(#${id}-${speakerIndex % 3})` }}*/}
+                {/*      >*/}
+                {/*        <Image*/}
+                {/*          className="absolute inset-0 h-full w-full object-contain transition duration-300 group-hover:scale-110"*/}
+                {/*          src={speaker.image}*/}
+                {/*          alt=""*/}
+                {/*          priority*/}
+                {/*          sizes="(min-width: 1280px)dswawsssds 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"*/}
+                {/*        />*/}
+                {/*      </div>*/}
+                {/*    </div>*/}
+                {/*    <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">*/}
+                {/*      {speaker.name}*/}
+                {/*    </h3>*/}
+                {/*    <p className="mt-1 text-base tracking-tight text-slate-500">*/}
+                {/*      {speaker.role}*/}
+                {/*    </p>*/}
+                {/*  </div>*/}
+                {/*))}*/}
+                <TimeSlots day={day} />
               </Tab.Panel>
             ))}
           </Tab.Panels>
         </Tab.Group>
-      </Container>
+      </div>
     </section>
   )
 }
