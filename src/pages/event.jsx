@@ -19,7 +19,7 @@ export default function event() {
           <Header />
           <Hero />
           <Challenges />
-          <Speakers />
+          {/*<Speakers />*/}
 
           <WhoShouldAttend />
           <EventOrganizer />
