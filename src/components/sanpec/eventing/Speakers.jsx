@@ -146,59 +146,266 @@ const days = [
         ]
       },
       {
-        name: 'Dianne Guilianelli',
-        description: 'Sustainability in power sector',
-        start: '11:00AM',
-        end: '12:00PM',
+        name: 'Panel Discussion: Systems engineering perspective and business model innovation',
+        description: 'This session aims to explore the synergy between systems engineering perspectives' +
+            ' and business model innovation, examining how an integrated approach enhances organizational efficiency, ' +
+            'fosters innovation, and drives sustainable growth. The session aims to dissect the interplay between systems thinking and innovative business models, ' +
+            'showcasing successful cases and methodologies that leverage systems engineering principles to drive business model innovation. ' +
+            'By delving into practical applications and collaborative strategies, the objective is to elucidate how this symbiotic relationship fosters adaptability, agility,' +
+            ' and value creation within organizations. Ultimately, the session seeks to discuss actionable insights that empower participants to integrate systems engineering perspectives ' +
+            'into business innovation, optimizing operations and strategic development.',
+        start: '12:15 PM',
+        end: '13:15 PM',
+        speakers: [
+          {
+            name: 'Vijay Shekhawat',
+            role: 'Director, Energy, Sustainability and Infrastructure (India)',
+            image: vijayShekhawat,
+          },
+          {
+            name: 'Rajat Panwar',
+            role: 'Associate Professor of Responsible and Sustainable Business',
+            image: panwarRajat,
+          },
+          {
+            name: 'S.P. Raj',
+            role: 'Chair, Department of Marketing, Distinguished Professor of Marketing, Director, MS Marketing Program',
+            image: rajSP,
+          },
+          {
+            name: 'Dr. Kapil Narula',
+            role: 'Senior Researcher at the Chair for Energy Efficiency within the Institute for Environmental Sciences (ISE), University of Geneva. ',
+            image: kapilNarula,
+          },
+        ]
       },
+
       {
-        name: 'Lunch',
-        description: null,
-        start: '12:00PM',
-        end: '1:00PM',
+        name: 'Panel Discussion: Grid resilience, innovation, and sustainable development',
+        description: 'This session aims to envision a transformative path intertwining grid resilience, innovation, ' +
+            'and sustainable development, fostering discussions that illuminate novel approaches, cutting-edge innovations,' +
+            ' and collaborative strategies essential for shaping a resilient, innovative, and sustainable grid infrastructure. ' +
+            'The session aims to explore the convergence of innovative technologies, adaptive strategies, and sustainable practices, ' +
+            'driving the evolution of energy grids towards resilience and environmental harmony. ' +
+            'By leveraging expert insights, case studies, and forward-thinking solutions,' +
+            ' the objective is to inspire actionable ideas that propel the integration of resilient innovations for sustainable grid development,' +
+            ' steering the energy landscape towards a more secure and environmentally conscious future.',
+        start: '14:30 PM',
+        end: '15:30 PM',
+        speakers: [
+          {
+            name: 'Vijay Shekhawat',
+            role: 'Director, Energy, Sustainability and Infrastructure (India)',
+            image: vijayShekhawat,
+          },
+          {
+            name: 'Rajat Panwar',
+            role: 'Associate Professor of Responsible and Sustainable Business',
+            image: panwarRajat,
+          },
+          {
+            name: 'S.P. Raj',
+            role: 'Chair, Department of Marketing, Distinguished Professor of Marketing, Director, MS Marketing Program',
+            image: rajSP,
+          },
+          {
+            name: 'Dr. Kapil Narula',
+            role: 'Senior Researcher at the Chair for Energy Efficiency within the Institute for Environmental Sciences (ISE), University of Geneva. ',
+            image: kapilNarula,
+          },
+        ]
       },
-      {
-        name: 'Ronni Cantadore',
-        description: 'Sustainability in power sector',
-        start: '1:00PM',
-        end: '2:00PM',
-      },
-      {
-        name: 'Erhart Cockrin',
-        description: 'Sustainability in power sector',
-        start: '2:00PM',
-        end: '3:00PM',
-      },
-      {
-        name: 'Parker Johnson',
-        description: 'Sustainability in power sector',
-        start: '3:00PM',
-        end: '4:00PM',
-      },
+
     ],
   },
+
   {
     name: 'Presentation ',
     title: 'Creating Equitable and Sustainable Societies in Harmony with Nature',
     date: 'April 8, 2024',
     speakers: [
       {
-        name: 'Speaker 4',
-        role: 'Title 1',
-        image: '',
+        name: 'Vijay Shekhawat',
+        role: 'Director, Energy, Sustainability and Infrastructure (India)',
+        image: vijayShekhawat,
       },
       {
-        name: 'Speaker 5',
-        role: 'Title 2',
-        image: '',
+        name: 'Rajat Panwar',
+        role: 'Associate Professor of Responsible and Sustainable Business',
+        image: panwarRajat,
       },
       {
-        name: 'Speaker 6',
-        role: 'Title 3',
-        image: '',
+        name: 'S.P. Raj',
+        role: 'Chair, Department of Marketing, Distinguished Professor of Marketing, Director, MS Marketing Program',
+        image: rajSP,
+      },
+      {
+        name: 'Dr. Kapil Narula',
+        role: 'Senior Researcher at the Chair for Energy Efficiency within the Institute for Environmental Sciences (ISE), University of Geneva. ',
+        image: kapilNarula,
+      },
+
+
+      {
+        name: 'Prof. Sapna A. Narula ',
+        role: 'Professor & Dean, President and CEO, Global Network for Sustainable Development',
+        image: sapna,
+      },
+      {
+        name: 'Mohan Yellishetty',
+        role: 'Associate Professor, Civil Engineering, Australian Endeavour Fellow and Chartered Mining Engineer',
+        image: mohanYellishetty,
+      },
+
+      {
+        name: 'Piyush Verma',
+        role: 'Senior Governance Expert-Energy, UNDP',
+        image: piyushVerma,
       },
     ],
+    timeSlots: [
+      {
+        name: 'Panel Discussion: Organizational resilience, innovation, and sustainability',
+        description: 'This session aims to explore the interconnected relationship between organizational resilience, innovation, and sustainability, ' +
+            'dissecting how these elements complement and reinforce each other within diverse organizational frameworks. The session aims to delve into ' +
+            'practical strategies, case studies, and collaborative approaches that promote a culture of innovation and sustainability while fortifying ' +
+            'organizational resilience in the face of dynamic challenges. By examining the' +
+            ' intersection of these pillars, the objective is to discuss actionable insights that empower attendees to foster adaptable, ' +
+            'innovative, and sustainable practices within their respective organizations.',
+        start: '10:00AM',
+        end: '11:00AM',
+        speakers: [
+          {
+            name: 'Vijay Shekhawat',
+            role: 'Director, Energy, Sustainability and Infrastructure (India)',
+            image: vijayShekhawat,
+          },
+          {
+            name: 'Rajat Panwar',
+            role: 'Associate Professor of Responsible and Sustainable Business',
+            image: panwarRajat,
+          },
+          {
+            name: 'S.P. Raj',
+            role: 'Chair, Department of Marketing, Distinguished Professor of Marketing, Director, MS Marketing Program',
+            image: rajSP,
+          },
+          {
+            name: 'Dr. Kapil Narula',
+            role: 'Senior Researcher at the Chair for Energy Efficiency within the Institute for Environmental Sciences (ISE), University of Geneva. ',
+            image: kapilNarula,
+          },
+        ]
+      },
+      {
+        name: 'Panel Discussion: Role of Circular Economy in a resilient Smart Grid Technology',
+        description: 'This session aims to dissect and underscore the pivotal role of circular economy principles ' +
+            'in enhancing the resilience of smart grid technology. The session aims to examine how embracing circular' +
+            ' economy concepts within the realm of smart grids bolsters their capacity to withstand disruptions while ' +
+            'advancing sustainability goals. By delving into real-world examples and forward-thinking strategies, ' +
+            'the objective is to elucidate how circular economy principles drive innovation, resource efficiency, ' +
+            'and adaptability in smart grid infrastructure. ' +
+            'Ultimately, the session seeks to discuss actionable insights that empower stakeholders to integrate' +
+            ' circular economy practices effectively, thereby fortifying the resilience and sustainability of smart grid technologies',
+        start: '11:30 AM',
+        end: '12:30 PM',
+        speakers: [
+          {
+            name: 'Vijay Shekhawat',
+            role: 'Director, Energy, Sustainability and Infrastructure (India)',
+            image: vijayShekhawat,
+          },
+          {
+            name: 'Rajat Panwar',
+            role: 'Associate Professor of Responsible and Sustainable Business',
+            image: panwarRajat,
+          },
+          {
+            name: 'S.P. Raj',
+            role: 'Chair, Department of Marketing, Distinguished Professor of Marketing, Director, MS Marketing Program',
+            image: rajSP,
+          },
+          {
+            name: 'Dr. Kapil Narula',
+            role: 'Senior Researcher at the Chair for Energy Efficiency within the Institute for Environmental Sciences (ISE), University of Geneva. ',
+            image: kapilNarula,
+          },
+        ]
+      },
+      {
+        name: 'Panel Discussion: Critical Minerals: Powering the Future Grid and Renewable Energy',
+        description: 'As the backbone of transformative technologies in the energy sector, critical minerals' +
+            ' play a pivotal yet often overlooked role in enabling the resilience and sustainability of grid infrastructure ' +
+            'and renewable energy systems. This session sheds light on the significance of critical minerals, examining their indispensable ' +
+            'role in powering the future grid and fostering the advancement of renewable energy solutions. ' +
+            'Experts and thought leaders will explore the specific critical minerals crucial for these technologies, ' +
+            'their extraction, processing, and the challenges associated with their sustainable sourcing. ' +
+            'The discussion will emphasize the necessity of securing a reliable supply chain of critical minerals ' +
+            'to ensure the robustness and efficiency of the grid while advancing the global transition toward clean and sustainable energy. ',
+        start: '14:30 PM',
+        end: '15:30 PM',
+        speakers: [
+          {
+            name: 'Vijay Shekhawat',
+            role: 'Director, Energy, Sustainability and Infrastructure (India)',
+            image: vijayShekhawat,
+          },
+          {
+            name: 'Rajat Panwar',
+            role: 'Associate Professor of Responsible and Sustainable Business',
+            image: panwarRajat,
+          },
+          {
+            name: 'S.P. Raj',
+            role: 'Chair, Department of Marketing, Distinguished Professor of Marketing, Director, MS Marketing Program',
+            image: rajSP,
+          },
+          {
+            name: 'Dr. Kapil Narula',
+            role: 'Senior Researcher at the Chair for Energy Efficiency within the Institute for Environmental Sciences (ISE), University of Geneva. ',
+            image: kapilNarula,
+          },
+        ]
+      },
+
+      {
+        name: 'Panel Discussion: Uncertainty risk management and sustainable business practices',
+        description: 'The session aims to dissect the nuances of uncertainty risk management within the ' +
+            'framework of sustainable business practices, exploring strategies to navigate uncertainties while ' +
+            'upholding sustainability goals. The session aims to analyse risk mitigation approaches that align' +
+            ' with sustainable business models, emphasizing resilience, adaptability, and long-term viability. ' +
+            'By examining case studies and best practices, ' +
+            'the objective is to discuss actionable insights that empower participants to integrate effective' +
+            ' risk management strategies that reinforce sustainability principles within their organizational frameworks.',
+        start: '16:00 PM',
+        end: '17:00 PM',
+        speakers: [
+          {
+            name: 'Vijay Shekhawat',
+            role: 'Director, Energy, Sustainability and Infrastructure (India)',
+            image: vijayShekhawat,
+          },
+          {
+            name: 'Rajat Panwar',
+            role: 'Associate Professor of Responsible and Sustainable Business',
+            image: panwarRajat,
+          },
+          {
+            name: 'S.P. Raj',
+            role: 'Chair, Department of Marketing, Distinguished Professor of Marketing, Director, MS Marketing Program',
+            image: rajSP,
+          },
+          {
+            name: 'Dr. Kapil Narula',
+            role: 'Senior Researcher at the Chair for Energy Efficiency within the Institute for Environmental Sciences (ISE), University of Geneva. ',
+            image: kapilNarula,
+          },
+        ]
+      },
+
+    ],
   },
+
   {
     name: 'FireSideChat',
     title: 'Empowering the Future: Youth, Education, and Sustainable Practices',
@@ -218,11 +425,7 @@ const days = [
 
     ],
   },
-  {
-    name: 'Audience Interaction',
-    date: 'April 10, 2024',
-    speakers: [],
-  },
+
 
 ]
 
@@ -326,21 +529,11 @@ export function Speakers() {
       <section
           id="speakers"
           aria-labelledby="speakers-title"
-          className="py-20 sm:py-32"
+          className="py-20 sm:py-10"
       >
         {/* <ImageClipPaths id={id} />*/}
         <div className="m-10">
-          <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2
-                id="speakers-title"
-                className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl"
-            >
-              Speakers
-            </h2>
-            <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            Learn from the experts.
-          </p>
-        </div>
+
         <Tab.Group
           as="div"
           className="mt-14 grid grid-cols-1 items-start gap-x-8 gap-y-8 sm:mt-16 sm:gap-y-16 lg:mt-24 lg:grid-cols-4"
