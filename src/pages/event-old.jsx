@@ -13,16 +13,16 @@ import {Sponsorship} from '@/components/sanpec/eventing/Sponsorship';
 
 
 
-export default function event() {
+export default function eventOld() {
     return (
         <>
-          <Header />
+         {/* <Header />
           <Hero />
-          <Challenges />
+          <Challenges />*/}
           {/*<Speakers />*/}
 
-          <WhoShouldAttend />
-          <EventOrganizer />
+         {/* <WhoShouldAttend />
+          <EventOrganizer />*/}
             {/*<Sponsership/>*/}
           {/*<Schedule />*/}
           {/*<Pricing/>*/}
