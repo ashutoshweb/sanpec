@@ -117,7 +117,7 @@ export function ServicesPillars() {
               SANPEC&apos;s Business Excellence
             </h2>
             <p className="mt-6 text-lg font-semibold tracking-tight text-[#e8b44b]">
-              We excel at all these and give you the best the industry provides.
+              Organizational resilience | Operational resilience | Ecosystem resilience
             </p>
           </div>
           <Tab.Group
