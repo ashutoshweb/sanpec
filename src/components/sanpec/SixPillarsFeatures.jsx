@@ -15,7 +15,7 @@ const features = [
   {
     name: 'Systems Perspective',
     summary:
-      'Holistic Systems Thinking in Strategy',
+      'Systems Perspective',
     description:
       'We have the skillsets and mindsets to lead the transition to a circular economy and execute complex infrastructure projects with unparalleled engineering excellence, extensive fabrication knowledge, cutting-edge research, conscious leadership, and integrated quality management practices.',
     video: poleTestingVideo,
