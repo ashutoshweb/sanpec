@@ -26,7 +26,7 @@ const values = [
     },
     {
       name: '',
-      description: 'Holistic Risk Management: Holistic risk management create continuous loop of data/information and actionable insights to manage risk, build early awareness and rapid response, and improve the delivery time, quality, and safety. It is integrated into the operations model.',
+      description: 'Holistic risk management creates a continuous loop of data/information and actionable insights to manage risk, build early awareness and rapid response, and improve the delivery time, quality, and safety. It is integrated into the operations model.',
       icon: HandRaisedIcon,
     },
     {

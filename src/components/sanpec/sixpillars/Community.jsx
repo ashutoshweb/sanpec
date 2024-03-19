@@ -21,12 +21,12 @@ const stats = [
 const values = [
     {
       name: '',
-      description: 'We practice “Community Leadership.” to build a shared or distributed leadership system with policy actors (civil society, private sector, public sector). We believe in creating an open, innovative, active, quality-focused, and evolving culture to effectively manage the stakeholder’s needs, ideas, and concerns. ',
+      description: 'We believe in creating an open, innovative, active, quality-focused, and evolving culture to effectively manage the stakeholder’s needs, ideas, and concerns. ',
       icon: RocketLaunchIcon,
     },
     {
       name: '',
-      description: 'Our culture is the spiritual essence that guides us “who we are” and “why we exist.” We are devoted to building a community of excellence. Our team demonstrates a set of value-aligned behaviors consistently.',
+      description: 'Our culture is the spiritual essence that guides us “who we are” and “why we exist.” We are devoted to building a resilient community. Our team demonstrates a set of value-aligned behaviors consistently.',
       icon: HandRaisedIcon,
     },
 
