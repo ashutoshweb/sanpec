@@ -98,8 +98,8 @@ export default function SourceInspection() {
                                                     classNames(
                                                         selected
                                                             ? 'border-blue-900     text-blue-900 '
-                                                            : 'border-transparent text-blue-700 ',
-                                                        'whitespace-nowrap border-b-2  py-2 text-xl font-semibold hover:text-blue-500'
+                                                            : 'border-transparent text-gray-400 ',
+                                                        'whitespace-nowrap border-b-4  py-2 text-xl font-semibold hover:text-blue-500'
                                                     )
                                                 }
                                             >

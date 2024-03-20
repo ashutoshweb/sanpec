@@ -23,6 +23,58 @@ const sanpecImage = {
   image2: sanpecBalrigeExcellence,
 }
 
+const sanpecDiff = [
+  {id: 1,
+    text : 'Unrivaled Engineering and Technology Excellence'},
+
+  {id : 2,
+    text : 'Resiliency Planning in Transmission Line Design'},
+
+  {id: 3,
+    text : 'Reliable and Resilient Power Grid'},
+
+  {id : 4,
+    text : 'Testing, Inspection and Quality Assurance'},
+
+  {id: 5,
+    text : '  Total Quality and Innovation Management'},
+
+  {id : 6,
+    text : '  Operational and Organizational Resilience'},
+
+  {id: 7,
+    text : 'Full Lifecycle Asset Management'},
+
+  {id : 8,
+    text : '  Resilience in Value-Chain Systems'},
+  {id: 9,
+    text : '  Baldrige-aligned Business Model'},
+
+  {id : 10,
+    text : 'Leadership Excellence and Data-Driven Strategies'},
+
+  {id: 11,
+    text : 'Business Continuity and Risk Management'},
+
+  {id : 12,
+    text : 'Sustainability and ESG Consulting'},
+  {id: 13,
+    text : 'Workforce Development and R&D'},
+
+  {id : 14,
+    text : 'Digital Transformation and Industry4'},
+
+  {id: 15,
+    text : 'Environmental Stewardship and Sustainable Development'},
+
+  {id : 16,
+    text : 'Triple Bottom Line and Circular Economy'},
+
+
+
+
+]
+
 const navigation = [
   { name: 'Product', href: '#' },
   { name: 'Features', href: '#' },
@@ -283,10 +335,7 @@ export default function AboutSanpec() {
                   {values.map((value) => (
                     <div key={value.name} className="relative pl-9">
                       <dt className="inline text-xl font-semibold text-[#e8b44b]">
-                        <value.icon
-                          className="absolute left-1 top-1 h-5 w-5 text-indigo-500"
-                          aria-hidden="true"
-                        />
+
                         {value.name}
                       </dt>{' '}
                       <dd className="inline text-lg">{value.description}</dd>
@@ -307,12 +356,31 @@ export default function AboutSanpec() {
                 Who we are
               </h2>
               <p className="mt-6 text-lg leading-8 font-semibold">
-                SANPEC is a purpose-led, values-aligned, and innovation-driven company specializing in design,
-                engineering, testing, supply chain, asset inspection, risk mitigation, sustainability, and quality
-                management for critical electric power, lighting, and renewable energy infrastructures.
-                SANPEC team has extensive worldwide experiences in creating value chain management with holistic approach.
+                SANPEC is a purpose-led, innovation-driven, and Baldrige-aligned business specializing in the design, engineering
+                testing, inspection, research and innovation, sustainability, quality assurance, and complete lifecycle asset
+                management services for the electric power, lighting, telecommunication, renewable energy, and infrastructure
+                industries, with a strong focus on the United States market.
+
               </p>
+
+
             </div>
+
+            <h2 className="mt-8 mb-4 text-2xl font-semibold tracking-tight  sm:text-2xl">
+              SANPEC Edge
+            </h2>
+
+            <div className="mx-auto max-w-full lg:mx-0">
+
+              {sanpecDiff.map((value) => (
+
+                    <li key={value.id} className="text-lg px-4 font-medium ">{value.text}</li>
+
+
+              ))}
+            </div>
+
+
 
             <div className="mt-32  sm:mt-10 xl:mx-auto xl:max-w-7xl xl:px-8 ">
             <Image

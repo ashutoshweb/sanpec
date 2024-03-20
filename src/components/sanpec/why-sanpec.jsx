@@ -106,7 +106,7 @@ const values = [
     name: 'Visionary Leadership',
     description:
       'focused on results and creating value for all partner organizations.',
-    icon: UserGroupIcon,
+    icon: '',
   },
   {
     name: 'Unwavering Commitment',
@@ -234,7 +234,10 @@ export default function WhySanpec() {
                 management for critical electric power, lighting, and renewable energy infrastructures.
                 SANPEC team has extensive worldwide experiences in executing transformation line projects with holistic approach.
               </p>
+
             </div>
+
+
 
             <div className="mt-32  sm:mt-10 xl:mx-auto xl:max-w-7xl xl:px-8 ">
               <Image

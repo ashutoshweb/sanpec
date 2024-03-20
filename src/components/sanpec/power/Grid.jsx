@@ -101,7 +101,7 @@ export default function SourceInspection() {
                     aria-labelledby="features-heading"
                     className="mx-auto max-w-7xl py-24 sm:px-2 lg:px-8"
                 >
-                    <div className="mx-auto max-w-2xl px-4 lg:max-w-none lg:px-0">
+                    <div className="mx-auto max-w-2xl px-4 lg:max-w-none lg:px-0 ">
 
 
                         <Tab.Group as="div" className="mt-4">
@@ -115,8 +115,8 @@ export default function SourceInspection() {
                                                     classNames(
                                                         selected
                                                             ? 'border-blue-900     text-blue-900 '
-                                                            : 'border-transparent text-blue-700 ',
-                                                        'whitespace-nowrap border-b-2  py-2 text-xl font-semibold hover:text-blue-500'
+                                                            : 'border-transparent text-gray-400 ',
+                                                        'whitespace-nowrap border-b-4  py-2 text-xl font-semibold hover:text-blue-500'
                                                     )
                                                 }
                                             >
