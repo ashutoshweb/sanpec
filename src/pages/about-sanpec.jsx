@@ -75,6 +75,62 @@ const sanpecDiff = [
 
 ]
 
+const sanpecProd = [
+  {id: 1,
+    text : 'Transmission Lattice Towers for 345kV, 400kV, 500kV, 765kV, 800kV Transmission Line, Self-SupportedLattice Structures, Guyed Lattice Structures'},
+
+  {id : 2,
+    text : 'Road Crossing Lattice Towers, River Crossing Lattice Towers'},
+
+  {id: 3,
+    text : 'Custom Engineered Lattice Structures'},
+
+  {id : 4,
+    text : 'Transmission Pole Structures for up to 500kV Transmission Line'},
+
+  {id: 5,
+    text : 'Single Pole Structure, 2 Poles Structure, 3 Poles Structure, Guyed Pole Structure, H-Frame Structure Riser &Switch Structure, Custom Engineered Steel Poles'},
+
+  {id : 6,
+    text : 'Distribution Pole Structures, H Series Pole, C Series Pole, Poles for lower voltage lines such as 32.5kV, 69kV'},
+
+  {id: 7,
+    text : 'Substation Structures'},
+
+  {id : 8,
+    text : 'A-Frames Structure'},
+  {id: 9,
+    text : 'H-Frame Structure'},
+
+  {id : 10,
+    text : 'DE Structure'},
+
+  {id: 11,
+    text : 'Lightening Mast'},
+
+  {id : 12,
+    text : 'Bus Support Structure'},
+  {id: 13,
+    text : 'Equipment Support Structure'},
+
+  {id : 14,
+    text : 'Custom Engineered Structures and Foundations'},
+
+  {id: 15,
+    text : 'Hybrid Structures (Steel, Concrete, Composite)'},
+
+  {id : 16,
+    text : 'Caisson Design (Embedded Pole)'},
+
+
+
+
+]
+
+
+
+
+
 const navigation = [
   { name: 'Product', href: '#' },
   { name: 'Features', href: '#' },
@@ -366,19 +422,36 @@ export default function AboutSanpec() {
 
             </div>
 
-            <h2 className="mt-8 mb-4 text-2xl font-semibold tracking-tight  sm:text-2xl">
-              SANPEC Edge
-            </h2>
-
-            <div className="mx-auto max-w-full lg:mx-0">
-
-              {sanpecDiff.map((value) => (
-
-                    <li key={value.id} className="text-lg px-4 font-medium ">{value.text}</li>
+            <div className="mx-auto mt-4 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 text-base leading-7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-2">
 
 
-              ))}
+              <div className="mx-auto max-w-full lg:mx-0">
+                <h2 className="mx-24 mt-8 mb-4 text-2xl font-semibold tracking-tight  sm:text-2xl">
+                  SANPEC Edge
+                </h2>
+
+                {sanpecDiff.map((value) => (
+
+                    <li key={value.id} className="text-lg  font-medium ">{value.text}</li>
+
+                ))}
+              </div>
+
+              <div className="mx-auto max-w-full lg:mx-0">
+                <h2 className="mx-24 mt-8 mb-4 text-2xl font-semibold tracking-tight  sm:text-2xl">
+                  SANPEC Products
+                </h2>
+
+                {sanpecProd.map((value) => (
+
+                    <li key={value.id} className="text-lg  font-medium ">{value.text}</li>
+
+                ))}
+              </div>
             </div>
+
+
+
 
 
 
