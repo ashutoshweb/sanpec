@@ -57,7 +57,6 @@ const features = [
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">SANPEC Projects</h2>
             <p className="mt-4 text-xl text-gray-900">
             SANPEC actively contributed to the successful completion of various projects.
-            Expertise and dedication of the compamny were instrumental in the achievement of project milestones.
             </p>
           </div>
   
