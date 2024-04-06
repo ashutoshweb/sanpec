@@ -4,10 +4,6 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 import poleTestingVideo from '@/custom-images/tower_testing_video-hero.mp4'
 
-
-
-
-
 const navigation = [
   { name: 'Product', href: '#' },
   { name: 'Features', href: '#' },
@@ -15,22 +11,22 @@ const navigation = [
   { name: 'Company', href: '#' },
 ]
 
-const videoForHero =
-  {
+const videoForHero = {
+  video: poleTestingVideo,
+}
 
-    video: poleTestingVideo,
-  }
-
-
-
-export  function HeroSanpec() {
+export function HeroSanpec() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
     <div className="bg-gray-900 ">
       <header className="absolute inset-x-0 top-0 z-50  ">
-        
-        <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
+        <Dialog
+          as="div"
+          className="lg:hidden"
+          open={mobileMenuOpen}
+          onClose={setMobileMenuOpen}
+        >
           <div className="fixed inset-0 z-50" />
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white/10">
             <div className="flex items-center justify-between">
@@ -79,8 +75,12 @@ export  function HeroSanpec() {
       </header>
 
       <div className="relative isolate overflow-hidden pt-14">
-
-        <video className="absolute inset-0 -z-10 h-full w-full object-cover"  autoPlay loop muted>
+        <video
+          className="absolute inset-0 -z-10 h-full w-full object-cover"
+          autoPlay
+          loop
+          muted
+        >
           <source src={videoForHero.video} />
           Your browser does not support the video tag.
         </video>
@@ -96,21 +96,17 @@ export  function HeroSanpec() {
             }}
           />
         </div>
-        <div className="mx-auto max-w-3xl py-32 sm:py-48 lg:py-32">
-          <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-            <div className="relative rounded-full px-3 py-1 text-xl leading-6 text-blue-900 ring-1 ring-white/10 hover:ring-white/20 font-bold">
+        <div className=" absolute inset-0 -z-10 bg-black opacity-20"></div>
 
-
-            </div>
+        <div className=" mx-auto max-w-3xl py-32 sm:py-48 lg:py-32">
+          <div className=" hidden sm:mb-8 sm:flex sm:justify-center">
+            <div className="relative rounded-full px-3 py-1 text-xl font-bold leading-6 text-blue-900 ring-1 ring-white/10 hover:ring-white/20"></div>
           </div>
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-            <div className="relative rounded-full px-3 py-1 text-xl leading-6 text-blue-900 ring-1 ring-white/10 hover:ring-white/20 font-bold">
-
-
-            </div>
+            <div className="relative rounded-full px-3 py-1 text-xl font-bold leading-6 text-blue-900 ring-1 ring-white/10 hover:ring-white/20"></div>
           </div>
           <div className="text-center">
-            <h1 className="text-4xl font-bold  text-emerald-300 sm:text-5xl">
+            <h1 className="z-[100] text-4xl font-bold  text-emerald-300 sm:text-5xl">
               Bringing Engineering Excellence
             </h1>
             <h1 className="text-4xl font-bold   text-emerald-300 sm:text-5xl">
@@ -119,17 +115,16 @@ export  function HeroSanpec() {
 
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
-                  href="/about-sanpec#why-sanpec"
-                  className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+                href="/about-sanpec#why-sanpec"
+                className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
               >
                 Why SANPEC ?
               </Link>
-
             </div>
-            <p className="mt-6 text-lg font-bold leading-8 text-blue-900 ">
-              Leadership | Performance Excellence | Quality 4 |Resilience | Sustainability
+            <p className="mt-6 text-lg font-bold leading-8 text-white ">
+              Leadership | Performance Excellence | Quality 4 |Resilience |
+              Sustainability
             </p>
-
           </div>
         </div>
         <div
