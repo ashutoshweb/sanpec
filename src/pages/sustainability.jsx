@@ -12,7 +12,7 @@ const navigation = [
 
   {
     id: 1,
-    name: 'Holistic Resilience',
+    name: 'Environment',
     href: '#',
     component: EnvironmentSustainable,
     icon: UsersIcon,
@@ -21,7 +21,7 @@ const navigation = [
 
   {
     id: 2,
-    name: 'People',
+    name: 'Society',
     href: '#',
     component: PeopleSustainable,
     icon: HomeIcon,

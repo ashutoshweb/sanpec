@@ -121,7 +121,7 @@ export default function PeopleSustainable() {
               id="features-heading"
               className="text-3xl font-bold tracking-tight text-[#e8b44b] sm:text-4xl"
             >
-              People
+              Social Impact
             </h2>
             <p className="mt-4 text-white">
               Responsible management of natural resources and ecosystems to

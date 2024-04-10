@@ -153,7 +153,7 @@ export default function EnvironmentSustainable() {
               id="features-heading"
               className="text-3xl font-bold tracking-tight text-[#e8b44b] sm:text-4xl"
             >
-              Holistic Resilience
+              Environmental Impact
             </h2>
             <p className="mt-4 text-white">
             Responsible management of natural resources and ecosystems to ensure they endure for future generations
