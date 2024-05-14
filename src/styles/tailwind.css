@@ -1,7 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@900&display=swap');
 
 #__next {
   min-height: 100%;
+}
+
+.anime-href:after {
+  display:block;
+  content: '';
+  border-bottom: solid 6px ; 
+  border-image: 
+  linear-gradient(to right, rgba(99, 102, 241, 0.1), rgb(168, 85, 247), rgba(59, 130, 246, 0.1)) 0 0 100% 0;
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+  
+}
+.anime-href:hover:after { transform: scaleX(1); }
+
+.anime-href.from-left:after {
+  transform-origin: left;
+}
+
+.anime-href.from-right:after {
+  transform-origin: right;
 }

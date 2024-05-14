@@ -25,6 +25,9 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        arial: ["Arial"],
+        poppins: ['Poppins', 'sans-serif'],
+        roberto:['Roboto', 'sans-serif'],
         display: ['Lexend', ...defaultTheme.fontFamily.sans],
       },
       maxWidth: {
@@ -33,4 +36,5 @@ module.exports = {
     },
   },
   plugins: [require('@tailwindcss/forms')],
+  safelist: ['animate-[fade-in_1s_ease-in-out]', 'animate-[fade-in-down_1s_ease-in-out]']
 }
