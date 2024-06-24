@@ -30,7 +30,7 @@ const posts = [
             'The Malcolm Baldrige Foundation Award for Leadership Excellence, the ONLY award for performance excellence granted by the President of the United States, named Sangita P. Mallik, EVP and co-founder at SANPEC, as a 2023 recipient.',
         imageUrl:
             'https://cdn.firespring.com/images/7cd1d000-f890-4912-ba72-7e8e9ec26d0a.jpg',
-        date: 'Mar 16, 2020',
+        date: 'April 2023',
         datetime: '2020-03-16',
         category: { title: 'News', href: 'https://baldrigefoundation.org/news-resources/press-releases.html/article/2023/01/17/baldrige-foundation-announces-2023-leadership-award-recipients' },
         author: {

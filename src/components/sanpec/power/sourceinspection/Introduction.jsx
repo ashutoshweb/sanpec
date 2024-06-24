@@ -124,9 +124,6 @@ export default function Introduction() {
                   It is a very common practice today that the utility customers rely on a supplier’s own quality assurance
                   program and in-house inspection process for manufacturing transmission structures. Most of the
                   customers provide detailed technical specification along with an important statement that all
-                  2012-TSDOS-Why Source Inspection Is Critical For.pdf
-                  The 45th Annual Transmission & Substation Design & Operation Symposium
-                  2
                   manufacturing related work shall be performed in accordance with the highest industry standards and in
                   compliance with all applicable codes. Due to large recent investment in transmission infrastructure and
                   subsequent growing demand for transmission structures, utility customers are making compromise in pre-
@@ -138,8 +135,8 @@ export default function Introduction() {
                   poor quality materials at job site and losing
                   millions of dollars in downtime and start-up delays. Today’s fast paced manufacturing world, it is highly
                   recommended that the utility customers should implement source inspection or third part inspection
-                  process at the manufacturing plant. This paper provid es general guidelines of source inspection for Steel
-                  Tubular Poles and Lattice Steel Towers
+                  process at the manufacturing plant. This paper provides general guidelines of source inspection for Steel
+                  Tubular Poles and Lattice Steel Towers.
                 </p>
               </div>
               <div>
