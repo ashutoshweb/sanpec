@@ -21,7 +21,7 @@ const values = [
   {
     name: 'Societal well-being:',
     description:
-      'SANPEC contributes to societal well-being through a feedback-driven and dedicated approach to strengthening local community services, improving the environment and emergency preparedness, quality education, community of excellence, and health goals.',
+      'SANPEC contributes to societal well-being through a feedback-driven and dedicated approach to strengthening local community services, improving the environment and emergency preparedness, quality education, and health goals.',
     icon: UserGroupIcon,
   },
 
@@ -35,7 +35,7 @@ const values = [
   {
     name: 'Youth Sports: ',
     description:
-      'SANPEC is highly involved with local and statewide communities to support quality education, youth sports, and communities of excellence programs through volunteer contributions.',
+      'SANPEC is highly involved with local and statewide communities to support quality education and youth sports.',
     icon: RocketLaunchIcon,
   },
 
