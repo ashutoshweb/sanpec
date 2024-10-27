@@ -4,6 +4,8 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import sanpecBalrigeExcellence from '@/custom-images/Sanpec-Baldrige.jpeg'
 import sanpecExcellence from '@/custom-images/SanpecExcellence.jpeg'
+import circular1 from '@/custom-images/Circular-1.jpeg'
+import circular2 from '@/custom-images/Circular-2.jpeg'
 import WhySanpec from '../components/sanpec/why-sanpec'
 
 import {
@@ -21,6 +23,8 @@ import { Faqs } from '@/components/Faqs'
 const sanpecImage = {
   image1: sanpecExcellence,
   image2: sanpecBalrigeExcellence,
+  image3: circular1,
+  image4: circular2
 }
 
 const sanpecDiff = [
@@ -498,8 +502,8 @@ export default function AboutSanpec() {
 
         <div className="mt-32 sm:mt-8 xl:mx-auto xl:max-w-7xl xl:px-8">
           <Image
-            className="aspect-[9/4.2] w-full  object-cover xl:rounded-3xl "
-            src={sanpecImage.image2}
+            className=" w-full  object-cover xl:rounded-3xl "
+            src={sanpecImage.image4}
             alt=""
             sizes="50rem"
           />
