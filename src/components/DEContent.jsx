@@ -2,8 +2,8 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
 export function ContentHeader({ title }) {
     return (
-        <div className="bg-indigo-100">
-            <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:justify-between lg:px-8">
+        <div className="">
+            <div className="mx-auto max-w-7xl px-6 py-6 sm:py-6 lg:flex lg:items-center lg:justify-between lg:px-8">
                 <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                     {title}
                 </h2>
@@ -14,11 +14,11 @@ export function ContentHeader({ title }) {
 
 export function ContentBody() {
     return (
-        <div className="overflow-hidden bg-white py-32">
+        <div className="overflow-hidden bg-white py-6">
             <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
                 <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
                     <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
-                        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Design and Engineering</h2>
+                        <h4 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Design and Engineering</h4>
                         <p className="mt-6 text-xl leading-8 text-gray-600">
                             From 69 kV up to 500 kV, we design, engineer, and inspect a full range of overhead transmission line support structures to precisely suit the growing needs of our utility customers. In addition, we provide custom solutions for complex base plates, cross arms, and pole accessories.
                         </p>

@@ -1,6 +1,12 @@
 import DEContent from "@/components/DEContent";
 import MOContent from "@/components/MOContent";
 import { Sidebar } from "@/components/SideNav/Sidebar";
+import ComingSoon from "@/components/common/ComingSoon";
+import Transmission from "@/components/sanpec/power/Transmission";
+import Testing from "@/components/sanpec/power/Testing";
+import GridHardening from "@/components/sanpec/power/GridHardening";
+import Grid from "@/components/sanpec/power/Grid";
+import SourceInspection from "@/components/sanpec/power/sourceinspection/SourceInspection";
 import {
   Bars3Icon,
   CalendarIcon,
@@ -16,15 +22,17 @@ const navigation = [
   {
     id: 1,
     name: 'Transmission and Distribution',
-    href: '#',
-    icon: HomeIcon,
+    href: '/power',
+    icon: false,
     current: true,
+    component: Transmission,
+    
     children: [
-      { id: 2, name: 'Design and Engineering', href: '#', current: true, component: DEContent, },
-      { id: 3, name: 'Asset Management', href: '#', current: false },
-      { id: 5, name: 'Tower Testing', href: '#', current: false },
-      { id: 6, name: 'Material Take-off', href: '#', current: false },
-      { id: 7, name: 'Drafting and Detailing', href: '#', current: false },
+      { id: 2, name: 'Design and Engineering', href: '#', current: true, component: Transmission, },
+      { id: 3, name: 'Grid Hardening', href: '#', current: false,component: Grid, },
+      { id: 5, name: 'Tower Testing and Inspection', href: '#', current: false,component: Testing, },
+      { id: 6, name: 'Material Take-off', href: '#', current: false,component: ComingSoon, },
+      { id: 7, name: 'Drafting and Detailing', href: '#', current: false,component: ComingSoon, },
     ],
   },
   {
@@ -34,62 +42,56 @@ const navigation = [
     icon: UsersIcon,
     current: false,
     children: [
-      { id: 6, name: 'Vendor Audit', href: '#', current: false, component: MOContent, },
-      { id: 7, name: 'Source Inspection', href: '#', current: false },
-      { id: 8, name: 'Quality Controls', href: '#', current: false },
-      { id: 9, name: 'Lean Manufacturing', href: '#', current: false },
+      { id: 8, name: 'Vendor Audit', href: '#', current: false, component: ComingSoon, },
+      { id: 9, name: 'Source Inspection', href: '#', current: false,component: SourceInspection, },
+      { id: 10, name: 'Quality Controls', href: '#', current: false,component: ComingSoon, },
+      { id: 11, name: 'Lean Manufacturing', href: '#', current: false,component: ComingSoon, },
     ],
   },
   {
-    id: 10,
+    id: 12,
     name: 'Strategic Project Management',
     href: '#',
     icon: FolderIcon,
     current: false,
     children: [
-      { id: 16, name: ' Material Expeditors', href: '#', current: false },
-      { id: 17, name: 'Logistic support', href: '#', current: false },
-      { id: 18, name: 'Yard Management', href: '#', current: false },
+      { id: 13, name: ' Material Expeditors', href: '#', current: false,component: ComingSoon, },
+      { id: 14, name: 'Logistic support', href: '#', current: false,component: ComingSoon, },
+      { id: 15, name: 'Yard Management', href: '#', current: false,component: ComingSoon, },
     ],
   },
   {
-    id: 11,
+    id: 16,
     name: 'Constructability Review',
     href: '#info',
     icon: CalendarIcon,
     current: false,
     children: [
-      { id: 161, name: 'IFC Package', href: '#', current: false },
-      { id: 171, name: 'Construction Support', href: '#', current: false },
+      { id: 17, name: 'IFC Package', href: '#', current: false,component: ComingSoon, },
+      { id: 18, name: 'Construction Support', href: '#', current: false ,component: ComingSoon,},
     ],
   },
+  
   {
-    id: 12,
-    name: 'Dynamic Risk Management',
-    href: '#core',
-    icon: DocumentDuplicateIcon,
-    current: false,
-  },
-  {
-    id: 13,
+    id: 20,
     name: 'Business And System Excellence',
     href: '#social',
     icon: ChartPieIcon,
     current: false,
     children: [
-      { id: 162, name: 'Business Excellence  ', href: '#', current: false },
+      { id: 162, name: 'Business Excellence  ', href: '#', current: false,component: ComingSoon, },
     ]
   },
   {
-    id: 14,
+    id: 21,
     name: 'Renewables',
     href: '#contact',
     icon: ChartPieIcon,
     current: false,
     children: [
-      { id: 163, name: 'Hydrogen', href: '#', current: false },
-      { id: 163, name: 'Wind And Solar', href: '#', current: false },
-      { id: 163, name: 'Smart Grid', href: '#', current: false },
+      { id: 22, name: 'Hydrogen', href: '#', current: false,component: ComingSoon, },
+      { id: 23, name: 'Wind And Solar', href: '#', current: false,component: ComingSoon, },
+      { id: 24, name: 'Smart Grid', href: '#', current: false ,component: ComingSoon,},
     ]
   },
 ]
@@ -97,7 +99,7 @@ const navigation = [
 const Power = () => {
   return (
     <div>
-      <Sidebar navigation={navigation} firstSelected={navigation[0]?.children[0]?.name}>
+      <Sidebar navigation={navigation} firstSelected={navigation[0].name}>
       </Sidebar>
     </div>
   )

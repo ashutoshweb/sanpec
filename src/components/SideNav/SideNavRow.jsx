@@ -4,7 +4,7 @@ import {
   ChevronRightIcon,
 } from '@heroicons/react/24/outline'
 
-export function SideNavRow({ classNames, selected, setSelected, item }) {
+export function SideNavRow({ classNames, selected, setSelected, item, sidebarOpen, setSidebarOpen }) {
   return (
     <Disclosure>
       {({ open }) => (
@@ -12,12 +12,12 @@ export function SideNavRow({ classNames, selected, setSelected, item }) {
           <Disclosure.Button
             className={classNames(
               selected === item.name
-                ? 'bg-gray-800 text-white'
-                : 'text-gray-400 hover:text-white hover:bg-gray-800',
-              'flex items-center w-full text-left group gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold'
+                ? 'bg-indigo-800 text-white'
+                : 'text-blue-900 hover:text-white hover:bg-indigo-700',
+              'flex items-center w-full text-left group gap-x-3 rounded-md p-2 lg:text-xl leading-6 font-semibold'
             )}
           >
-            <item.icon className="h-6 w-6 shrink-0" aria-hidden="true" />
+            
             {item.name}
             <ChevronRightIcon
               className={classNames(
@@ -35,11 +35,17 @@ export function SideNavRow({ classNames, selected, setSelected, item }) {
                   href={subItem.href}
                   className={classNames(
                     subItem.current
-                      ? 'bg-gray-800 text-white'
-                      : 'text-gray-400 hover:text-white hover:bg-gray-800',
-                    'flex items-center w-full text-left group gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold'
+                      ? 'bg-indigo-800 text-white'
+                      : 'text-blue-900 hover:text-white hover:bg-indigo-700',
+                    'flex items-center w-full text-left group gap-x-3 rounded-md p-2 text-bg leading-6 font-semibold'
                   )}
-                  onClick={() => setSelected(subItem.name)}
+                  onClick={() =>  {
+                    setSidebarOpen(false);
+                    setSelected(subItem.name);
+                   
+                  }
+                                  
+                                   }
                 >
                   {subItem.name}
                 </a>
