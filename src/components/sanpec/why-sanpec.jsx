@@ -4,6 +4,8 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import sanpecBalrigeExcellence from '@/custom-images/Sanpec-Baldrige.jpeg'
 import sanpecExcellence from '@/custom-images/SanpecExcellence.jpeg'
+import circular1 from '@/custom-images/Circular-1.jpeg'
+import circular2 from '@/custom-images/Circular-2.jpeg'
 
 import {
   AcademicCapIcon,
@@ -18,6 +20,8 @@ import {
 const sanpecImage = {
   image1: sanpecExcellence,
   image2: sanpecBalrigeExcellence,
+  image3: circular1,
+  image4: circular2
 }
 
 const navigation = [
@@ -229,7 +233,7 @@ export default function WhySanpec() {
                 Why SANPEC ?
               </h2>
               <p className="mt-6 text-lg font-semibold leading-8">
-                SANPEC is a purpose-led, values-aligned, and innovation-driven company specializing in design,
+                SANPEC is a purpose-led, impact-focused, and innovation-driven company specializing in design,
                 engineering, testing, supply chain, asset inspection, risk mitigation, sustainability, and quality
                 management for critical electric power, lighting, and renewable energy infrastructures.
                 SANPEC team has extensive worldwide experiences in executing transformation line projects with holistic approach.
@@ -241,9 +245,9 @@ export default function WhySanpec() {
 
             <div className="mt-32  sm:mt-10 xl:mx-auto xl:max-w-7xl xl:px-8 ">
               <Image
-                src={sanpecImage.image1}
+                src={sanpecImage.image3}
                 alt=""
-                className="aspect-[9/4.2] w-full object-cover xl:rounded-3xl"
+                className="w-full object-cover xl:rounded-3xl"
               />
             </div>
 

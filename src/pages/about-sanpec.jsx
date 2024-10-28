@@ -52,7 +52,7 @@ const sanpecDiff = [
   {id : 8,
     text : '  Resilience in Value-Chain Systems'},
   {id: 9,
-    text : '  Baldrige-aligned Business Model'},
+    text : '  Ecosystem-focused Business Model'},
 
   {id : 10,
     text : 'Leadership Excellence and Data-Driven Strategies'},
@@ -416,7 +416,7 @@ export default function AboutSanpec() {
                 Who we are
               </h2>
               <p className="mt-6 text-lg leading-8 font-semibold">
-                SANPEC is a purpose-led, innovation-driven, and Baldrige-aligned business specializing in the design, engineering
+                SANPEC is a purpose-led, innovation-driven, and impact-focused business specializing in the design, engineering
                 testing, inspection, research and innovation, sustainability, quality assurance, and complete lifecycle asset
                 management services for the electric power, lighting, telecommunication, renewable energy, and infrastructure
                 industries, with a strong focus on the United States market.
