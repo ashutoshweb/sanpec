@@ -73,7 +73,7 @@ const sanpec = [
     mainHead:
       "From Planning to Execution, SANPEC's Skilled Team Ensures Efficiency, Risk Mitigation, and Global Experience.",
     description:
-      'SANPEC develops detailed project schedules to meet construction demands, assists in vendor selections and evaluations, and helps negotiate the best pricing and delivery schedules from vendors. They assist with risk mitigation planning while keeping track of all milestones and critical delivery items. From initial project strategy to lean product development to completion and post-project monitoring, we are the only business where the team is well-trained to lead from the point of dynamic balance and alignment. ',
+      'SANPEC develops detailed project schedules to meet construction demands, assists in vendor selections and evaluations, and helps negotiate the best pricing and delivery schedules from vendors. We assist with risk mitigation planning while keeping track of all milestones and critical delivery items. From initial project strategy to lean product development to completion and post-project monitoring, we are the only business where the team is well-trained to lead from the point of dynamic balance and alignment. ',
     icon: RocketLaunchIcon,
   },
   {
@@ -90,7 +90,7 @@ const sanpec = [
     mainHead:
       "Enhancing Efficiency in Pole and Tower Manufacturing: SANPEC's End-to-End Services Streamline Processes, Accelerate Feedback, and Enhance Product Development.",
     description:
-      'Today’s pole and tower manufacturers focus on managing timelines to improve efficiency and factory capacity utilization. The information is delivered asynchronously in large batches. As a result, the factory floor is unaware of design-in-process and the dynamic changes in engineering and materials. Team SANPEC ensures a smooth execution at all levels. They offer full-spectrum service, covering the entire value chain from engineering to development and delivery, including structure testing and quality inspection. They minimize the invisible and unmeasured queues that impact structure development performance. As a result, they help their value chain partners accelerate feedback and improve product development and response time.',
+      'Today’s pole and tower manufacturers focus on managing timelines to improve efficiency and factory capacity utilization. The information is delivered asynchronously in large batches. As a result, the factory floor is unaware of design-in-process and the dynamic changes in engineering and materials. Team SANPEC ensures a smooth execution at all levels. We offer full-spectrum service, covering the entire value chain from engineering to development and delivery, including structure testing and quality inspection. We minimize the invisible and unmeasured queues that impact structure development performance. As a result, we help our value chain partners accelerate feedback and improve product development and response time.',
     icon: RocketLaunchIcon,
   },
 
@@ -99,7 +99,7 @@ const sanpec = [
     mainHead:
       "SANPEC Ensures Quality and Safety Across a Range of Structural Components and Materials.",
     description:
-      'SANPEC also completes testing and inspection of steel pole, lattice towers, substation support structures, insulators, conductors, OPGW, guy wires, shield wires and hardware assembly.  They perform Weld Inspections (NDT Technique), Visual Inspection (VI), Magnetic Particle Inspection (MPI), Ultrasonic Testing (UT), Dye Penetrant Inspection (DPI), Phase Array (PAUT), Fabrication Shop Audits and on-site Inspections, Material Sampling (Metallurgical and Mechanical Testing), Root Cause Analysis, Prototype and Proof of Fit Testing, and Field Inspection for aging transmission structures.',
+      'SANPEC also completes testing and inspection of steel pole, lattice towers, substation support structures, insulators, conductors, OPGW, guy wires, shield wires and hardware assembly.  We perform Weld Inspections (NDT Technique), Visual Inspection (VI), Magnetic Particle Inspection (MPI), Ultrasonic Testing (UT), Dye Penetrant Inspection (DPI), Phase Array (PAUT), Fabrication Shop Audits and on-site Inspections, Material Sampling (Metallurgical and Mechanical Testing), Root Cause Analysis, Prototype and Proof of Fit Testing, and Field Inspection for aging transmission structures.',
     icon: RocketLaunchIcon,
   },
   
