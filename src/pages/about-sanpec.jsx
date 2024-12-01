@@ -500,14 +500,14 @@ export default function AboutSanpec() {
 
         {/* Image section */}
 
-        <div className="mt-32 sm:mt-8 xl:mx-auto xl:max-w-7xl xl:px-8">
+        {/*<div className="mt-32 sm:mt-8 xl:mx-auto xl:max-w-7xl xl:px-8">
           <Image
             className=" w-full  object-cover xl:rounded-3xl "
             src={sanpecImage.image4}
             alt=""
             sizes="50rem"
           />
-        </div>
+        </div>*/}
 
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-12 lg:px-8">
           <dl className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 text-white sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-16">
